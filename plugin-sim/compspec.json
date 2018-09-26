@@ -1,0 +1,39 @@
+{
+  "meta": {
+      "name": "repro-search",
+    "id": "repro-search",
+    "version": "v0.0.1",
+    "repository": "github.com\/albertcrowley\/coinstac-search.git",
+    "description": "a test that sums the last two numbers together for the next"
+  },
+  "computation": {
+    "type": "docker",
+    "dockerImage": "coinstac\/coinstac-repro-search",
+    "command": [
+      "python",
+      "\/computation\/local.py"
+    ],
+    "remote": {
+      "type": "docker",
+      "dockerImage": "coinstac\/coinstac-repro-search",
+      "command": [
+        "python",
+        "\/computation\/remote.py"
+      ]
+    },
+    "input": {
+      "search-string": {
+        "type": "string"
+      }
+    },
+    "output": {
+      "hit-count": {
+        "type": "number",
+        "label": "Hit Count"
+      }
+    },
+    "display": {
+      "type": "table"
+    }
+  }
+}
