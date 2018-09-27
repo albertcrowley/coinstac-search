@@ -27,9 +27,9 @@
       }
     },
     "output": {
-      "hit-count": {
-        "type": "number",
-        "label": "Hit Count"
+      "hits": {
+        "type": "string",
+        "label": "Hits"
       }
     },
     "display": {

@@ -11,14 +11,16 @@ f.write ("\n")
 
 
 doc = json.loads(instr)
-hits = 0
+hits = ""
 for site, output in doc['input'].items():
     f.write("\n")
     f.write(site)
-    f.write(json.dumps(output['hit-count']))
-    hits += output['hit-count'];
+    f.write(json.dumps(output['hits']))
+    hits = hits + output['hits'];
 
-output = { "output": { "hit-count": hits }, "success": True }
+output = { "output": { "hits": hits }, "success": True }
 sys.stdout.write(json.dumps(output))
 
 f.close()
+
+#finished

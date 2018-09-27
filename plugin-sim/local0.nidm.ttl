@@ -1,0 +1,1756 @@
+@prefix afni: <http://purl.org/nidash/afni#> .
+@prefix bids: <http://bids.neuroimaging.io/> .
+@prefix birnlex: <http://bioontology.org/projects/ontologies/birnlex/> .
+@prefix crypto: <http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dctypes: <http://purl.org/dc/dcmitype/> .
+@prefix dicom: <http://neurolex.org/wiki/Category:DICOM_term/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix fsl: <http://purl.org/nidash/fsl#> .
+@prefix ncicb: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> .
+@prefix ncit: <http://ncitt.ncit.nih.gov/> .
+@prefix ndar: <https://ndar.nih.gov/api/datadictionary/v2/dataelement/> .
+@prefix nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#> .
+@prefix nidm: <http://purl.org/nidash/nidm#> .
+@prefix niiri: <http://iri.nidash.org/> .
+@prefix nlx: <http://uri.neuinfo.org/nif/nifstd/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix onli: <http://neurolog.unice.fr/ontoneurolog/v3.0/instrument.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pato: <http://purl.obolibrary.org/obo/pato#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix scr: <http://scicrunch.org/resolver/> .
+@prefix sio: <http://semanticscience.org/ontology/sio.owl#> .
+@prefix spm: <http://purl.org/nidash/spm#> .
+@prefix vc: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nidm:_211422e0-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "1.581623186"^^xsd:string ;
+    bids:ctopp.rln.raw "1.982229615"^^xsd:string ;
+    bids:mcdecode "-0.061526495"^^xsd:string ;
+    bids:mcpassfluency "0.086872933"^^xsd:string ;
+    bids:mrt "1.005313004"^^xsd:string ;
+    bids:piat.l.raw "0.38698961"^^xsd:string ;
+    bids:piat.r.raw "0.527998593"^^xsd:string ;
+    bids:ppvt.raw "-0.214692134"^^xsd:string ;
+    bids:sspan2.raw "1.325468304"^^xsd:string ;
+    bids:wasi.matr.raw "1.054141564"^^xsd:string ;
+    ncicb:Age "1.726"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_21141372-c266-11e8-a305-0242ac110002 .
+
+nidm:_21145e18-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "0.815438944"^^xsd:string ;
+    bids:ctopp.rln.raw "-1.118464755"^^xsd:string ;
+    bids:mcdecode "1.646629972"^^xsd:string ;
+    bids:mcpassfluency "-0.366690062"^^xsd:string ;
+    bids:mrt "1.182126849"^^xsd:string ;
+    bids:piat.l.raw "0.044429483"^^xsd:string ;
+    bids:piat.r.raw "0.790404814"^^xsd:string ;
+    bids:ppvt.raw "1.488024972"^^xsd:string ;
+    bids:sspan2.raw "1.187808391"^^xsd:string ;
+    bids:wasi.matr.raw "-0.643356946"^^xsd:string ;
+    ncicb:Age "0.876"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_211457ba-c266-11e8-a305-0242ac110002 .
+
+nidm:_21147fec-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "0.049254701"^^xsd:string ;
+    bids:ctopp.rln.raw "-0.613644915"^^xsd:string ;
+    bids:mcdecode "-0.025007816"^^xsd:string ;
+    bids:mcpassfluency "-0.430496064"^^xsd:string ;
+    bids:mrt "1.182126849"^^xsd:string ;
+    bids:piat.l.raw "0.044429483"^^xsd:string ;
+    bids:piat.r.raw "0.282687538"^^xsd:string ;
+    bids:ppvt.raw "0.182508928"^^xsd:string ;
+    bids:sspan2.raw "-0.464110563"^^xsd:string ;
+    bids:wasi.matr.raw "0.111485266"^^xsd:string ;
+    ncicb:Age "1.486"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_21147c54-c266-11e8-a305-0242ac110002 .
+
+nidm:_21149a9a-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "-2.057751965"^^xsd:string ;
+    bids:ctopp.rln.raw "-1.312258153"^^xsd:string ;
+    bids:mcdecode "-1.092535255"^^xsd:string ;
+    bids:mcpassfluency "-0.784756551"^^xsd:string ;
+    bids:mrt "-0.93963929"^^xsd:string ;
+    bids:piat.l.raw "-1.203144265"^^xsd:string ;
+    bids:piat.r.raw "-1.567351566"^^xsd:string ;
+    bids:ppvt.raw "-1.066616738"^^xsd:string ;
+    bids:sspan2.raw "0.499508827"^^xsd:string ;
+    bids:wasi.matr.raw "-0.160005731"^^xsd:string ;
+    ncicb:Age "1.696"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_211497de-c266-11e8-a305-0242ac110002 .
+
+nidm:_2114baca-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "0.432346822"^^xsd:string ;
+    bids:ctopp.rln.raw "0.711806227"^^xsd:string ;
+    bids:mcdecode "-0.118376292"^^xsd:string ;
+    bids:mcpassfluency "0.275863417"^^xsd:string ;
+    bids:mrt "-1.64689467"^^xsd:string ;
+    bids:piat.l.raw "-0.540200317"^^xsd:string ;
+    bids:piat.r.raw "-0.541164426"^^xsd:string ;
+    bids:ppvt.raw "-0.879546487"^^xsd:string ;
+    bids:sspan2.raw "1.050148478"^^xsd:string ;
+    bids:wasi.matr.raw "-0.160005731"^^xsd:string ;
+    ncicb:Age "2.666"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_2114b7dc-c266-11e8-a305-0242ac110002 .
+
+nidm:_2114d852-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "1.198531065"^^xsd:string ;
+    bids:ctopp.rln.raw "0.281154231"^^xsd:string ;
+    bids:mcdecode "1.04894931"^^xsd:string ;
+    bids:mcpassfluency "1.352659062"^^xsd:string ;
+    bids:mrt "0.828499159"^^xsd:string ;
+    bids:piat.l.raw "1.649026948"^^xsd:string ;
+    bids:piat.r.raw "1.369288529"^^xsd:string ;
+    bids:ppvt.raw "1.394947456"^^xsd:string ;
+    bids:sspan2.raw "-0.051130825"^^xsd:string ;
+    bids:wasi.matr.raw "1.796792022"^^xsd:string ;
+    ncicb:Age "4.296"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_2114d500-c266-11e8-a305-0242ac110002 .
+
+nidm:_2114f04e-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "0.432346822"^^xsd:string ;
+    bids:ctopp.rln.raw "1.704698328"^^xsd:string ;
+    bids:mcdecode "-0.327108805"^^xsd:string ;
+    bids:mcpassfluency "-1.014531619"^^xsd:string ;
+    bids:mrt "-0.055570066"^^xsd:string ;
+    bids:piat.l.raw "-0.26376321"^^xsd:string ;
+    bids:piat.r.raw "0.053786656"^^xsd:string ;
+    bids:ppvt.raw "-0.214692134"^^xsd:string ;
+    bids:sspan2.raw "-0.051130825"^^xsd:string ;
+    bids:wasi.matr.raw "1.054141564"^^xsd:string ;
+    ncicb:Age "2.596"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_2114ec2a-c266-11e8-a305-0242ac110002 .
+
+nidm:_21150b56-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "0.815438944"^^xsd:string ;
+    bids:ctopp.rln.raw "-0.42702905"^^xsd:string ;
+    bids:mcdecode "0.526289298"^^xsd:string ;
+    bids:mcpassfluency "0.682832226"^^xsd:string ;
+    bids:mrt "0.651685314"^^xsd:string ;
+    bids:piat.l.raw "0.044429483"^^xsd:string ;
+    bids:piat.r.raw "-0.357477881"^^xsd:string ;
+    bids:ppvt.raw "0.869850953"^^xsd:string ;
+    bids:sspan2.raw "-0.877090302"^^xsd:string ;
+    bids:wasi.matr.raw "-0.856711904"^^xsd:string ;
+    ncicb:Age "-0.994"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_2115053e-c266-11e8-a305-0242ac110002 .
+
+nidm:_2115217c-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "0.623892883"^^xsd:string ;
+    bids:ctopp.rln.raw "0.240481543"^^xsd:string ;
+    bids:mcdecode "-0.037474545"^^xsd:string ;
+    bids:mcpassfluency "-0.838150016"^^xsd:string ;
+    bids:mrt "-0.5860116"^^xsd:string ;
+    bids:piat.l.raw "1.649026948"^^xsd:string ;
+    bids:piat.r.raw "1.07060038"^^xsd:string ;
+    bids:ppvt.raw "1.125367223"^^xsd:string ;
+    bids:sspan2.raw "0.224189001"^^xsd:string ;
+    bids:wasi.matr.raw "1.054141564"^^xsd:string ;
+    ncicb:Age "2.966"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_21151ec0-c266-11e8-a305-0242ac110002 .
+
+nidm:_211537fc-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "1.198531065"^^xsd:string ;
+    bids:ctopp.rln.raw "-0.917493823"^^xsd:string ;
+    bids:mcdecode "1.670652035"^^xsd:string ;
+    bids:mcpassfluency "1.383435713"^^xsd:string ;
+    bids:mrt "2.243009919"^^xsd:string ;
+    bids:piat.l.raw "0.766663412"^^xsd:string ;
+    bids:piat.r.raw "1.369288529"^^xsd:string ;
+    bids:ppvt.raw "1.303491936"^^xsd:string ;
+    bids:sspan2.raw "0.774828652"^^xsd:string ;
+    bids:wasi.matr.raw "0.717818077"^^xsd:string ;
+    ncicb:Age "2.306"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_21153568-c266-11e8-a305-0242ac110002 .
+
+nidm:_2115505c-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "-1.866205904"^^xsd:string ;
+    bids:ctopp.rln.raw "1.630530485"^^xsd:string ;
+    bids:mcdecode "-1.82308338"^^xsd:string ;
+    bids:mcpassfluency "-1.261752467"^^xsd:string ;
+    bids:mrt "0.474871469"^^xsd:string ;
+    bids:piat.l.raw "-0.26376321"^^xsd:string ;
+    bids:piat.r.raw "-1.649223022"^^xsd:string ;
+    bids:ppvt.raw "-1.636541702"^^xsd:string ;
+    bids:sspan2.raw "-2.529009256"^^xsd:string ;
+    bids:wasi.matr.raw "0.403845915"^^xsd:string ;
+    ncicb:Age "3.046"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_21154cd8-c266-11e8-a305-0242ac110002 .
+
+nidm:_211567b8-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "1.390077125"^^xsd:string ;
+    bids:ctopp.rln.raw "0.874496981"^^xsd:string ;
+    bids:mcdecode "1.054575558"^^xsd:string ;
+    bids:mcpassfluency "-0.238263906"^^xsd:string ;
+    bids:mrt "-0.409197755"^^xsd:string ;
+    bids:piat.l.raw "2.157908059"^^xsd:string ;
+    bids:piat.r.raw "1.687181439"^^xsd:string ;
+    bids:ppvt.raw "1.582744577"^^xsd:string ;
+    bids:sspan2.raw "1.325468304"^^xsd:string ;
+    bids:wasi.matr.raw "2.204589077"^^xsd:string ;
+    ncicb:Age "2.096"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_21156312-c266-11e8-a305-0242ac110002 .
+
+nidm:_2115825c-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "1.581623186"^^xsd:string ;
+    bids:ctopp.rln.raw "-0.596897338"^^xsd:string ;
+    bids:mcdecode "1.130829028"^^xsd:string ;
+    bids:mcpassfluency "1.08213739"^^xsd:string ;
+    bids:mrt "1.182126849"^^xsd:string ;
+    bids:piat.l.raw "1.18633452"^^xsd:string ;
+    bids:piat.r.raw "1.369288529"^^xsd:string ;
+    bids:ppvt.raw "1.125367223"^^xsd:string ;
+    bids:sspan2.raw "1.738448042"^^xsd:string ;
+    bids:wasi.matr.raw "-0.160005731"^^xsd:string ;
+    ncicb:Age "2.546"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_21157faa-c266-11e8-a305-0242ac110002 .
+
+nidm:_21159e9a-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "-0.716929541"^^xsd:string ;
+    bids:ctopp.rln.raw "-1.541939217"^^xsd:string ;
+    bids:mcdecode "0.752633761"^^xsd:string ;
+    bids:mcpassfluency "1.422305162"^^xsd:string ;
+    bids:mrt "-0.409197755"^^xsd:string ;
+    bids:piat.l.raw "0.044429483"^^xsd:string ;
+    bids:piat.r.raw "0.282687538"^^xsd:string ;
+    bids:ppvt.raw "0.473827358"^^xsd:string ;
+    bids:sspan2.raw "-0.464110563"^^xsd:string ;
+    bids:wasi.matr.raw "0.111485266"^^xsd:string ;
+    ncicb:Age "3.176"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_21159ac6-c266-11e8-a305-0242ac110002 .
+
+nidm:_2115b89e-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "-0.33383742"^^xsd:string ;
+    bids:ctopp.rln.raw "-0.723700425"^^xsd:string ;
+    bids:mcdecode "-0.407781295"^^xsd:string ;
+    bids:mcpassfluency "0.829005225"^^xsd:string ;
+    bids:mrt "0.828499159"^^xsd:string ;
+    bids:piat.l.raw "-1.528441234"^^xsd:string ;
+    bids:piat.r.raw "-0.711086293"^^xsd:string ;
+    bids:ppvt.raw "-0.151674096"^^xsd:string ;
+    bids:sspan2.raw "-0.32645065"^^xsd:string ;
+    bids:wasi.matr.raw "-0.411371066"^^xsd:string ;
+    ncicb:Age "2.946"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_2115b5e2-c266-11e8-a305-0242ac110002 .
+
+nidm:_2115cfa0-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "0.815438944"^^xsd:string ;
+    bids:ctopp.rln.raw "0.051473167"^^xsd:string ;
+    bids:mcdecode "0.136983754"^^xsd:string ;
+    bids:mcpassfluency "0.175026788"^^xsd:string ;
+    bids:mrt "0.298057624"^^xsd:string ;
+    bids:piat.l.raw "0.766663412"^^xsd:string ;
+    bids:piat.r.raw "0.527998593"^^xsd:string ;
+    bids:ppvt.raw "0.550136884"^^xsd:string ;
+    bids:sspan2.raw "-0.32645065"^^xsd:string ;
+    bids:wasi.matr.raw "0.111485266"^^xsd:string ;
+    ncicb:Age "-2.664"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_2115cb9a-c266-11e8-a305-0242ac110002 .
+
+nidm:_2115e88c-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "-0.142291359"^^xsd:string ;
+    bids:ctopp.rln.raw "-0.111217587"^^xsd:string ;
+    bids:mcdecode "-0.448107396"^^xsd:string ;
+    bids:mcpassfluency "-0.518459453"^^xsd:string ;
+    bids:mrt "-0.055570066"^^xsd:string ;
+    bids:piat.l.raw "-1.528441234"^^xsd:string ;
+    bids:piat.r.raw "-1.788280518"^^xsd:string ;
+    bids:ppvt.raw "-1.278595649"^^xsd:string ;
+    bids:sspan2.raw "-0.739430389"^^xsd:string ;
+    bids:wasi.matr.raw "-1.052186899"^^xsd:string ;
+    ncicb:Age "-2.484"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_2115e468-c266-11e8-a305-0242ac110002 .
+
+nidm:_2115fd22-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "-0.33383742"^^xsd:string ;
+    bids:ctopp.rln.raw "2.319573678"^^xsd:string ;
+    bids:mcdecode "-0.514683006"^^xsd:string ;
+    bids:mcpassfluency "0.437007654"^^xsd:string ;
+    bids:mrt "0.298057624"^^xsd:string ;
+    bids:piat.l.raw "0.766663412"^^xsd:string ;
+    bids:piat.r.raw "0.282687538"^^xsd:string ;
+    bids:ppvt.raw "0.398928134"^^xsd:string ;
+    bids:sspan2.raw "0.086529088"^^xsd:string ;
+    bids:wasi.matr.raw "0.717818077"^^xsd:string ;
+    ncicb:Age "-3.454"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_2115fa7a-c266-11e8-a305-0242ac110002 .
+
+nidm:_21161708-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "0.623892883"^^xsd:string ;
+    bids:ctopp.rln.raw "0.501265252"^^xsd:string ;
+    bids:mcdecode "0.127830951"^^xsd:string ;
+    bids:mcpassfluency "0.866775802"^^xsd:string ;
+    bids:mrt "0.298057624"^^xsd:string ;
+    bids:piat.l.raw "0.044429483"^^xsd:string ;
+    bids:piat.r.raw "0.282687538"^^xsd:string ;
+    bids:ppvt.raw "0.550136884"^^xsd:string ;
+    bids:sspan2.raw "0.912488565"^^xsd:string ;
+    bids:wasi.matr.raw "1.054141564"^^xsd:string ;
+    ncicb:Age "-3.634"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_21161442-c266-11e8-a305-0242ac110002 .
+
+nidm:_211630ee-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "0.432346822"^^xsd:string ;
+    bids:ctopp.rln.raw "0.565863051"^^xsd:string ;
+    bids:mcdecode "-0.364877773"^^xsd:string ;
+    bids:mcpassfluency "-0.237980078"^^xsd:string ;
+    bids:mrt "-0.055570066"^^xsd:string ;
+    bids:piat.l.raw "0.38698961"^^xsd:string ;
+    bids:piat.r.raw "0.282687538"^^xsd:string ;
+    bids:ppvt.raw "0.182508928"^^xsd:string ;
+    bids:sspan2.raw "-1.290070041"^^xsd:string ;
+    bids:wasi.matr.raw "0.111485266"^^xsd:string ;
+    ncicb:Age "-2.994"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_21162e28-c266-11e8-a305-0242ac110002 .
+
+nidm:_21164c50-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "-1.291567723"^^xsd:string ;
+    bids:ctopp.rln.raw "0.309864365"^^xsd:string ;
+    bids:mcdecode "-1.410895925"^^xsd:string ;
+    bids:mcpassfluency "-1.618257766"^^xsd:string ;
+    bids:mrt "-0.055570066"^^xsd:string ;
+    bids:piat.l.raw "-2.353075167"^^xsd:string ;
+    bids:piat.r.raw "-1.26571598"^^xsd:string ;
+    bids:ppvt.raw "-1.196614896"^^xsd:string ;
+    bids:sspan2.raw "0.224189001"^^xsd:string ;
+    bids:wasi.matr.raw "-1.538880735"^^xsd:string ;
+    ncicb:Age "-2.364"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_211644e4-c266-11e8-a305-0242ac110002 .
+
+nidm:_21166a50-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "-0.142291359"^^xsd:string ;
+    bids:ctopp.rln.raw "0.405564808"^^xsd:string ;
+    bids:mcdecode "-0.421531882"^^xsd:string ;
+    bids:mcpassfluency "-1.074143525"^^xsd:string ;
+    bids:mrt "-0.409197755"^^xsd:string ;
+    bids:piat.l.raw "0.044429483"^^xsd:string ;
+    bids:piat.r.raw "-0.541164426"^^xsd:string ;
+    bids:ppvt.raw "-0.151674096"^^xsd:string ;
+    bids:sspan2.raw "-0.188790738"^^xsd:string ;
+    bids:wasi.matr.raw "0.111485266"^^xsd:string ;
+    ncicb:Age "-3.924"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_2116665e-c266-11e8-a305-0242ac110002 .
+
+nidm:_2116a40c-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "0.815438944"^^xsd:string ;
+    bids:ctopp.rln.raw "0.965412402"^^xsd:string ;
+    bids:mcdecode "-0.658529676"^^xsd:string ;
+    bids:mcpassfluency "-0.019920964"^^xsd:string ;
+    bids:mrt "-0.762825445"^^xsd:string ;
+    bids:piat.l.raw "0.766663412"^^xsd:string ;
+    bids:piat.r.raw "0.282687538"^^xsd:string ;
+    bids:ppvt.raw "-0.396419265"^^xsd:string ;
+    bids:sspan2.raw "-0.051130825"^^xsd:string ;
+    bids:wasi.matr.raw "1.054141564"^^xsd:string ;
+    ncicb:Age "-3.974"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_21169ea8-c266-11e8-a305-0242ac110002 .
+
+nidm:_2116c6bc-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "-0.52538348"^^xsd:string ;
+    bids:ctopp.rln.raw "-0.005947099"^^xsd:string ;
+    bids:mcdecode "0.080181391"^^xsd:string ;
+    bids:mcpassfluency "0.218993699"^^xsd:string ;
+    bids:mrt "-0.762825445"^^xsd:string ;
+    bids:piat.l.raw "-0.540200317"^^xsd:string ;
+    bids:piat.r.raw "0.790404814"^^xsd:string ;
+    bids:ppvt.raw "-1.021351276"^^xsd:string ;
+    bids:sspan2.raw "-2.116029518"^^xsd:string ;
+    bids:wasi.matr.raw "-0.411371066"^^xsd:string ;
+    ncicb:Age "1.916"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_2116c11c-c266-11e8-a305-0242ac110002 .
+
+nidm:_2116e52a-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "0.432346822"^^xsd:string ;
+    bids:ctopp.rln.raw "-0.247590719"^^xsd:string ;
+    bids:mcdecode "-0.583168788"^^xsd:string ;
+    bids:mcpassfluency "-0.272977744"^^xsd:string ;
+    bids:mrt "-0.762825445"^^xsd:string ;
+    bids:piat.l.raw "-0.26376321"^^xsd:string ;
+    bids:piat.r.raw "-1.649223022"^^xsd:string ;
+    bids:ppvt.raw "-0.728406873"^^xsd:string ;
+    bids:sspan2.raw "-1.152410128"^^xsd:string ;
+    bids:wasi.matr.raw "-0.411371066"^^xsd:string ;
+    ncicb:Age "-4.214"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_2116df3a-c266-11e8-a305-0242ac110002 .
+
+nidm:_2117029e-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "-1.100021662"^^xsd:string ;
+    bids:ctopp.rln.raw "-0.178207897"^^xsd:string ;
+    bids:mcdecode "0.465225445"^^xsd:string ;
+    bids:mcpassfluency "0.88506509"^^xsd:string ;
+    bids:mrt "0.121243779"^^xsd:string ;
+    bids:piat.l.raw "1.18633452"^^xsd:string ;
+    bids:piat.r.raw "0.527998593"^^xsd:string ;
+    bids:ppvt.raw "0.550136884"^^xsd:string ;
+    bids:sspan2.raw "0.912488565"^^xsd:string ;
+    bids:wasi.matr.raw "-0.643356946"^^xsd:string ;
+    ncicb:Age "-2.834"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_2116fefc-c266-11e8-a305-0242ac110002 .
+
+nidm:_21171ce8-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "-1.291567723"^^xsd:string ;
+    bids:ctopp.rln.raw "-0.522729494"^^xsd:string ;
+    bids:mcdecode "-1.100105001"^^xsd:string ;
+    bids:mcpassfluency "-0.796494704"^^xsd:string ;
+    bids:mrt "-1.64689467"^^xsd:string ;
+    bids:piat.l.raw "-0.26376321"^^xsd:string ;
+    bids:piat.r.raw "-0.159379738"^^xsd:string ;
+    bids:ppvt.raw "-0.779849852"^^xsd:string ;
+    bids:sspan2.raw "0.499508827"^^xsd:string ;
+    bids:wasi.matr.raw "0.111485266"^^xsd:string ;
+    ncicb:Age "0.006"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_21171a0e-c266-11e8-a305-0242ac110002 .
+
+nidm:_21173516-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "-0.52538348"^^xsd:string ;
+    bids:ctopp.rln.raw "0.671133539"^^xsd:string ;
+    bids:mcdecode "-0.183992079"^^xsd:string ;
+    bids:mcpassfluency "-0.266795454"^^xsd:string ;
+    bids:mrt "0.121243779"^^xsd:string ;
+    bids:piat.l.raw "0.044429483"^^xsd:string ;
+    bids:piat.r.raw "0.282687538"^^xsd:string ;
+    bids:ppvt.raw "0.044947271"^^xsd:string ;
+    bids:sspan2.raw "0.086529088"^^xsd:string ;
+    bids:wasi.matr.raw "-2.132151697"^^xsd:string ;
+    ncicb:Age "0.996"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_21173232-c266-11e8-a305-0242ac110002 .
+
+nidm:_2117505a-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "0.049254701"^^xsd:string ;
+    bids:ctopp.rln.raw "-0.027479699"^^xsd:string ;
+    bids:mcdecode "-0.322906776"^^xsd:string ;
+    bids:mcpassfluency "-1.509969913"^^xsd:string ;
+    bids:mrt "-1.823708515"^^xsd:string ;
+    bids:piat.l.raw "-1.007601345"^^xsd:string ;
+    bids:piat.r.raw "-1.567351566"^^xsd:string ;
+    bids:ppvt.raw "-1.636541702"^^xsd:string ;
+    bids:sspan2.raw "-0.32645065"^^xsd:string ;
+    bids:wasi.matr.raw "-0.160005731"^^xsd:string ;
+    ncicb:Age "-3.894"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_21174d58-c266-11e8-a305-0242ac110002 .
+
+nidm:_21176b94-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "-0.52538348"^^xsd:string ;
+    bids:ctopp.rln.raw "-0.905531268"^^xsd:string ;
+    bids:mcdecode "0.22823183"^^xsd:string ;
+    bids:mcpassfluency "0.304378176"^^xsd:string ;
+    bids:mrt "0.651685314"^^xsd:string ;
+    bids:piat.l.raw "-0.26376321"^^xsd:string ;
+    bids:piat.r.raw "-0.541164426"^^xsd:string ;
+    bids:ppvt.raw "0.473827358"^^xsd:string ;
+    bids:sspan2.raw "-0.877090302"^^xsd:string ;
+    bids:wasi.matr.raw "-2.239972262"^^xsd:string ;
+    ncicb:Age "-3.924"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_2117682e-c266-11e8-a305-0242ac110002 .
+
+nidm:_211785d4-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "-1.483113783"^^xsd:string ;
+    bids:ctopp.rln.raw "-1.872105747"^^xsd:string ;
+    bids:mcdecode "0.423853433"^^xsd:string ;
+    bids:mcpassfluency "-0.878464585"^^xsd:string ;
+    bids:mrt "-0.232383911"^^xsd:string ;
+    bids:piat.l.raw "-1.967479684"^^xsd:string ;
+    bids:piat.r.raw "-1.26571598"^^xsd:string ;
+    bids:ppvt.raw "-1.431831939"^^xsd:string ;
+    bids:sspan2.raw "-1.290070041"^^xsd:string ;
+    bids:wasi.matr.raw "-0.160005731"^^xsd:string ;
+    ncicb:Age "-2.074"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_21178200-c266-11e8-a305-0242ac110002 .
+
+nidm:_2117a21c-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "-1.291567723"^^xsd:string ;
+    bids:ctopp.rln.raw "-0.740448003"^^xsd:string ;
+    bids:mcdecode "-1.053603443"^^xsd:string ;
+    bids:mcpassfluency "0.033521889"^^xsd:string ;
+    bids:mrt "1.182126849"^^xsd:string ;
+    bids:piat.l.raw "0.044429483"^^xsd:string ;
+    bids:piat.r.raw "-0.541164426"^^xsd:string ;
+    bids:ppvt.raw "0.044947271"^^xsd:string ;
+    bids:sspan2.raw "0.086529088"^^xsd:string ;
+    bids:wasi.matr.raw "-1.23053544"^^xsd:string ;
+    ncicb:Age "2.136"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_21179d30-c266-11e8-a305-0242ac110002 .
+
+nidm:_2117b888-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "-0.908475602"^^xsd:string ;
+    bids:ctopp.rln.raw "-0.950988978"^^xsd:string ;
+    bids:mcdecode "0.308911573"^^xsd:string ;
+    bids:mcpassfluency "0.336262773"^^xsd:string ;
+    bids:mrt "-1.823708515"^^xsd:string ;
+    bids:piat.l.raw "-0.540200317"^^xsd:string ;
+    bids:piat.r.raw "-0.357477881"^^xsd:string ;
+    bids:ppvt.raw "-1.813636262"^^xsd:string ;
+    bids:sspan2.raw "-0.051130825"^^xsd:string ;
+    bids:wasi.matr.raw "-0.411371066"^^xsd:string ;
+    ncicb:Age "1.976"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_2117b522-c266-11e8-a305-0242ac110002 .
+
+nidm:_2117d6d8-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "0.049254701"^^xsd:string ;
+    bids:ctopp.rln.raw "0.702236183"^^xsd:string ;
+    bids:mcdecode "-0.161447774"^^xsd:string ;
+    bids:mcpassfluency "0.075769487"^^xsd:string ;
+    bids:mrt "-1.470080825"^^xsd:string ;
+    bids:piat.l.raw "-0.26376321"^^xsd:string ;
+    bids:piat.r.raw "1.369288529"^^xsd:string ;
+    bids:ppvt.raw "0.953492924"^^xsd:string ;
+    bids:sspan2.raw "0.361848914"^^xsd:string ;
+    bids:wasi.matr.raw "-0.411371066"^^xsd:string ;
+    ncicb:Age "0.556"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_2117d340-c266-11e8-a305-0242ac110002 .
+
+nidm:_2117f208-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:ctopp.pa.comp "1.198531065"^^xsd:string ;
+    bids:ctopp.rln.raw "-1.104109688"^^xsd:string ;
+    bids:mcdecode "1.514966059"^^xsd:string ;
+    bids:mcpassfluency "1.680192391"^^xsd:string ;
+    bids:mrt "1.358940694"^^xsd:string ;
+    bids:piat.l.raw "0.766663412"^^xsd:string ;
+    bids:piat.r.raw "1.07060038"^^xsd:string ;
+    bids:ppvt.raw "1.303491936"^^xsd:string ;
+    bids:sspan2.raw "1.876107955"^^xsd:string ;
+    bids:wasi.matr.raw "1.413554228"^^xsd:string ;
+    ncicb:Age "1.416"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_2117eeca-c266-11e8-a305-0242ac110002 .
+
+nidm:_2118471c-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-01/anat/sub-01_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_21183fe2-c266-11e8-a305-0242ac110002 .
+
+nidm:_21188362-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-02/anat/sub-02_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_21187ef8-c266-11e8-a305-0242ac110002 .
+
+nidm:_2118a41e-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-03/anat/sub-03_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_21189ef6-c266-11e8-a305-0242ac110002 .
+
+nidm:_2118c43a-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-04/anat/sub-04_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_2118bd14-c266-11e8-a305-0242ac110002 .
+
+nidm:_2118e212-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-05/anat/sub-05_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_2118dd12-c266-11e8-a305-0242ac110002 .
+
+nidm:_21190a6c-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-06/anat/sub-06_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_211904e0-c266-11e8-a305-0242ac110002 .
+
+nidm:_21192bd2-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-07/anat/sub-07_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_21192722-c266-11e8-a305-0242ac110002 .
+
+nidm:_21194ba8-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-08/anat/sub-08_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_2119464e-c266-11e8-a305-0242ac110002 .
+
+nidm:_21196aa2-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-09/anat/sub-09_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_21196638-c266-11e8-a305-0242ac110002 .
+
+nidm:_21198a46-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-10/anat/sub-10_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_2119826c-c266-11e8-a305-0242ac110002 .
+
+nidm:_2119b80e-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-11/anat/sub-11_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_2119aeea-c266-11e8-a305-0242ac110002 .
+
+nidm:_2119de10-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-12/anat/sub-12_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_2119d6ae-c266-11e8-a305-0242ac110002 .
+
+nidm:_211a00ca-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-13/anat/sub-13_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_2119f9d6-c266-11e8-a305-0242ac110002 .
+
+nidm:_211a8766-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-14/anat/sub-14_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_211a7e24-c266-11e8-a305-0242ac110002 .
+
+nidm:_211ab0ba-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-15/anat/sub-15_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_211aaa20-c266-11e8-a305-0242ac110002 .
+
+nidm:_211adbe4-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-16/anat/sub-16_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_211ad3ba-c266-11e8-a305-0242ac110002 .
+
+nidm:_211aff02-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-17/anat/sub-17_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_211afa84-c266-11e8-a305-0242ac110002 .
+
+nidm:_211b2414-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-18/anat/sub-18_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_211b1e7e-c266-11e8-a305-0242ac110002 .
+
+nidm:_211b4890-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-19/anat/sub-19_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_211b42be-c266-11e8-a305-0242ac110002 .
+
+nidm:_211b71e4-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-20/anat/sub-20_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_211b6c44-c266-11e8-a305-0242ac110002 .
+
+nidm:_211b93f4-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-21/anat/sub-21_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_211b8e0e-c266-11e8-a305-0242ac110002 .
+
+nidm:_211bb690-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-22/anat/sub-22_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_211bb21c-c266-11e8-a305-0242ac110002 .
+
+nidm:_211bde18-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-23/anat/sub-23_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_211bd9b8-c266-11e8-a305-0242ac110002 .
+
+nidm:_211c0528-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-24/anat/sub-24_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_211bfdc6-c266-11e8-a305-0242ac110002 .
+
+nidm:_211c29c2-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-25/anat/sub-25_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_211c23b4-c266-11e8-a305-0242ac110002 .
+
+nidm:_211c51ea-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-26/anat/sub-26_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_211c490c-c266-11e8-a305-0242ac110002 .
+
+nidm:_211c713e-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-27/anat/sub-27_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_211c6cde-c266-11e8-a305-0242ac110002 .
+
+nidm:_211c927c-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-28/anat/sub-28_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_211c8de0-c266-11e8-a305-0242ac110002 .
+
+nidm:_211cb52c-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29/anat/sub-29_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_211caec4-c266-11e8-a305-0242ac110002 .
+
+nidm:_211cdb6a-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-30/anat/sub-30_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_211cd57a-c266-11e8-a305-0242ac110002 .
+
+nidm:_211cfc12-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-31/anat/sub-31_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_211cf686-c266-11e8-a305-0242ac110002 .
+
+nidm:_211d1e22-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-32/anat/sub-32_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_211d18fa-c266-11e8-a305-0242ac110002 .
+
+nidm:_211d522a-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-33/anat/sub-33_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_211d47a8-c266-11e8-a305-0242ac110002 .
+
+nidm:_211d7e6c-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-34/anat/sub-34_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_211d778c-c266-11e8-a305-0242ac110002 .
+
+nidm:_211da14e-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
+        prov:Entity ;
+    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hasImageContrastType nidm:T1Weighted ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-35/anat/sub-35_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy nidm:_211d9c44-c266-11e8-a305-0242ac110002 .
+
+nidm:_21141372-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_211408b4-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_21143280-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_21143280-c266-11e8-a305-0242ac110002 .
+
+nidm:_211457ba-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_21145058-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_211464da-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_211464da-c266-11e8-a305-0242ac110002 .
+
+nidm:_21147c54-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_211478d0-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2114873a-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2114873a-c266-11e8-a305-0242ac110002 .
+
+nidm:_211497de-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2114952c-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_21149edc-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_21149edc-c266-11e8-a305-0242ac110002 .
+
+nidm:_2114b7dc-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2114b2fa-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2114bf2a-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2114bf2a-c266-11e8-a305-0242ac110002 .
+
+nidm:_2114d500-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2114cc22-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2114db86-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2114db86-c266-11e8-a305-0242ac110002 .
+
+nidm:_2114ec2a-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2114e8ce-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2114f472-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2114f472-c266-11e8-a305-0242ac110002 .
+
+nidm:_2115053e-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2115023c-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_21150ec6-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_21150ec6-c266-11e8-a305-0242ac110002 .
+
+nidm:_21151ec0-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_21151bd2-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_21152654-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_21152654-c266-11e8-a305-0242ac110002 .
+
+nidm:_21153568-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_211532a2-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_21153bf8-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_21153bf8-c266-11e8-a305-0242ac110002 .
+
+nidm:_21154cd8-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_211549fe-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_21155322-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_21155322-c266-11e8-a305-0242ac110002 .
+
+nidm:_21156312-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2115602e-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_21156c04-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_21156c04-c266-11e8-a305-0242ac110002 .
+
+nidm:_21157faa-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_21157bb8-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_211585fe-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_211585fe-c266-11e8-a305-0242ac110002 .
+
+nidm:_21159ac6-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_21159760-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2115a368-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2115a368-c266-11e8-a305-0242ac110002 .
+
+nidm:_2115b5e2-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2115b1b4-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2115bc36-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2115bc36-c266-11e8-a305-0242ac110002 .
+
+nidm:_2115cb9a-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2115c884-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2115d270-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2115d270-c266-11e8-a305-0242ac110002 .
+
+nidm:_2115e468-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2115e134-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2115ec1a-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2115ec1a-c266-11e8-a305-0242ac110002 .
+
+nidm:_2115fa7a-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2115f764-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2115ffde-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2115ffde-c266-11e8-a305-0242ac110002 .
+
+nidm:_21161442-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_21161000-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_211619e2-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_211619e2-c266-11e8-a305-0242ac110002 .
+
+nidm:_21162e28-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_211629d2-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_211633c8-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_211633c8-c266-11e8-a305-0242ac110002 .
+
+nidm:_211644e4-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_21164002-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2116520e-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2116520e-c266-11e8-a305-0242ac110002 .
+
+nidm:_2116665e-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_211660c8-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_21166f28-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_21166f28-c266-11e8-a305-0242ac110002 .
+
+nidm:_21169ea8-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_211691ce-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2116a8da-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2116a8da-c266-11e8-a305-0242ac110002 .
+
+nidm:_2116c11c-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2116b8c0-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2116cb26-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2116cb26-c266-11e8-a305-0242ac110002 .
+
+nidm:_2116df3a-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2116db16-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2116e9a8-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2116e9a8-c266-11e8-a305-0242ac110002 .
+
+nidm:_2116fefc-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2116f68c-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_21170820-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_21170820-c266-11e8-a305-0242ac110002 .
+
+nidm:_21171a0e-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2117152c-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_21172148-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_21172148-c266-11e8-a305-0242ac110002 .
+
+nidm:_21173232-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_21172c6a-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_21173804-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_21173804-c266-11e8-a305-0242ac110002 .
+
+nidm:_21174d58-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2117495c-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_21175438-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_21175438-c266-11e8-a305-0242ac110002 .
+
+nidm:_2117682e-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_21176482-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_21176e64-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_21176e64-c266-11e8-a305-0242ac110002 .
+
+nidm:_21178200-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_21177ce2-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_211788cc-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_211788cc-c266-11e8-a305-0242ac110002 .
+
+nidm:_21179d30-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_211798e4-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2117a514-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2117a514-c266-11e8-a305-0242ac110002 .
+
+nidm:_2117b522-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2117b0c2-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2117bf7c-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2117bf7c-c266-11e8-a305-0242ac110002 .
+
+nidm:_2117d340-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2117cf94-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2117d99e-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2117d99e-c266-11e8-a305-0242ac110002 .
+
+nidm:_2117eeca-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2117e984-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2117f60e-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2117f60e-c266-11e8-a305-0242ac110002 .
+
+nidm:_21183fe2-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_211408b4-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_21143280-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_21143280-c266-11e8-a305-0242ac110002 .
+
+nidm:_21187ef8-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_21145058-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_211464da-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_211464da-c266-11e8-a305-0242ac110002 .
+
+nidm:_21189ef6-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_211478d0-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2114873a-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2114873a-c266-11e8-a305-0242ac110002 .
+
+nidm:_2118bd14-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2114952c-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_21149edc-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_21149edc-c266-11e8-a305-0242ac110002 .
+
+nidm:_2118dd12-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2114b2fa-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2114bf2a-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2114bf2a-c266-11e8-a305-0242ac110002 .
+
+nidm:_211904e0-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2114cc22-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2114db86-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2114db86-c266-11e8-a305-0242ac110002 .
+
+nidm:_21192722-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2114e8ce-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2114f472-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2114f472-c266-11e8-a305-0242ac110002 .
+
+nidm:_2119464e-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2115023c-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_21150ec6-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_21150ec6-c266-11e8-a305-0242ac110002 .
+
+nidm:_21196638-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_21151bd2-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_21152654-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_21152654-c266-11e8-a305-0242ac110002 .
+
+nidm:_2119826c-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_211532a2-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_21153bf8-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_21153bf8-c266-11e8-a305-0242ac110002 .
+
+nidm:_2119aeea-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_211549fe-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_21155322-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_21155322-c266-11e8-a305-0242ac110002 .
+
+nidm:_2119d6ae-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2115602e-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_21156c04-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_21156c04-c266-11e8-a305-0242ac110002 .
+
+nidm:_2119f9d6-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_21157bb8-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_211585fe-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_211585fe-c266-11e8-a305-0242ac110002 .
+
+nidm:_211a7e24-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_21159760-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2115a368-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2115a368-c266-11e8-a305-0242ac110002 .
+
+nidm:_211aaa20-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2115b1b4-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2115bc36-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2115bc36-c266-11e8-a305-0242ac110002 .
+
+nidm:_211ad3ba-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2115c884-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2115d270-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2115d270-c266-11e8-a305-0242ac110002 .
+
+nidm:_211afa84-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2115e134-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2115ec1a-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2115ec1a-c266-11e8-a305-0242ac110002 .
+
+nidm:_211b1e7e-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2115f764-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2115ffde-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2115ffde-c266-11e8-a305-0242ac110002 .
+
+nidm:_211b42be-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_21161000-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_211619e2-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_211619e2-c266-11e8-a305-0242ac110002 .
+
+nidm:_211b6c44-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_211629d2-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_211633c8-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_211633c8-c266-11e8-a305-0242ac110002 .
+
+nidm:_211b8e0e-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_21164002-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2116520e-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2116520e-c266-11e8-a305-0242ac110002 .
+
+nidm:_211bb21c-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_211660c8-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_21166f28-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_21166f28-c266-11e8-a305-0242ac110002 .
+
+nidm:_211bd9b8-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_211691ce-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2116a8da-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2116a8da-c266-11e8-a305-0242ac110002 .
+
+nidm:_211bfdc6-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2116b8c0-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2116cb26-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2116cb26-c266-11e8-a305-0242ac110002 .
+
+nidm:_211c23b4-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2116db16-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2116e9a8-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2116e9a8-c266-11e8-a305-0242ac110002 .
+
+nidm:_211c490c-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2116f68c-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_21170820-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_21170820-c266-11e8-a305-0242ac110002 .
+
+nidm:_211c6cde-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2117152c-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_21172148-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_21172148-c266-11e8-a305-0242ac110002 .
+
+nidm:_211c8de0-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_21172c6a-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_21173804-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_21173804-c266-11e8-a305-0242ac110002 .
+
+nidm:_211caec4-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2117495c-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_21175438-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_21175438-c266-11e8-a305-0242ac110002 .
+
+nidm:_211cd57a-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_21176482-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_21176e64-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_21176e64-c266-11e8-a305-0242ac110002 .
+
+nidm:_211cf686-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_21177ce2-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_211788cc-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_211788cc-c266-11e8-a305-0242ac110002 .
+
+nidm:_211d18fa-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_211798e4-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2117a514-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2117a514-c266-11e8-a305-0242ac110002 .
+
+nidm:_211d47a8-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2117b0c2-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2117bf7c-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2117bf7c-c266-11e8-a305-0242ac110002 .
+
+nidm:_211d778c-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2117cf94-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2117d99e-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2117d99e-c266-11e8-a305-0242ac110002 .
+
+nidm:_211d9c44-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf nidm:_2117e984-c266-11e8-a305-0242ac110002 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent nidm:_2117f60e-c266-11e8-a305-0242ac110002 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith nidm:_2117f60e-c266-11e8-a305-0242ac110002 .
+
+nidm:_211408b4-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_21145058-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_211478d0-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_2114952c-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_2114b2fa-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_2114cc22-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_2114e8ce-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_2115023c-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_21151bd2-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_211532a2-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_211549fe-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_2115602e-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_21157bb8-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_21159760-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_2115b1b4-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_2115c884-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_2115e134-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_2115f764-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_21161000-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_211629d2-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_21164002-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_211660c8-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_211691ce-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_2116b8c0-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_2116db16-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_2116f68c-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_2117152c-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_21172c6a-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_2117495c-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_21176482-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_21177ce2-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_211798e4-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_2117b0c2-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_2117cf94-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_2117e984-c266-11e8-a305-0242ac110002 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
+
+nidm:_21143280-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-01"^^xsd:string .
+
+nidm:_211464da-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-02"^^xsd:string .
+
+nidm:_2114873a-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-03"^^xsd:string .
+
+nidm:_21149edc-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-04"^^xsd:string .
+
+nidm:_2114bf2a-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-05"^^xsd:string .
+
+nidm:_2114db86-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-06"^^xsd:string .
+
+nidm:_2114f472-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-07"^^xsd:string .
+
+nidm:_21150ec6-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-08"^^xsd:string .
+
+nidm:_21152654-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-09"^^xsd:string .
+
+nidm:_21153bf8-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-10"^^xsd:string .
+
+nidm:_21155322-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-11"^^xsd:string .
+
+nidm:_21156c04-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-12"^^xsd:string .
+
+nidm:_211585fe-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-13"^^xsd:string .
+
+nidm:_2115a368-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-14"^^xsd:string .
+
+nidm:_2115bc36-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-15"^^xsd:string .
+
+nidm:_2115d270-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-16"^^xsd:string .
+
+nidm:_2115ec1a-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-17"^^xsd:string .
+
+nidm:_2115ffde-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-18"^^xsd:string .
+
+nidm:_211619e2-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-19"^^xsd:string .
+
+nidm:_211633c8-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-20"^^xsd:string .
+
+nidm:_2116520e-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-21"^^xsd:string .
+
+nidm:_21166f28-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-22"^^xsd:string .
+
+nidm:_2116a8da-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-23"^^xsd:string .
+
+nidm:_2116cb26-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-24"^^xsd:string .
+
+nidm:_2116e9a8-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-25"^^xsd:string .
+
+nidm:_21170820-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-26"^^xsd:string .
+
+nidm:_21172148-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-27"^^xsd:string .
+
+nidm:_21173804-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-28"^^xsd:string .
+
+nidm:_21175438-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-29"^^xsd:string .
+
+nidm:_21176e64-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-30"^^xsd:string .
+
+nidm:_211788cc-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-31"^^xsd:string .
+
+nidm:_2117a514-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-32"^^xsd:string .
+
+nidm:_2117bf7c-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-33"^^xsd:string .
+
+nidm:_2117d99e-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-34"^^xsd:string .
+
+nidm:_2117f60e-c266-11e8-a305-0242ac110002 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "sub-35"^^xsd:string .
+
+nidm:_210ffe4a-c266-11e8-a305-0242ac110002 a nidm:Project,
+        prov:Activity ;
+    dctypes:title "Indiv_Diffs_ReadingSkill"^^xsd:string ;
+    dct:license "PDDL"^^xsd:string ;
+    sio:Identifier "1.0.0rc3"^^xsd:string ;
+    dcat:author "Johns CLJahn AAJones HRKush DKMolfese PJVan Dyke JAMagnuson JSTabor WMencl WEShankweiler DPBraze D"^^xsd:string ;
+    dcat:creator ""^^xsd:string ;
+    prov:Location "/computation/data"^^xsd:string .
+
