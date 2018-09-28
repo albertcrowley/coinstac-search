@@ -1,1 +1,1 @@
-{"search-string":{"value":"SELECT DISTINCT ?id ?age ?assessment WHERE { ?assessment prov:wasGeneratedBy ?acq . ?acq prov:wasAssociatedWith ?person .   ?assessment ncicb:Age ?age .  ?person ndar:src_subject_id ?id . FILTER(?age > 800) .} "}}
+{"search-string":{"value":"SELECT DISTINCT ?id ?age ?assessment WHERE { ?assessment prov:wasGeneratedBy ?acq . ?acq prov:wasAssociatedWith ?person .   ?assessment ncicb:Age ?age .  ?person ndar:src_subject_id ?id . FILTER(?age > 30) .} "}}
