@@ -8,7 +8,7 @@ from argparse import ArgumentParser
 
 
 
-def get_metadata (query, nidm_file):
+def get_metadata (query, nidm_file, debug = False):
     metadata = []
 
     # pull in the whole ttl file so we can search for aliases
@@ -17,6 +17,8 @@ def get_metadata (query, nidm_file):
 
     qres = g.query( query )
     for row in qres:
+        if (debug):
+            print (row)
         short_name = row[0] # default to the full URI if we don't find a match
         prefix_pattern = re.compile("prefix ([^:]*):.<" + re.escape(row[0]) + ">") #make a regex that will match any alias for the URI
         groups = prefix_pattern.findall(content)
@@ -70,13 +72,16 @@ if operation == "search":
 
     output = { "output": { "hits": result,
                            "search-string" : search_string,
-                           "metadata" : ""
+                           "metadata" : "",
+                           "operation" : "search"
                           }
              }
 
 if operation == "metadata":
     q1 = "SELECT DISTINCT ?property WHERE { ?s a  nidm:assessment-instrument  . ?s ?property ?o  } "
     q2 = "SELECT DISTINCT ?property WHERE { ?s a  sio:file  . ?s ?property ?o  } "
+
+
     metadata = []
     result = ""
     hit_count = 0
@@ -91,7 +96,8 @@ if operation == "metadata":
 
     output = { "output": { "hits": result,
                            "search-string" : "",
-                           "metadata" :  metadata # ', '.join( str(m) for m in metadata)
+                           "metadata" :  metadata, # ', '.join( str(m) for m in metadata)
+                           "operation" : "metadata"
                           }
              }
 

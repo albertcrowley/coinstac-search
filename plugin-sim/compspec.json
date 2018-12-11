@@ -34,9 +34,13 @@
         "type": "string",
         "label": "Hits"
       },
-      "meta-data": {
+      "operation": {
         "type": "string",
-        "label": "Hits"
+        "label": "Operation"
+      },
+      "meta-data": {
+        "type": "array",
+        "label": "MetaData"
       }
 
     },

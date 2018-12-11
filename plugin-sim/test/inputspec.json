@@ -3,6 +3,6 @@
     "value": "SELECT DISTINCT ?id ?age ?assessment WHERE { ?assessment prov:wasGeneratedBy ?acq . ?acq prov:wasAssociatedWith ?person .   ?assessment ncicb:Age ?age .  ?person ndar:src_subject_id ?id . FILTER(xsd:float(?age) > 15) .} "
   },
   "operation": {
-    "value" : "search"
+    "value" : "metadata"
   }
 }
