@@ -3,30 +3,74 @@
 import sys
 import json
 import rdflib
-import re
-from argparse import ArgumentParser
+import pprint
+from operator import itemgetter
+from reprosearch.PropMapper import PropMapper
+from reprosearch.util import update_meta_data_structure
+
+blacklist_props = [
+    'http://www.w3.org/ns/prov#wasGeneratedBy',
+    'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+    'FILE_ID'
+]
+
+blacklist_vals = [
+    'nan'
+]
+
+# def print_sparql(query):
+#     g = rdflib.Graph()
+#     g.parse("local5.nidm.ttl", format='ttl')
+#     qres = g.query( query )
+#     for row in qres:
+#       print (row)
+
+
+#
+# Pull all the values out of the assessment and put them in a list of prop/value pairs
+#
+def accumulate_values(nidm_file):
+    querries = [
+        "SELECT DISTINCT ?property ?o WHERE { ?s a  nidm:assessment-instrument  . ?s ?property ?o  }",
+        "SELECT DISTINCT ?property ?o WHERE { ?s a  sio:file  . ?s ?property ?o  }"
+    ]
+    data = []
+
+    mapper = PropMapper(nidm_file)
+
+    for query in querries:
+        qres = g.query( query )
+        for row in qres:
+            pair = []
+            prop = mapper.map(str(row[0]))
+            val = str(row[1])
+            # if (not prop) or (prop in blacklist_props):
+            #     print ("didn't find " + str(row[0]) + "\n  val " + str(row[1]) )
+
+            if prop:
+                if prop not in blacklist_props and val not in blacklist_vals:
+                    pair.append(prop)
+                    pair.append(val)
+                    data.append(pair)
+
+
+    # pprint.pprint ( sorted(data, key=itemgetter(0)) )
+    return sorted(data, key=itemgetter(0))
+
+#
+# Reads in a list of key/value pairs and calculates min/max for each pair
+# or if a key has non-numeric values, builds a set of acceptable values
+#
+def build_ranges (pairs):
+    result = {}
+    for pair in pairs:
+        key = pair[0]
+        val = pair[1]
+        update_meta_data_structure(result, key, val)
+    return result
 
 
 
-def get_metadata (query, nidm_file, debug = False):
-    metadata = []
-
-    # pull in the whole ttl file so we can search for aliases
-    with open(nidm_file, 'r') as content_file:
-        content = content_file.read()
-
-    qres = g.query( query )
-    for row in qres:
-        if (debug):
-            print (row)
-        short_name = row[0] # default to the full URI if we don't find a match
-        prefix_pattern = re.compile("prefix ([^:]*):.<" + re.escape(row[0]) + ">") #make a regex that will match any alias for the URI
-        groups = prefix_pattern.findall(content)
-        if len(groups) > 0:
-            short_name = groups[0]
-
-        metadata.append(short_name)
-    return metadata
 
 
 in_str = sys.stdin.read()
@@ -78,16 +122,14 @@ if operation == "search":
              }
 
 if operation == "metadata":
-    q1 = "SELECT DISTINCT ?property WHERE { ?s a  nidm:assessment-instrument  . ?s ?property ?o  } "
-    q2 = "SELECT DISTINCT ?property WHERE { ?s a  sio:file  . ?s ?property ?o  } "
-
 
     metadata = []
+
     result = ""
     hit_count = 0
 
-    metadata += get_metadata(q1, nidm_file)
-    metadata += get_metadata(q2, nidm_file)
+    all_values = accumulate_values(nidm_file)
+    metadata = build_ranges(all_values)
 
     hit_count = len(metadata)
 
