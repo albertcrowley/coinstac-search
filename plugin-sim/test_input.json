@@ -1,1 +1,108 @@
-{"input":{"search-string":"left handed subjects"},"cache":{},"state":{"activeComputations":[{"computation":{"type":"docker","dockerImage":"coinstac/coinstac-repro-search","command":["python","/computation/local.py"],"remote":{"type":"docker","dockerImage":"coinstac/coinstac-repro-search","command":["python","/computation/remote.py"]},"input":{"search-string":{"type":"string"}},"output":{"hits":{"type":"string","label":"Hits"}},"display":{"type":"table"}},"meta":{"name":"repro-search","id":"repro-search","version":"v0.0.1","repository":"github.com/albertcrowley/coinstac-search.git","description":"a test that sums the last two numbers together for the next"},"mode":"local","runId":"simulatorRun"}],"baseDirectory":"/input/local0/simulatorRun","outputDirectory":"/output/local0/simulatorRun","cacheDirectory":"/cache/local0/simulatorRun","clientId":"local0","currentBoxCommand":"nextIteration","currentComputations":[{"computation":{"type":"docker","dockerImage":"coinstac/coinstac-repro-search","command":["python","/computation/local.py"],"remote":{"type":"docker","dockerImage":"coinstac/coinstac-repro-search","command":["python","/computation/remote.py"]},"input":{"search-string":{"type":"string"}},"output":{"hits":{"type":"string","label":"Hits"}},"display":{"type":"table"}},"meta":{"name":"repro-search","id":"repro-search","version":"v0.0.1","repository":"github.com/albertcrowley/coinstac-search.git","description":"a test that sums the last two numbers together for the next"},"mode":"local","runId":"simulatorRun"}],"initialized":true,"iteration":1,"mode":"local","runType":"sequential","state":"waiting on computation","computationIndex":0}}
+{
+  "input": {
+    "xxsearch-string": "SELECT DISTINCT ?id ?age ?assessment WHERE { ?assessment prov:wasGeneratedBy ?acq . ?acq prov:wasAssociatedWith ?person .   ?assessment ncicb:Age ?age .  ?person ndar:src_subject_id ?id . FILTER(xsd:float(?age) > 15) .} ",
+    "search-string": "SELECT DISTINCT ?property WHERE { ?s a  nidm:assessment-instrument  . ?s ?property ?o  } ",
+    "2search-string": "SELECT DISTINCT ?property WHERE { ?s a  sio:file  . ?s ?property ?o  } ",
+    "operation" : "metadata"
+  },
+  "cache": {},
+  "state": {
+    "activeComputations": [
+      {
+        "computation": {
+          "type": "docker",
+          "dockerImage": "coinstac/coinstac-repro-search",
+          "command": [
+            "python",
+            "/computation/local.py"
+          ],
+          "remote": {
+            "type": "docker",
+            "dockerImage": "coinstac/coinstac-repro-search",
+            "command": [
+              "python",
+              "/computation/remote.py"
+            ]
+          },
+          "input": {
+            "search-string": {
+              "type": "string"
+            }
+          },
+          "output": {
+            "hits": {
+              "type": "string",
+              "label": "Hits"
+            }
+          },
+          "display": {
+            "type": "table"
+          }
+        },
+        "meta": {
+          "name": "repro-search",
+          "id": "repro-search",
+          "version": "v0.0.1",
+          "repository": "github.com/albertcrowley/coinstac-search.git",
+          "description": "a test that sums the last two numbers together for the next"
+        },
+        "mode": "local",
+        "runId": "simulatorRun"
+      }
+    ],
+    "baseDirectory": "/input/local0/simulatorRun",
+    "outputDirectory": "/output/local0/simulatorRun",
+    "cacheDirectory": "/cache/local0/simulatorRun",
+    "clientId": "local5",
+    "currentBoxCommand": "nextIteration",
+    "currentComputations": [
+      {
+        "computation": {
+          "type": "docker",
+          "dockerImage": "coinstac/coinstac-repro-search",
+          "command": [
+            "python",
+            "/computation/local.py"
+          ],
+          "remote": {
+            "type": "docker",
+            "dockerImage": "coinstac/coinstac-repro-search",
+            "command": [
+              "python",
+              "/computation/remote.py"
+            ]
+          },
+          "input": {
+            "search-string": {
+              "type": "string"
+            }
+          },
+          "output": {
+            "hits": {
+              "type": "string",
+              "label": "Hits"
+            }
+          },
+          "display": {
+            "type": "table"
+          }
+        },
+        "meta": {
+          "name": "repro-search",
+          "id": "repro-search",
+          "version": "v0.0.1",
+          "repository": "github.com/albertcrowley/coinstac-search.git",
+          "description": "a test that sums the last two numbers together for the next"
+        },
+        "mode": "local",
+        "runId": "simulatorRun"
+      }
+    ],
+    "initialized": true,
+    "iteration": 1,
+    "mode": "local",
+    "runType": "sequential",
+    "state": "waiting on computation",
+    "computationIndex": 0
+  }
+}

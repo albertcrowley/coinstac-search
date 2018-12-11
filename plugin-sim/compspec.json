@@ -24,13 +24,21 @@
     "input": {
       "search-string": {
         "type": "string"
+      },
+      "operation": {
+        "type": "string"
       }
     },
     "output": {
       "hits": {
         "type": "string",
         "label": "Hits"
+      },
+      "meta-data": {
+        "type": "string",
+        "label": "Hits"
       }
+
     },
     "display": {
       "type": "table"
