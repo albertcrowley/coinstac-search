@@ -7,6 +7,7 @@ import pprint
 from operator import itemgetter
 from reprosearch.PropMapper import PropMapper
 from reprosearch.util import update_meta_data_structure
+import base64
 
 blacklist_props = [
     'http://www.w3.org/ns/prov#wasGeneratedBy',
@@ -17,13 +18,6 @@ blacklist_props = [
 blacklist_vals = [
     'nan'
 ]
-
-# def print_sparql(query):
-#     g = rdflib.Graph()
-#     g.parse("local5.nidm.ttl", format='ttl')
-#     qres = g.query( query )
-#     for row in qres:
-#       print (row)
 
 
 #
@@ -123,22 +117,27 @@ if operation == "search":
 
 if operation == "metadata":
 
-    metadata = []
-
-    result = ""
-    hit_count = 0
-
     all_values = accumulate_values(nidm_file)
     metadata = build_ranges(all_values)
-
     hit_count = len(metadata)
 
 
     result = "client %s has %s categoris of metadata -- " %  (my_client_id, hit_count)
 
+    # output = { "output": { "hits": result,
+    #                        "search-string" : "",
+    #                        "metadata" :  str(base64.b64encode( json.dumps(metadata).encode('utf-8') )) ,
+    #                        "operation" : "metadata"
+    #                       }
+    #          }
+
+    jmeta = json.dumps(metadata)
+    jmeta.replace('"', '\"')
+
+
     output = { "output": { "hits": result,
                            "search-string" : "",
-                           "metadata" :  metadata, # ', '.join( str(m) for m in metadata)
+                           "metadata" :  jmeta ,
                            "operation" : "metadata"
                           }
              }

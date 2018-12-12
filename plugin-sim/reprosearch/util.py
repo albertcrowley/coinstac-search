@@ -4,20 +4,20 @@ def update_meta_data_structure (result, key, val):
     if key not in result:
         result[key] = {
             "numeric" : False,
-            "has_nan" : False,
-            "min" : float('nan'),
-            "max" : float('nan'),
+            "has_nan" : "NA",
+            "min" : "NaN",
+            "max" : "NaN",
             "enumeration" : []
         }
     try:
         if val == "nan":
-            result[key]["has_nan"] = True
+            result[key]["has_nan"] = "Yes"
         else:
             f = float(val)
 
-            if isnan(result[key]["min"]):
+            if result[key]["min"] == "NaN":
                 result[key]["min"] = f
-            if isnan(result[key]["max"]):
+            if result[key]["max"] == "NaN":
                 result[key]["max"] = f
 
             result[key]["min"] = min(result[key]["min"], f)
@@ -25,5 +25,6 @@ def update_meta_data_structure (result, key, val):
             result[key]["numeric"] = True
     except:
         result[key]["enumeration"].append(val)
+
 
 
