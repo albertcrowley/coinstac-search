@@ -1,11 +1,21 @@
 import rdflib
 import re
+import json
 
 class PropMapper:
+
+    USE_WHITELIST = True
+    WHITELIST_FILE_NAME = "term_whitelist.json"
+
     def __init__(self, nidm_file):
         self.nidm_file = nidm_file
         self.g = rdflib.Graph()
         self.g.parse(nidm_file, format='ttl')
+
+        if PropMapper.USE_WHITELIST:
+            with open(PropMapper.WHITELIST_FILE_NAME, 'r') as f:
+                self.mapping = json.load(f)
+
 
         self.load_metadata()
 
@@ -39,13 +49,24 @@ class PropMapper:
         :param uri:  long URI returned by RDF query
         :return: short name for the URI str
         """
-        if uri in self.metadata_dict:
-            return self.metadata_dict[uri]
 
-        for prefix in ['http://purl.org/nidash/nidm#', "http://neurolex.org/wiki/Category:DICOM_term/"]:
-            if uri.startswith(prefix):
-                short_term = uri[len(prefix):]
-                return short_term
+        if PropMapper.USE_WHITELIST:
+            terms = self.mapping['terms']
+            if uri in self.mapping['terms']:
+                return self.mapping['terms'][uri]['description']
+
+            return None
+
+        else:
+
+            if uri in self.metadata_dict:
+                return self.metadata_dict[uri]
+
+            for prefix in ['http://purl.org/nidash/nidm#', "http://neurolex.org/wiki/Category:DICOM_term/"]:
+                if uri.startswith(prefix):
+                    short_term = uri[len(prefix):]
+                    return short_term
+
 
         return None
 
