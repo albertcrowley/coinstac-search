@@ -1,0 +1,151 @@
+{
+  "input": {
+    "local0": {
+      "result": "[\"abc\",\"def\"]",
+      "operation" : "/projects"
+    },
+    "local1": {
+      "result": "[\"123\",\"456\"]",
+      "operation" : "/projects"
+    }
+  },
+  "cache": {},
+  "state": {
+    "activeComputations": [
+      {
+        "computation": {
+          "type": "docker",
+          "dockerImage": "coinstac/coinstac-repro-search",
+          "command": [
+            "python",
+            "/computation/remote.py"
+          ],
+          "remote": {
+            "type": "docker",
+            "dockerImage": "coinstac/coinstac-repro-search",
+            "command": [
+              "python",
+              "/computation/remote.py"
+            ]
+          },
+          "input": {
+            "search-string": {
+              "type": "string"
+            },
+            "operation": {
+              "type": "string"
+            }
+          },
+          "output": {
+            "hits": {
+              "type": "string",
+              "label": "Hits"
+            },
+            "operation": {
+              "type": "string",
+              "label": "Operation"
+            },
+            "meta-data": {
+              "type": "array",
+              "label": "MetaData"
+            }
+          },
+          "display": {
+            "type": "table"
+          }
+        },
+        "meta": {
+          "name": "repro-search",
+          "id": "repro-search",
+          "version": "v0.0.1",
+          "repository": "github.com/albertcrowley/coinstac-search.git",
+          "description": "a test that sums the last two numbers together for the next"
+        },
+        "mode": "remote",
+        "runId": "simulatorRun"
+      }
+    ],
+    "baseDirectory": "/input/remote/simulatorRun",
+    "outputDirectory": "/output/remote/simulatorRun",
+    "cacheDirectory": "/cache/remote/simulatorRun",
+    "clientId": "remote",
+    "currentBoxCommand": "nextIteration",
+    "currentComputations": [
+      {
+        "computation": {
+          "type": "docker",
+          "dockerImage": "coinstac/coinstac-repro-search",
+          "command": [
+            "python",
+            "/computation/remote.py"
+          ],
+          "remote": {
+            "type": "docker",
+            "dockerImage": "coinstac/coinstac-repro-search",
+            "command": [
+              "python",
+              "/computation/remote.py"
+            ]
+          },
+          "input": {
+            "search-string": {
+              "type": "string"
+            },
+            "operation": {
+              "type": "string"
+            }
+          },
+          "output": {
+            "hits": {
+              "type": "string",
+              "label": "Hits"
+            },
+            "operation": {
+              "type": "string",
+              "label": "Operation"
+            },
+            "meta-data": {
+              "type": "array",
+              "label": "MetaData"
+            }
+          },
+          "display": {
+            "type": "table"
+          }
+        },
+        "meta": {
+          "name": "repro-search",
+          "id": "repro-search",
+          "version": "v0.0.1",
+          "repository": "github.com/albertcrowley/coinstac-search.git",
+          "description": "a test that sums the last two numbers together for the next"
+        },
+        "mode": "remote",
+        "runId": "simulatorRun"
+      }
+    ],
+    "currentOutput": {
+      "output": {
+        "local0": {
+          "hits": "client local0 has 0 categoris of metadata -- ",
+          "search-string": "",
+          "metadata": "{}",
+          "operation": "metadata"
+        },
+        "local1": {
+          "hits": "client local1 has 39 categoris of metadata -- ",
+          "search-string": "",
+          "metadata": "{\"ADI_RRB_TOTAL_C\": {\"numeric\": true, \"has_nan\": false, \"min\": 3.0, \"max\": 8.0, \"enumeration\": []}, \"ADI_R_ONSET_TOTAL_D\": {\"numeric\": true, \"has_nan\": false, \"min\": 2.0, \"max\": 5.0, \"enumeration\": []}, \"ADI_R_RSRCH_RELIABLE\": {\"numeric\": true, \"has_nan\": false, \"min\": 1.0, \"max\": 1.0, \"enumeration\": []}, \"ADI_R_SOCIAL_TOTAL_A\": {\"numeric\": true, \"has_nan\": false, \"min\": 10.0, \"max\": 27.0, \"enumeration\": []}, \"ADI_R_VERBAL_TOTAL_BV\": {\"numeric\": true, \"has_nan\": false, \"min\": 8.0, \"max\": 22.0, \"enumeration\": []}, \"ADOS_COMM\": {\"numeric\": true, \"has_nan\": false, \"min\": 2.0, \"max\": 6.0, \"enumeration\": []}, \"ADOS_MODULE\": {\"numeric\": true, \"has_nan\": false, \"min\": 4.0, \"max\": 4.0, \"enumeration\": []}, \"ADOS_RSRCH_RELIABLE\": {\"numeric\": true, \"has_nan\": false, \"min\": 1.0, \"max\": 1.0, \"enumeration\": []}, \"ADOS_SOCIAL\": {\"numeric\": true, \"has_nan\": false, \"min\": 7.0, \"max\": 13.0, \"enumeration\": []}, \"ADOS_STEREO_BEHAV\": {\"numeric\": true, \"has_nan\": false, \"min\": 1.0, \"max\": 4.0, \"enumeration\": []}, \"ADOS_TOTAL\": {\"numeric\": true, \"has_nan\": false, \"min\": 9.0, \"max\": 19.0, \"enumeration\": []}, \"AGE_AT_SCAN\": {\"numeric\": true, \"has_nan\": false, \"min\": 19.0, \"max\": 40.0, \"enumeration\": []}, \"AcquisitionMatrix\": {\"numeric\": false, \"has_nan\": false, \"min\": NaN, \"max\": NaN, \"enumeration\": [\"64x64\"]}, \"AcquisitionModality\": {\"numeric\": false, \"has_nan\": false, \"min\": NaN, \"max\": NaN, \"enumeration\": [\"http://purl.org/nidash/nidm#MagneticResonanceImaging\"]}, \"AcquisitionObject\": {\"numeric\": true, \"has_nan\": false, \"min\": 1.0, \"max\": 1.0, \"enumeration\": []}, \"CURRENT_MED_STATUS\": {\"numeric\": true, \"has_nan\": false, \"min\": 0.0, \"max\": 1.0, \"enumeration\": []}, \"DSM_IV_TR\": {\"numeric\": true, \"has_nan\": false, \"min\": 0.0, \"max\": 1.0, \"enumeration\": []}, \"DX_GROUP\": {\"numeric\": true, \"has_nan\": false, \"min\": 1.0, \"max\": 2.0, \"enumeration\": []}, \"EYE_STATUS_AT_SCAN\": {\"numeric\": true, \"has_nan\": false, \"min\": 2.0, \"max\": 2.0, \"enumeration\": []}, \"EchoTime\": {\"numeric\": true, \"has_nan\": false, \"min\": 0.03, \"max\": 0.03, \"enumeration\": []}, \"FIQ\": {\"numeric\": true, \"has_nan\": false, \"min\": 100.0, \"max\": 128.0, \"enumeration\": []}, \"FIQ_TEST_TYPE\": {\"numeric\": false, \"has_nan\": false, \"min\": NaN, \"max\": NaN, \"enumeration\": [\"WISC\"]}, \"FlipAngle\": {\"numeric\": true, \"has_nan\": false, \"min\": 73.0, \"max\": 73.0, \"enumeration\": []}, \"HANDEDNESS_CATEGORY\": {\"numeric\": false, \"has_nan\": false, \"min\": NaN, \"max\": NaN, \"enumeration\": [\"Ambi\", \"R\"]}, \"MEDICATION_NAME\": {\"numeric\": false, \"has_nan\": false, \"min\": NaN, \"max\": NaN, \"enumeration\": [\"Zolpidem; Lisinopril; Topiramato; Trazodone; Venlafaxine;  Bupropion; \", \"Citalopram; Methylphenidated Extended release; Methylphenidate\", \"Dextroamphetamine and amphetamine; Fluoxetine\"]}, \"OFF_STIMULANTS_AT_SCAN\": {\"numeric\": true, \"has_nan\": false, \"min\": -9999.0, \"max\": -9999.0, \"enumeration\": []}, \"PIQ\": {\"numeric\": true, \"has_nan\": false, \"min\": 96.0, \"max\": 128.0, \"enumeration\": []}, \"PIQ_TEST_TYPE\": {\"numeric\": false, \"has_nan\": false, \"min\": NaN, \"max\": NaN, \"enumeration\": [\"WISC\"]}, \"PhaseEncodingDirection\": {\"numeric\": false, \"has_nan\": false, \"min\": NaN, \"max\": NaN, \"enumeration\": [\"j-\"]}, \"PixelBandwidth\": {\"numeric\": true, \"has_nan\": false, \"min\": 1628.0, \"max\": 1628.0, \"enumeration\": []}, \"RepetitionTime\": {\"numeric\": true, \"has_nan\": false, \"min\": 1.5, \"max\": 1.5, \"enumeration\": []}, \"SEX\": {\"numeric\": true, \"has_nan\": false, \"min\": 1.0, \"max\": 2.0, \"enumeration\": []}, \"SITE_ID\": {\"numeric\": false, \"has_nan\": false, \"min\": NaN, \"max\": NaN, \"enumeration\": [\"CMU\"]}, \"ScanOptions\": {\"numeric\": false, \"has_nan\": false, \"min\": NaN, \"max\": NaN, \"enumeration\": [\"FS\"]}, \"SliceTiming\": {\"numeric\": false, \"has_nan\": false, \"min\": NaN, \"max\": NaN, \"enumeration\": [\"0.0785.7171.43857.14142.86928.57214.291000.0285.711071.43357.141142.86428.571214.29500.01285.71571.431357.14642.861428.57714.29\"]}, \"Task\": {\"numeric\": false, \"has_nan\": false, \"min\": NaN, \"max\": NaN, \"enumeration\": [\"rest\"]}, \"VIQ\": {\"numeric\": true, \"has_nan\": false, \"min\": 89.0, \"max\": 132.0, \"enumeration\": []}, \"VIQ_TEST_TYPE\": {\"numeric\": false, \"has_nan\": false, \"min\": NaN, \"max\": NaN, \"enumeration\": [\"WISC\"]}, \"hasImageUsageType\": {\"numeric\": false, \"has_nan\": false, \"min\": NaN, \"max\": NaN, \"enumeration\": [\"http://purl.org/nidash/nidm#Functional\", \"http://purl.org/nidash/nidm#Anatomical\"]}}",
+          "operation": "metadata"
+        }
+      }
+    },
+    "initialized": true,
+    "iteration": 1,
+    "mode": "remote",
+    "runType": "sequential",
+    "state": "waiting on computation",
+    "remoteInitial": false,
+    "computationIndex": 0
+  }
+}

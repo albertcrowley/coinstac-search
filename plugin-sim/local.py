@@ -1,150 +1,53 @@
 #!/usr/bin/python
-
+import subprocess
 import sys
 import json
-import rdflib
-import pprint
-from operator import itemgetter
-from reprosearch.PropMapper import PropMapper
-from reprosearch.util import update_meta_data_structure
-import base64
-
-blacklist_props = [
-    'http://www.w3.org/ns/prov#wasGeneratedBy',
-    'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-    'FILE_ID'
-]
-
-blacklist_vals = [
-    'nan'
-]
-
+import os
 
 #
-# Pull all the values out of the assessment and put them in a list of prop/value pairs
+# To run as a test:
 #
-def accumulate_values(nidm_file):
-    querries = [
-        "SELECT DISTINCT ?property ?o WHERE { ?s a  nidm:assessment-instrument  . ?s ?property ?o  }",
-        "SELECT DISTINCT ?property ?o WHERE { ?s a  sio:file  . ?s ?property ?o  }"
-    ]
-    data = []
-
-    mapper = PropMapper(nidm_file)
-
-    for query in querries:
-        qres = g.query( query )
-        for row in qres:
-            pair = []
-            prop = mapper.map(str(row[0]))
-            val = str(row[1])
-            # if (not prop) or (prop in blacklist_props):
-            #     print ("didn't find " + str(row[0]) + "\n  val " + str(row[1]) )
-
-            if prop:
-                if prop not in blacklist_props and val not in blacklist_vals:
-                    pair.append(prop)
-                    pair.append(val)
-                    data.append(pair)
+#  docker run -e "DEBUG=1" -v /home/crowley/coinstac-search/plugin-sim:/opt/project -w /opt/project -v /tmp:/mnt/data/local.py pynidm  python local.py /opt/project/test_input.json
 
 
-    # pprint.pprint ( sorted(data, key=itemgetter(0)) )
-    return sorted(data, key=itemgetter(0))
+def log(s):
+    if 'DEBUG' in os.environ and os.environ['DEBUG'] == "1":
+        print(s)
+    else:
+        f = open("/mnt/data/local-log.txt", "a")
+        f.write(s)
+        f.write("\n")
+        f.close()
 
-#
-# Reads in a list of key/value pairs and calculates min/max for each pair
-# or if a key has non-numeric values, builds a set of acceptable values
-#
-def build_ranges (pairs):
-    result = {}
-    for pair in pairs:
-        key = pair[0]
-        val = pair[1]
-        update_meta_data_structure(result, key, val)
-    return result
+if len(sys.argv) > 1:
+    infile = open(sys.argv[1])
+    in_str = infile.read()
+    infile.close()
+else:
+    in_str = sys.stdin.read()
 
-
-
-
-
-in_str = sys.stdin.read()
-
-f = open("/mnt/data/local-log.txt", "a")
-f.write("\n")
-f.write("\n")
-f.write(in_str)
-f.write("\n")
-
-
+log ("\n\n\n------------------------------------------------------------------------\n")
 
 doc = json.loads(in_str)
 
-search_string = doc['input']['search-string']
-operation = doc['input']['operation']
+uri = doc['input']['operation']
 my_client_id = doc['state']['clientId']
-
-#if 'start' in doc['input']:
-#    sums = 1
-#else:
-#    sums = doc['input']['sum'] + 1
+log ("\nMy client ID is " + my_client_id); # ex local0
+log("\nInput:\n" + in_str)
 
 
-nidm_file = my_client_id + '.nidm.ttl'
-g=rdflib.Graph()
-g.parse(nidm_file, format='ttl')
-
-
-
-
-if operation == "search":
-    qres = g.query( search_string)
-
+cmd = ['pynidm', 'query', '-nl', my_client_id + '.nidm.ttl', '-u', uri, '-j']
+log(str(cmd))
+try:
+    # we don't want the whole pipeline to break if this returns a non-zero exit code.
+    result = subprocess.check_output(cmd)
+    result = result.decode("utf-8")
+except:
     result = ""
-    hit_count = 0
-    for row in qres:
-    #    result += ("%s - %s - %s" % row)
-        hit_count = hit_count + 1
-        print (row)
 
-    result = "client %s has %s hits  -- " %  (my_client_id, hit_count)
+output = {"output": {"result": result, "operation" : uri } }
 
-    output = { "output": { "hits": result,
-                           "search-string" : search_string,
-                           "metadata" : "",
-                           "operation" : "search"
-                          }
-             }
-
-if operation == "metadata":
-
-    all_values = accumulate_values(nidm_file)
-    metadata = build_ranges(all_values)
-    hit_count = len(metadata)
-
-
-    result = "client %s has %s categoris of metadata -- " %  (my_client_id, hit_count)
-
-    # output = { "output": { "hits": result,
-    #                        "search-string" : "",
-    #                        "metadata" :  str(base64.b64encode( json.dumps(metadata).encode('utf-8') )) ,
-    #                        "operation" : "metadata"
-    #                       }
-    #          }
-
-    jmeta = json.dumps(metadata)
-    jmeta.replace('"', '\"')
-
-
-    output = { "output": { "hits": result,
-                           "search-string" : "",
-                           "metadata" :  jmeta ,
-                           "operation" : "metadata"
-                          }
-             }
-
-f.write("\n")
-f.write(json.dumps(output))
-f.write("\n")
-
+log(json.dumps(output))
 
 sys.stdout.write(json.dumps(output))
+

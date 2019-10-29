@@ -2,32 +2,40 @@ FROM coinstac/coinstac-base-python-stream
 
 VOLUME ["/mnt/data"]
 
-# Set the working directory to /app
+WORKDIR /opt
+
+
+RUN apt-get update &&  \
+    apt-get install -y git python3 graphviz python3-pip ssh mercurial python-setuptools
+
+RUN python3 -m pip install --upgrade pip && \
+    pip3 install rdflib requests fuzzywuzzy pygithub pybids duecredit setuptools \
+                 python-Levenshtein pytest graphviz prov pydot validators ontquery \
+                 click rdflib-jsonld pyld
+
+RUN mkdir /opt/owlready2
+COPY owlready2 /opt/owlready2
+RUN cd /opt/owlready2 && \
+    python setup.py build && \
+    python setup.py install
+
+ENV LC_ALL=C.UTF-8
+ENV LANG=C.UTF-8
+RUN update-alternatives --remove python /usr/bin/python2 && \
+    update-alternatives --install /usr/bin/python python /usr/bin/python3 10 && \
+    update-alternatives --install /usr/bin/pip pip /usr/bin/pip3 10
+
+RUN cd / && \
+    git clone https://github.com/albertcrowley/PyNIDM.git && \
+    mv PyNIDM PyNIDM-snapshot && \
+    cd PyNIDM-snapshot && \
+    pip install -e .
+
+RUN mkdir /computation
 WORKDIR /computation
-
-
-RUN apt-get update
-RUN apt-get -y install graphviz
-RUN git clone https://github.com/incf-nidash/PyNIDM.git
-
-RUN wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
-RUN sh /computation/Miniconda3-latest-Linux-x86_64.sh -p /home/node/miniconda3 -f -b
-RUN echo 'export PATH=/home/node/miniconda3/bin:$PATH' >> ~/.bashrc
-
-
-RUN    echo 'export PATH=/home/node/miniconda3/bin:$PATH' >> /home/node/.bashrc
-ENV PATH="/home/node/miniconda3/bin:$PATH"
-RUN echo $PATH
-RUN conda create -n pynidm_py3 python=3 pytest graphviz -y
-RUN chmod +x /home/node/miniconda3/bin/activate
-RUN activate pynidm_py3
-RUN cd /computation/PyNIDM && pip install -e .
-RUN cd /computation/PyNIDM && pip install rdflib requests fuzzywuzzy owlready2 pygithub pybids duecredit
 
 # Copy the current directory contents into the container at /app
 ADD . /computation
 
 
-# Install any needed packages specified in requirements.txt
-# RUN pip install -r requirements.txt
 

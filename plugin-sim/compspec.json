@@ -22,27 +22,19 @@
       ]
     },
     "input": {
-      "search-string": {
-        "type": "string"
-      },
       "operation": {
         "type": "string"
       }
     },
     "output": {
-      "hits": {
+      "result": {
         "type": "string",
-        "label": "Hits"
+        "label": "result"
       },
       "operation": {
         "type": "string",
-        "label": "Operation"
-      },
-      "meta-data": {
-        "type": "array",
-        "label": "MetaData"
+        "label": "operation"
       }
-
     },
     "display": {
       "type": "table"

@@ -1,4 +1,79 @@
+@prefix ADI_RRB_TOTAL_C: <https://github.com/dbkeator/nidm-local-terms/issues/9> .
+@prefix ADI_R_ONSET_TOTAL_D: <https://github.com/dbkeator/nidm-local-terms/issues/10> .
+@prefix ADI_R_RSRCH_RELIABLE: <https://github.com/dbkeator/nidm-local-terms/issues/11> .
+@prefix ADI_R_SOCIAL_TOTAL_A: <https://github.com/dbkeator/nidm-local-terms/issues/7> .
+@prefix ADI_R_VERBAL_TOTAL_BV: <https://github.com/dbkeator/nidm-local-terms/issues/8> .
+@prefix ADOS_COMM: <http://uri.interlex.org/NDA/uris/datadictionary/elements/2006860> .
+@prefix ADOS_GOTHAM_RRB: <http://uri.interlex.org/NDA/uris/datadictionary/elements/2103093> .
+@prefix ADOS_GOTHAM_SEVERITY: <https://github.com/dbkeator/nidm-local-terms/issues/15> .
+@prefix ADOS_GOTHAM_SOCAFFECT: <http://uri.interlex.org/NDA/uris/datadictionary/elements/2028699> .
+@prefix ADOS_GOTHAM_TOTAL: <https://github.com/dbkeator/nidm-local-terms/issues/14> .
+@prefix ADOS_MODULE: <http://uri.interlex.org/base/ilx_0352279> .
+@prefix ADOS_RSRCH_RELIABLE: <https://github.com/dbkeator/nidm-local-terms/issues/13> .
+@prefix ADOS_SOCIAL: <http://uri.interlex.org/NDA/uris/datadictionary/elements/2006790> .
+@prefix ADOS_STEREO_BEHAV: <http://uri.interlex.org/NDA/uris/datadictionary/elements/1974884> .
+@prefix ADOS_TOTAL: <https://github.com/dbkeator/nidm-local-terms/issues/12> .
+@prefix AGE_AT_MPRAGE: <https://github.com/dbkeator/nidm-local-terms/issues/55> .
+@prefix AGE_AT_SCAN: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Age> .
+@prefix AQ_TOTAL: <http://uri.interlex.org/base/ilx_0353139> .
+@prefix BMI: <http://uri.interlex.org/NDA/uris/datadictionary/elements/2069392> .
+@prefix COMORBIDITY: <https://github.com/dbkeator/nidm-local-terms/issues/23> .
+@prefix CURRENT_MED_STATUS: <https://github.com/dbkeator/nidm-local-terms/issues/24> .
+@prefix DSM_IV_TR: <https://github.com/dbkeator/nidm-local-terms/issues/1> .
+@prefix DX_GROUP: <http://ncitt.ncit.nih.gov/Diagnosis> .
+@prefix EYE_STATUS_AT_SCAN: <http://uri.interlex.org/NDA/uris/datadictionary/elements/1958514> .
+@prefix FILE_ID: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#filename> .
+@prefix FIQ: <https://github.com/dbkeator/nidm-local-terms/issues/2> .
+@prefix FIQ_TEST_TYPE: <http://uri.interlex.org/NDA/uris/datadictionary/elements/2068345> .
+@prefix HANDEDNESS_CATEGORY: <http://purl.obolibrary.org/obo/handedness> .
+@prefix HANDEDNESS_SCORES: <http://uri.interlex.org/base/ilx_0161044> .
+@prefix MEDICATION_NAME: <http://uri.interlex.org/NDA/uris/datadictionary/elements/2138403> .
+@prefix OFF_STIMULANTS_AT_SCAN: <https://github.com/dbkeator/nidm-local-terms/issues/25> .
+@prefix PIQ: <https://github.com/dbkeator/nidm-local-terms/issues/4> .
+@prefix PIQ_TEST_TYPE: <https://github.com/dbkeator/nidm-local-terms/issues/6> .
+@prefix SCQ_TOTAL: <https://github.com/dbkeator/nidm-local-terms/issues/22> .
+@prefix SEX: <https://ndar.nih.gov/api/datadictionary/v2/dataelement/gender> .
+@prefix SITE_ID: <http://uri.interlex.org/NDA/uris/datadictionary/elements/2031448> .
+@prefix SRS_AWARENESS: <https://github.com/dbkeator/nidm-local-terms/issues/17> .
+@prefix SRS_COGNITION: <https://github.com/dbkeator/nidm-local-terms/issues/18> .
+@prefix SRS_COMMUNICATION: <https://github.com/dbkeator/nidm-local-terms/issues/19> .
+@prefix SRS_MANNERISMS: <https://github.com/dbkeator/nidm-local-terms/issues/21> .
+@prefix SRS_MOTIVATION: <https://github.com/dbkeator/nidm-local-terms/issues/20> .
+@prefix SRS_RAW_TOTAL: <https://github.com/dbkeator/nidm-local-terms/issues/16> .
+@prefix SRS_VERSION: <http://uri.interlex.org/NDA/uris/datadictionary/elements/1981727> .
+@prefix VINELAND_ABC_STANDARD: <https://github.com/dbkeator/nidm-local-terms/issues/39> .
+@prefix VINELAND_COMMUNICATION_STANDARD: <https://github.com/dbkeator/nidm-local-terms/issues/29> .
+@prefix VINELAND_COMMUNITY_V_SCALED: <https://github.com/dbkeator/nidm-local-terms/issues/32> .
+@prefix VINELAND_COPING_V_SCALED: <https://github.com/dbkeator/nidm-local-terms/issues/36> .
+@prefix VINELAND_DAILYLVNG_STANDARD: <https://github.com/dbkeator/nidm-local-terms/issues/33> .
+@prefix VINELAND_DOMESTIC_V_SCALED: <https://github.com/dbkeator/nidm-local-terms/issues/31> .
+@prefix VINELAND_EXPRESSIVE_V_SCALED: <https://github.com/dbkeator/nidm-local-terms/issues/27> .
+@prefix VINELAND_INFORMANT: <https://github.com/dbkeator/nidm-local-terms/issues/40> .
+@prefix VINELAND_INTERPERSONAL_V_SCALED: <https://github.com/dbkeator/nidm-local-terms/issues/34> .
+@prefix VINELAND_PERSONAL_V_SCALED: <https://github.com/dbkeator/nidm-local-terms/issues/30> .
+@prefix VINELAND_PLAY_V_SCALED: <https://github.com/dbkeator/nidm-local-terms/issues/35> .
+@prefix VINELAND_RECEPTIVE_V_SCALED: <https://github.com/dbkeator/nidm-local-terms/issues/26> .
+@prefix VINELAND_SOCIAL_STANDARD: <https://github.com/dbkeator/nidm-local-terms/issues/37> .
+@prefix VINELAND_SUM_SCORES: <https://github.com/dbkeator/nidm-local-terms/issues/38> .
+@prefix VINELAND_WRITTEN_V_SCALED: <https://github.com/dbkeator/nidm-local-terms/issues/28> .
+@prefix VIQ: <https://github.com/dbkeator/nidm-local-terms/issues/3> .
+@prefix VIQ_TEST_TYPE: <https://github.com/dbkeator/nidm-local-terms/issues/5> .
+@prefix WISC_IV_BLK_DSN_SCALED: <https://github.com/dbkeator/nidm-local-terms/issues/48> .
+@prefix WISC_IV_CODING_SCALED: <https://github.com/dbkeator/nidm-local-terms/issues/53> .
+@prefix WISC_IV_DIGIT_SPAN_SCALED: <https://github.com/dbkeator/nidm-local-terms/issues/51> .
+@prefix WISC_IV_INFO_SCALED: <https://github.com/dbkeator/nidm-local-terms/issues/47> .
+@prefix WISC_IV_LET_NUM_SCALED: <https://github.com/dbkeator/nidm-local-terms/issues/52> .
+@prefix WISC_IV_MATRIX_SCALED: <https://github.com/dbkeator/nidm-local-terms/issues/50> .
+@prefix WISC_IV_PIC_CON_SCALED: <https://github.com/dbkeator/nidm-local-terms/issues/49> .
+@prefix WISC_IV_PRI: <https://github.com/dbkeator/nidm-local-terms/issues/42> .
+@prefix WISC_IV_PSI: <https://github.com/dbkeator/nidm-local-terms/issues/44> .
+@prefix WISC_IV_SIM_SCALED: <https://github.com/dbkeator/nidm-local-terms/issues/45> .
+@prefix WISC_IV_SYM_SCALED: <https://github.com/dbkeator/nidm-local-terms/issues/54> .
+@prefix WISC_IV_VCI: <https://github.com/dbkeator/nidm-local-terms/issues/41> .
+@prefix WISC_IV_VOCAB_SCALED: <https://github.com/dbkeator/nidm-local-terms/issues/46> .
+@prefix WISC_IV_WMI: <https://github.com/dbkeator/nidm-local-terms/issues/43> .
 @prefix afni: <http://purl.org/nidash/afni#> .
+@prefix ants: <http://stnava.github.io/ANTs/> .
 @prefix bids: <http://bids.neuroimaging.io/> .
 @prefix birnlex: <http://bioontology.org/projects/ontologies/birnlex/> .
 @prefix crypto: <http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions#> .
@@ -8,6 +83,7 @@
 @prefix dctypes: <http://purl.org/dc/dcmitype/> .
 @prefix dicom: <http://neurolex.org/wiki/Category:DICOM_term/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix freesurfer: <https://surfer.nmr.mgh.harvard.edu/> .
 @prefix fsl: <http://purl.org/nidash/fsl#> .
 @prefix ncicb: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> .
 @prefix ncit: <http://ncitt.ncit.nih.gov/> .
@@ -30,1727 +106,1863 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-nidm:_211422e0-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+niiri:75ca7796-b25f-11e9-aa25-003ee1ce9545 a nidm:AcquisitionObject,
+        prov:Entity ;
+    crypto:sha512 "bfbe69c7b89f6a25bfc3a08d01eebe9319faae01c128339b8f68d8e715e45a1490f7de34e99883f358601df9c6240cfd501e14b90eeb1d1a3a9c9a4943850a1a"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    FILE_ID: "sub-0050642/anat/sub-0050642_T1w.nii.gz"^^xsd:string ;
+    prov:Location "/datasets.datalad.org/abide/RawDataBIDS/CMU_a/"^^xsd:string ;
+    prov:wasGeneratedBy niiri:75ca69ae-b25f-11e9-aa25-003ee1ce9545 .
+
+niiri:75d2304e-b25f-11e9-aa25-003ee1ce9545 a nidm:AcquisitionObject,
+        prov:Entity ;
+    crypto:sha512 "3f9f779b1bab3f4c86a13a9b83d0eab855370847e37dd09acc1fe8bd02ccec5b2ca2fdbb8f41af8b94c2f725a7d5cb9eecfd746d3ee70af3980a296586ccdae7"^^xsd:string ;
+    nidm:AcquisitionObject "1"^^xsd:int ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    FILE_ID: "sub-0050642/func/sub-0050642_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "/datasets.datalad.org/abide/RawDataBIDS/CMU_a/"^^xsd:string ;
+    prov:wasGeneratedBy niiri:75d22892-b25f-11e9-aa25-003ee1ce9545 .
+
+niiri:75fe96d4-b25f-11e9-aa25-003ee1ce9545 a nidm:AcquisitionObject,
+        prov:Entity ;
+    crypto:sha512 "9557049461111760ad6b8e00c11add854fbe3248c2272d9800bdb3982f48c2bd8e91c322b3fc64bf353ea0a99afa823cf0ab9b915fd14a6ac75b4ee2ea505bb0"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    FILE_ID: "sub-0050646/anat/sub-0050646_T1w.nii.gz"^^xsd:string ;
+    prov:Location "/datasets.datalad.org/abide/RawDataBIDS/CMU_a/"^^xsd:string ;
+    prov:wasGeneratedBy niiri:75fe8810-b25f-11e9-aa25-003ee1ce9545 .
+
+niiri:7606b170-b25f-11e9-aa25-003ee1ce9545 a nidm:AcquisitionObject,
+        prov:Entity ;
+    crypto:sha512 "2476a29ed7632f6b0687ba5fab8f61ed9e23e7073860dea4034ed9a13f1c75d4fd84fa4a57d7924442567a39446b005a963fc3b697d02153d16d141d16acfbe7"^^xsd:string ;
+    nidm:AcquisitionObject "1"^^xsd:int ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    FILE_ID: "sub-0050646/func/sub-0050646_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "/datasets.datalad.org/abide/RawDataBIDS/CMU_a/"^^xsd:string ;
+    prov:wasGeneratedBy niiri:7606a87e-b25f-11e9-aa25-003ee1ce9545 .
+
+niiri:7631d580-b25f-11e9-aa25-003ee1ce9545 a nidm:AcquisitionObject,
+        prov:Entity ;
+    crypto:sha512 "a3e97057158bb6bae774fcd3f8084eb9b6301ccba3cf120ce7a6cf230165cecde9f1537fd9adf94c2167a8dc1878bcf62861703dbc6e02c4ec21c643bf316b7f"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    FILE_ID: "sub-0050647/anat/sub-0050647_T1w.nii.gz"^^xsd:string ;
+    prov:Location "/datasets.datalad.org/abide/RawDataBIDS/CMU_a/"^^xsd:string ;
+    prov:wasGeneratedBy niiri:7631cae0-b25f-11e9-aa25-003ee1ce9545 .
+
+niiri:7638ebc2-b25f-11e9-aa25-003ee1ce9545 a nidm:AcquisitionObject,
+        prov:Entity ;
+    crypto:sha512 "a736240763a12ced77f77df8e90a9bb164cf0a69597c20976dd53fa7cf4efa0c08d1e56012f67ddf44725d57127478ae845783c3bcbeebfa2dda5b66f829ba15"^^xsd:string ;
+    nidm:AcquisitionObject "1"^^xsd:int ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    FILE_ID: "sub-0050647/func/sub-0050647_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "/datasets.datalad.org/abide/RawDataBIDS/CMU_a/"^^xsd:string ;
+    prov:wasGeneratedBy niiri:7638e47e-b25f-11e9-aa25-003ee1ce9545 .
+
+niiri:766093e8-b25f-11e9-aa25-003ee1ce9545 a nidm:AcquisitionObject,
+        prov:Entity ;
+    crypto:sha512 "11c25d60e5a60143525824ced9b9073054f00868992237df8ff5007952e090d188a840d6dd13ec44fa6a6ff459c787a928aa6421324231b32984026e1e377b70"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    FILE_ID: "sub-0050649/anat/sub-0050649_T1w.nii.gz"^^xsd:string ;
+    prov:Location "/datasets.datalad.org/abide/RawDataBIDS/CMU_a/"^^xsd:string ;
+    prov:wasGeneratedBy niiri:766086f0-b25f-11e9-aa25-003ee1ce9545 .
+
+niiri:7668020e-b25f-11e9-aa25-003ee1ce9545 a nidm:AcquisitionObject,
+        prov:Entity ;
+    crypto:sha512 "2564e0bc13302657bf10e6df271d7a3b53c2ae1230f46ff254cc8976f97a92d03e748529089e676e7ec7bbc99717fda09df46169a00ab4f8c7df1cb2240fbe44"^^xsd:string ;
+    nidm:AcquisitionObject "1"^^xsd:int ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    FILE_ID: "sub-0050649/func/sub-0050649_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "/datasets.datalad.org/abide/RawDataBIDS/CMU_a/"^^xsd:string ;
+    prov:wasGeneratedBy niiri:7667fade-b25f-11e9-aa25-003ee1ce9545 .
+
+niiri:76918af2-b25f-11e9-aa25-003ee1ce9545 a nidm:AcquisitionObject,
+        prov:Entity ;
+    crypto:sha512 "5d1abdf799c462c39a5f8f9f15066da31a0404dc95ef729dcfa3f60724d125c3d4285c1467ae45f96d299346871d9f95ca97c350ba5a59cc1606eaa356a8b009"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    FILE_ID: "sub-0050653/anat/sub-0050653_T1w.nii.gz"^^xsd:string ;
+    prov:Location "/datasets.datalad.org/abide/RawDataBIDS/CMU_a/"^^xsd:string ;
+    prov:wasGeneratedBy niiri:76918034-b25f-11e9-aa25-003ee1ce9545 .
+
+niiri:769950b6-b25f-11e9-aa25-003ee1ce9545 a nidm:AcquisitionObject,
+        prov:Entity ;
+    crypto:sha512 "ce6512e47c0a5c830097f355e1937b5367910626aa667fbd413c2e7a0f3cf9fdad6aba174d28d71cdcd23e732658347adedc0fabfc5d671351f37201f5520603"^^xsd:string ;
+    nidm:AcquisitionObject "1"^^xsd:int ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    FILE_ID: "sub-0050653/func/sub-0050653_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "/datasets.datalad.org/abide/RawDataBIDS/CMU_a/"^^xsd:string ;
+    prov:wasGeneratedBy niiri:76994990-b25f-11e9-aa25-003ee1ce9545 .
+
+niiri:76c3a9a6-b25f-11e9-aa25-003ee1ce9545 a nidm:AcquisitionObject,
+        prov:Entity ;
+    crypto:sha512 "9e96821808e73fb3c02f0e1ab349f213fcd36f31f56cdbad0ef8d7f9ccb540f600c96e8ed1dcea4151174c2a37c8afa389c4f0e2aa69daf236f57afe60ef42d2"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    FILE_ID: "sub-0050654/anat/sub-0050654_T1w.nii.gz"^^xsd:string ;
+    prov:Location "/datasets.datalad.org/abide/RawDataBIDS/CMU_a/"^^xsd:string ;
+    prov:wasGeneratedBy niiri:76c39f88-b25f-11e9-aa25-003ee1ce9545 .
+
+niiri:76cb2398-b25f-11e9-aa25-003ee1ce9545 a nidm:AcquisitionObject,
+        prov:Entity ;
+    crypto:sha512 "231ad2f1656438f00f45e7193a60d94a021844a8ccfad5354139be2ea9b54e5a0dd5b67306219043063440b015ef5f839129b7a608f4a0fc7db6f4430ef661f1"^^xsd:string ;
+    nidm:AcquisitionObject "1"^^xsd:int ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    FILE_ID: "sub-0050654/func/sub-0050654_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "/datasets.datalad.org/abide/RawDataBIDS/CMU_a/"^^xsd:string ;
+    prov:wasGeneratedBy niiri:76cb1c0e-b25f-11e9-aa25-003ee1ce9545 .
+
+niiri:76f57f80-b25f-11e9-aa25-003ee1ce9545 a nidm:AcquisitionObject,
+        prov:Entity ;
+    crypto:sha512 "840affc90aeda40601a48f8d5cd3421fb73e0cbecc3111c4a3194aef74a716b732e7649b8b36d55f0b5559a88531ac10acd00bf27a95d52b59da78a88b7eeb8f"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    FILE_ID: "sub-0050656/anat/sub-0050656_T1w.nii.gz"^^xsd:string ;
+    prov:Location "/datasets.datalad.org/abide/RawDataBIDS/CMU_a/"^^xsd:string ;
+    prov:wasGeneratedBy niiri:76f572ec-b25f-11e9-aa25-003ee1ce9545 .
+
+niiri:76fcc9b6-b25f-11e9-aa25-003ee1ce9545 a nidm:AcquisitionObject,
+        prov:Entity ;
+    crypto:sha512 "20ba1753fc89e5ef5e994106d6cb427617364873396319ccb05249126021ee24748caea8e77908fcb445ec9cfb62e753a2b5ed5b8ac5eef2d23b0c298a5c7249"^^xsd:string ;
+    nidm:AcquisitionObject "1"^^xsd:int ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    FILE_ID: "sub-0050656/func/sub-0050656_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "/datasets.datalad.org/abide/RawDataBIDS/CMU_a/"^^xsd:string ;
+    prov:wasGeneratedBy niiri:76fcc268-b25f-11e9-aa25-003ee1ce9545 .
+
+niiri:7725ad5e-b25f-11e9-aa25-003ee1ce9545 a nidm:AcquisitionObject,
+        prov:Entity ;
+    crypto:sha512 "e2a5cd91db032d4dc8f26e80a48c5afbb1c49e67a04427531ea5ded175f5044c4d4a3719597dd9688a91ed209ce4967ec1739b9243c49024cd467ba55ba2b3f4"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    FILE_ID: "sub-0050659/anat/sub-0050659_T1w.nii.gz"^^xsd:string ;
+    prov:Location "/datasets.datalad.org/abide/RawDataBIDS/CMU_a/"^^xsd:string ;
+    prov:wasGeneratedBy niiri:7725a2e6-b25f-11e9-aa25-003ee1ce9545 .
+
+niiri:772d9ab4-b25f-11e9-aa25-003ee1ce9545 a nidm:AcquisitionObject,
+        prov:Entity ;
+    crypto:sha512 "449a4c443aacea13dc73155cade1f23419b3c2c398635138c26af7ce3d36e01b3dac472448077e2c2b48a5ad7e4f0a7f9426d36ffb720dc84b2bb16509dbe3ff"^^xsd:string ;
+    nidm:AcquisitionObject "1"^^xsd:int ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    FILE_ID: "sub-0050659/func/sub-0050659_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "/datasets.datalad.org/abide/RawDataBIDS/CMU_a/"^^xsd:string ;
+    prov:wasGeneratedBy niiri:772d9384-b25f-11e9-aa25-003ee1ce9545 .
+
+niiri:77577abe-b25f-11e9-aa25-003ee1ce9545 a nidm:AcquisitionObject,
+        prov:Entity ;
+    crypto:sha512 "148ea1120e916026060fae8d5c40f214f1a9b5c49e8cc12c4ff1c686d7f1a394637c4588756a32ca50404011a48b129f6ef7cad094663ac3541ca1532fe0c3f1"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    FILE_ID: "sub-0050660/anat/sub-0050660_T1w.nii.gz"^^xsd:string ;
+    prov:Location "/datasets.datalad.org/abide/RawDataBIDS/CMU_a/"^^xsd:string ;
+    prov:wasGeneratedBy niiri:77577050-b25f-11e9-aa25-003ee1ce9545 .
+
+niiri:775edb10-b25f-11e9-aa25-003ee1ce9545 a nidm:AcquisitionObject,
+        prov:Entity ;
+    crypto:sha512 "c7cb57e120e398b12569b3f169ab91aaa64ac788a991b0f0d346e47d6f466c42723bf62712bca19f20accc0132616281842152fa313f3c97bf3b21be4a100d74"^^xsd:string ;
+    nidm:AcquisitionObject "1"^^xsd:int ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    FILE_ID: "sub-0050660/func/sub-0050660_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "/datasets.datalad.org/abide/RawDataBIDS/CMU_a/"^^xsd:string ;
+    prov:wasGeneratedBy niiri:775ed3a4-b25f-11e9-aa25-003ee1ce9545 .
+
+niiri:77890a5c-b25f-11e9-aa25-003ee1ce9545 a nidm:AcquisitionObject,
+        prov:Entity ;
+    crypto:sha512 "5bde109b0556f82d9e44ae69090c3a88d89442ae645593ccfc785fd9b9444e743bdb52fc5d4ffb03e5c62136f1b655f9e74aa9349f3f3bae84a2aac1dd3d2d58"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    FILE_ID: "sub-0050663/anat/sub-0050663_T1w.nii.gz"^^xsd:string ;
+    prov:Location "/datasets.datalad.org/abide/RawDataBIDS/CMU_a/"^^xsd:string ;
+    prov:wasGeneratedBy niiri:7788ffd0-b25f-11e9-aa25-003ee1ce9545 .
+
+niiri:779132a4-b25f-11e9-aa25-003ee1ce9545 a nidm:AcquisitionObject,
+        prov:Entity ;
+    crypto:sha512 "da2ed5830e8c7c41d79ce3e20b584df3f1a5a57c38c733596d1a9aabd0ee351155c3bf2f7f11546c4117358e805351b662920a8584f8f0c379c5f0e1ae2531a4"^^xsd:string ;
+    nidm:AcquisitionObject "1"^^xsd:int ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    FILE_ID: "sub-0050663/func/sub-0050663_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "/datasets.datalad.org/abide/RawDataBIDS/CMU_a/"^^xsd:string ;
+    prov:wasGeneratedBy niiri:77912a84-b25f-11e9-aa25-003ee1ce9545 .
+
+niiri:77bd79c2-b25f-11e9-aa25-003ee1ce9545 a nidm:AcquisitionObject,
+        prov:Entity ;
+    crypto:sha512 "2df7e2024b098123988b42088e6f17e0687f054d06c9e7dbf407f8ddb4f252a5531b74c970cdad209df72a48c3f8271a9d18f5140076f470da5c224b97d7b9ea"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    FILE_ID: "sub-0050664/anat/sub-0050664_T1w.nii.gz"^^xsd:string ;
+    prov:Location "/datasets.datalad.org/abide/RawDataBIDS/CMU_a/"^^xsd:string ;
+    prov:wasGeneratedBy niiri:77bd6f9a-b25f-11e9-aa25-003ee1ce9545 .
+
+niiri:77c4873a-b25f-11e9-aa25-003ee1ce9545 a nidm:AcquisitionObject,
+        prov:Entity ;
+    crypto:sha512 "bdce442c1c0316bbe33cc95deb2234a9cb1800aa52d8c813a9695cc091e3abdc0c0d44e48622ba2220b264cea8fee62201ac537d8bb37e98c1ff3c83d5243198"^^xsd:string ;
+    nidm:AcquisitionObject "1"^^xsd:int ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    FILE_ID: "sub-0050664/func/sub-0050664_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "/datasets.datalad.org/abide/RawDataBIDS/CMU_a/"^^xsd:string ;
+    prov:wasGeneratedBy niiri:77c48078-b25f-11e9-aa25-003ee1ce9545 .
+
+niiri:77ef56b8-b25f-11e9-aa25-003ee1ce9545 a nidm:AcquisitionObject,
+        prov:Entity ;
+    crypto:sha512 "a7d80ad6227e2639dc4568603b37b66c2d90672b7d1ff54e81bce516624cb697e887846d26b889d4fa3788b4073b708995bc15ed54afa4d9d4e24fb24878fda3"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    FILE_ID: "sub-0050665/anat/sub-0050665_T1w.nii.gz"^^xsd:string ;
+    prov:Location "/datasets.datalad.org/abide/RawDataBIDS/CMU_a/"^^xsd:string ;
+    prov:wasGeneratedBy niiri:77ef4c2c-b25f-11e9-aa25-003ee1ce9545 .
+
+niiri:77f65fda-b25f-11e9-aa25-003ee1ce9545 a nidm:AcquisitionObject,
+        prov:Entity ;
+    crypto:sha512 "ab0d8566ff5b1f9d64683e86cf688b08ce18fde3f824cd7d83b40f5a68b5705679dda72a330257839966ea4646c1fd23f8c2e94c0b64b9982462d1f4ed2149d8"^^xsd:string ;
+    nidm:AcquisitionObject "1"^^xsd:int ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    FILE_ID: "sub-0050665/func/sub-0050665_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "/datasets.datalad.org/abide/RawDataBIDS/CMU_a/"^^xsd:string ;
+    prov:wasGeneratedBy niiri:77f658dc-b25f-11e9-aa25-003ee1ce9545 .
+
+niiri:78207efa-b25f-11e9-aa25-003ee1ce9545 a nidm:AcquisitionObject,
+        prov:Entity ;
+    crypto:sha512 "1886ea3040384295e6c75fbf6f81c76a7b12dbcf30548ea9fe0b11ad15e54fdeebb250e309052da997e8d071ff52f9309535f305538b7bd334cef1edce4da971"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    FILE_ID: "sub-0050666/anat/sub-0050666_T1w.nii.gz"^^xsd:string ;
+    prov:Location "/datasets.datalad.org/abide/RawDataBIDS/CMU_a/"^^xsd:string ;
+    prov:wasGeneratedBy niiri:78207464-b25f-11e9-aa25-003ee1ce9545 .
+
+niiri:7828b034-b25f-11e9-aa25-003ee1ce9545 a nidm:AcquisitionObject,
+        prov:Entity ;
+    crypto:sha512 "8abc263acf0c1e275db6e1ae7809446c95d7dd9baf035d8bc08bc885c2c83944c1e3b785db35b6534b8cbf0bc082cdd89291818c4dffa6f49a4cd9461f9b4864"^^xsd:string ;
+    nidm:AcquisitionObject "1"^^xsd:int ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    FILE_ID: "sub-0050666/func/sub-0050666_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "/datasets.datalad.org/abide/RawDataBIDS/CMU_a/"^^xsd:string ;
+    prov:wasGeneratedBy niiri:7828a67a-b25f-11e9-aa25-003ee1ce9545 .
+
+niiri:7853cf12-b25f-11e9-aa25-003ee1ce9545 a nidm:AcquisitionObject,
+        prov:Entity ;
+    crypto:sha512 "68657cacdba8774733af2c07d5733d5d6c3cfe9da647420ba9895bdb9145f5e0000458db12dede22aeb133a8505e17eaa770afb68899fab9a3e9f6cf88d2e76b"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    FILE_ID: "sub-0050668/anat/sub-0050668_T1w.nii.gz"^^xsd:string ;
+    prov:Location "/datasets.datalad.org/abide/RawDataBIDS/CMU_a/"^^xsd:string ;
+    prov:wasGeneratedBy niiri:7853c47c-b25f-11e9-aa25-003ee1ce9545 .
+
+niiri:785b1132-b25f-11e9-aa25-003ee1ce9545 a nidm:AcquisitionObject,
+        prov:Entity ;
+    crypto:sha512 "b3dba824940cbcfc92b94bc706380a8c39c71097c74d5437d5ff6fe61e2e39285857cb5e9f4c57a9ee97817a2f811470479b268b853fc625fc738d4aeb2c87a1"^^xsd:string ;
+    nidm:AcquisitionObject "1"^^xsd:int ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    FILE_ID: "sub-0050668/func/sub-0050668_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "/datasets.datalad.org/abide/RawDataBIDS/CMU_a/"^^xsd:string ;
+    prov:wasGeneratedBy niiri:785b09f8-b25f-11e9-aa25-003ee1ce9545 .
+
+niiri:7ad751b4-b25f-11e9-99db-003ee1ce9545 a onli:assessment-instrument,
         nidm:AcquisitionObject,
         prov:Entity ;
-    bids:ctopp.pa.comp "1.581623186"^^xsd:string ;
-    bids:ctopp.rln.raw "1.982229615"^^xsd:string ;
-    bids:mcdecode "-0.061526495"^^xsd:string ;
-    bids:mcpassfluency "0.086872933"^^xsd:string ;
-    bids:mrt "1.005313004"^^xsd:string ;
-    bids:piat.l.raw "0.38698961"^^xsd:string ;
-    bids:piat.r.raw "0.527998593"^^xsd:string ;
-    bids:ppvt.raw "-0.214692134"^^xsd:string ;
-    bids:sspan2.raw "1.325468304"^^xsd:string ;
-    bids:wasi.matr.raw "1.054141564"^^xsd:string ;
-    ncicb:Age "1.726"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_21141372-c266-11e8-a305-0242ac110002 .
+    AGE_AT_SCAN: 2.1e+01 ;
+    DX_GROUP: "1" ;
+    HANDEDNESS_CATEGORY: "R"^^xsd:string ;
+    EYE_STATUS_AT_SCAN: "2" ;
+    ADOS_STEREO_BEHAV: 1e+00 ;
+    SRS_VERSION: "NaN"^^xsd:double ;
+    ADOS_SOCIAL: 9e+00 ;
+    ADOS_COMM: 5e+00 ;
+    ADOS_GOTHAM_SOCAFFECT: "NaN"^^xsd:double ;
+    SITE_ID: "CMU"^^xsd:string ;
+    FIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    BMI: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_RRB: "NaN"^^xsd:double ;
+    MEDICATION_NAME: "NaN"^^xsd:double ;
+    HANDEDNESS_SCORES: "NaN"^^xsd:double ;
+    ADOS_MODULE: 4e+00 ;
+    AQ_TOTAL: "NaN"^^xsd:double ;
+    FILE_ID: "CMU_a_0050646"^^xsd:string ;
+    prov:wasGeneratedBy niiri:7ad7449e-b25f-11e9-99db-003ee1ce9545 ;
+    DSM_IV_TR: "1" ;
+    ADI_R_ONSET_TOTAL_D: 2e+00 ;
+    ADI_R_RSRCH_RELIABLE: 1e+00 ;
+    ADOS_TOTAL: 1.4e+01 ;
+    ADOS_RSRCH_RELIABLE: 1e+00 ;
+    ADOS_GOTHAM_TOTAL: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_SEVERITY: "NaN"^^xsd:double ;
+    SRS_RAW_TOTAL: "NaN"^^xsd:double ;
+    SRS_AWARENESS: "NaN"^^xsd:double ;
+    SRS_COGNITION: "NaN"^^xsd:double ;
+    SRS_COMMUNICATION: "NaN"^^xsd:double ;
+    FIQ: 1.08e+02 ;
+    SRS_MOTIVATION: "NaN"^^xsd:double ;
+    SRS_MANNERISMS: "NaN"^^xsd:double ;
+    SCQ_TOTAL: "NaN"^^xsd:double ;
+    COMORBIDITY: "NaN"^^xsd:double ;
+    CURRENT_MED_STATUS: "0"^^xsd:string ;
+    OFF_STIMULANTS_AT_SCAN: -9.999e+03 ;
+    VINELAND_RECEPTIVE_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_EXPRESSIVE_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_WRITTEN_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COMMUNICATION_STANDARD: "NaN"^^xsd:double ;
+    VIQ: 1e+02 ;
+    VINELAND_PERSONAL_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_DOMESTIC_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COMMUNITY_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_DAILYLVNG_STANDARD: "NaN"^^xsd:double ;
+    VINELAND_INTERPERSONAL_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_PLAY_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COPING_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_SOCIAL_STANDARD: "NaN"^^xsd:double ;
+    VINELAND_SUM_SCORES: "NaN"^^xsd:double ;
+    VINELAND_ABC_STANDARD: "NaN"^^xsd:double ;
+    PIQ: 1.15e+02 ;
+    VINELAND_INFORMANT: "NaN"^^xsd:double ;
+    WISC_IV_VCI: "NaN"^^xsd:double ;
+    WISC_IV_PRI: "NaN"^^xsd:double ;
+    WISC_IV_WMI: "NaN"^^xsd:double ;
+    WISC_IV_PSI: "NaN"^^xsd:double ;
+    WISC_IV_SIM_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_VOCAB_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_INFO_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_BLK_DSN_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_PIC_CON_SCALED: "NaN"^^xsd:double ;
+    VIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    WISC_IV_MATRIX_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_DIGIT_SPAN_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_LET_NUM_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_CODING_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_SYM_SCALED: "NaN"^^xsd:double ;
+    AGE_AT_MPRAGE: "NaN"^^xsd:double ;
+    PIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    ADI_R_SOCIAL_TOTAL_A: 2.2e+01 ;
+    ADI_R_VERBAL_TOTAL_BV: 1.5e+01 ;
+    ADI_RRB_TOTAL_C: 5e+00 ;
+    SEX: "1" .
 
-nidm:_21145e18-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+niiri:7ad984f2-b25f-11e9-99db-003ee1ce9545 a onli:assessment-instrument,
         nidm:AcquisitionObject,
         prov:Entity ;
-    bids:ctopp.pa.comp "0.815438944"^^xsd:string ;
-    bids:ctopp.rln.raw "-1.118464755"^^xsd:string ;
-    bids:mcdecode "1.646629972"^^xsd:string ;
-    bids:mcpassfluency "-0.366690062"^^xsd:string ;
-    bids:mrt "1.182126849"^^xsd:string ;
-    bids:piat.l.raw "0.044429483"^^xsd:string ;
-    bids:piat.r.raw "0.790404814"^^xsd:string ;
-    bids:ppvt.raw "1.488024972"^^xsd:string ;
-    bids:sspan2.raw "1.187808391"^^xsd:string ;
-    bids:wasi.matr.raw "-0.643356946"^^xsd:string ;
-    ncicb:Age "0.876"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_211457ba-c266-11e8-a305-0242ac110002 .
+    AGE_AT_SCAN: 3.1e+01 ;
+    DX_GROUP: "2" ;
+    HANDEDNESS_CATEGORY: "R"^^xsd:string ;
+    EYE_STATUS_AT_SCAN: "2" ;
+    ADOS_STEREO_BEHAV: "NaN"^^xsd:double ;
+    SRS_VERSION: "NaN"^^xsd:double ;
+    ADOS_SOCIAL: "NaN"^^xsd:double ;
+    ADOS_COMM: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_SOCAFFECT: "NaN"^^xsd:double ;
+    SITE_ID: "CMU"^^xsd:string ;
+    FIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    BMI: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_RRB: "NaN"^^xsd:double ;
+    MEDICATION_NAME: "NaN"^^xsd:double ;
+    HANDEDNESS_SCORES: "NaN"^^xsd:double ;
+    ADOS_MODULE: "NaN"^^xsd:double ;
+    AQ_TOTAL: "NaN"^^xsd:double ;
+    FILE_ID: "CMU_a_0050666"^^xsd:string ;
+    prov:wasGeneratedBy niiri:7ad97b6a-b25f-11e9-99db-003ee1ce9545 ;
+    ADI_R_ONSET_TOTAL_D: "NaN"^^xsd:double ;
+    ADI_R_RSRCH_RELIABLE: "NaN"^^xsd:double ;
+    ADOS_TOTAL: "NaN"^^xsd:double ;
+    ADOS_RSRCH_RELIABLE: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_TOTAL: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_SEVERITY: "NaN"^^xsd:double ;
+    SRS_RAW_TOTAL: "NaN"^^xsd:double ;
+    SRS_AWARENESS: "NaN"^^xsd:double ;
+    SRS_COGNITION: "NaN"^^xsd:double ;
+    SRS_COMMUNICATION: "NaN"^^xsd:double ;
+    FIQ: 1.07e+02 ;
+    SRS_MOTIVATION: "NaN"^^xsd:double ;
+    SRS_MANNERISMS: "NaN"^^xsd:double ;
+    SCQ_TOTAL: "NaN"^^xsd:double ;
+    COMORBIDITY: "NaN"^^xsd:double ;
+    CURRENT_MED_STATUS: "0"^^xsd:string ;
+    OFF_STIMULANTS_AT_SCAN: -9.999e+03 ;
+    VINELAND_RECEPTIVE_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_EXPRESSIVE_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_WRITTEN_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COMMUNICATION_STANDARD: "NaN"^^xsd:double ;
+    VIQ: 1.01e+02 ;
+    VINELAND_PERSONAL_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_DOMESTIC_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COMMUNITY_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_DAILYLVNG_STANDARD: "NaN"^^xsd:double ;
+    VINELAND_INTERPERSONAL_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_PLAY_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COPING_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_SOCIAL_STANDARD: "NaN"^^xsd:double ;
+    VINELAND_SUM_SCORES: "NaN"^^xsd:double ;
+    VINELAND_ABC_STANDARD: "NaN"^^xsd:double ;
+    PIQ: 1.09e+02 ;
+    VINELAND_INFORMANT: "NaN"^^xsd:double ;
+    WISC_IV_VCI: "NaN"^^xsd:double ;
+    WISC_IV_PRI: "NaN"^^xsd:double ;
+    WISC_IV_WMI: "NaN"^^xsd:double ;
+    WISC_IV_PSI: "NaN"^^xsd:double ;
+    WISC_IV_SIM_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_VOCAB_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_INFO_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_BLK_DSN_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_PIC_CON_SCALED: "NaN"^^xsd:double ;
+    VIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    WISC_IV_MATRIX_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_DIGIT_SPAN_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_LET_NUM_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_CODING_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_SYM_SCALED: "NaN"^^xsd:double ;
+    AGE_AT_MPRAGE: "NaN"^^xsd:double ;
+    PIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    ADI_R_SOCIAL_TOTAL_A: "NaN"^^xsd:double ;
+    ADI_R_VERBAL_TOTAL_BV: "NaN"^^xsd:double ;
+    ADI_RRB_TOTAL_C: "NaN"^^xsd:double ;
+    SEX: "1" .
 
-nidm:_21147fec-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+niiri:7adbeed6-b25f-11e9-99db-003ee1ce9545 a onli:assessment-instrument,
         nidm:AcquisitionObject,
         prov:Entity ;
-    bids:ctopp.pa.comp "0.049254701"^^xsd:string ;
-    bids:ctopp.rln.raw "-0.613644915"^^xsd:string ;
-    bids:mcdecode "-0.025007816"^^xsd:string ;
-    bids:mcpassfluency "-0.430496064"^^xsd:string ;
-    bids:mrt "1.182126849"^^xsd:string ;
-    bids:piat.l.raw "0.044429483"^^xsd:string ;
-    bids:piat.r.raw "0.282687538"^^xsd:string ;
-    bids:ppvt.raw "0.182508928"^^xsd:string ;
-    bids:sspan2.raw "-0.464110563"^^xsd:string ;
-    bids:wasi.matr.raw "0.111485266"^^xsd:string ;
-    ncicb:Age "1.486"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_21147c54-c266-11e8-a305-0242ac110002 .
+    AGE_AT_SCAN: 2.4e+01 ;
+    DX_GROUP: "1" ;
+    HANDEDNESS_CATEGORY: "L"^^xsd:string ;
+    EYE_STATUS_AT_SCAN: "2" ;
+    ADOS_STEREO_BEHAV: 2e+00 ;
+    SRS_VERSION: "NaN"^^xsd:double ;
+    ADOS_SOCIAL: 1e+01 ;
+    ADOS_COMM: 5e+00 ;
+    ADOS_GOTHAM_SOCAFFECT: "NaN"^^xsd:double ;
+    SITE_ID: "CMU"^^xsd:string ;
+    FIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    BMI: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_RRB: "NaN"^^xsd:double ;
+    MEDICATION_NAME: "NaN"^^xsd:double ;
+    HANDEDNESS_SCORES: "NaN"^^xsd:double ;
+    ADOS_MODULE: 4e+00 ;
+    AQ_TOTAL: "NaN"^^xsd:double ;
+    FILE_ID: "CMU_a_0050654"^^xsd:string ;
+    prov:wasGeneratedBy niiri:7adbe396-b25f-11e9-99db-003ee1ce9545 ;
+    DSM_IV_TR: "1" ;
+    ADI_R_ONSET_TOTAL_D: 5e+00 ;
+    ADI_R_RSRCH_RELIABLE: 1e+00 ;
+    ADOS_TOTAL: 1.5e+01 ;
+    ADOS_RSRCH_RELIABLE: 1e+00 ;
+    ADOS_GOTHAM_TOTAL: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_SEVERITY: "NaN"^^xsd:double ;
+    SRS_RAW_TOTAL: "NaN"^^xsd:double ;
+    SRS_AWARENESS: "NaN"^^xsd:double ;
+    SRS_COGNITION: "NaN"^^xsd:double ;
+    SRS_COMMUNICATION: "NaN"^^xsd:double ;
+    FIQ: 9.5e+01 ;
+    SRS_MOTIVATION: "NaN"^^xsd:double ;
+    SRS_MANNERISMS: "NaN"^^xsd:double ;
+    SCQ_TOTAL: "NaN"^^xsd:double ;
+    COMORBIDITY: "NaN"^^xsd:double ;
+    CURRENT_MED_STATUS: "0"^^xsd:string ;
+    OFF_STIMULANTS_AT_SCAN: -9.999e+03 ;
+    VINELAND_RECEPTIVE_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_EXPRESSIVE_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_WRITTEN_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COMMUNICATION_STANDARD: "NaN"^^xsd:double ;
+    VIQ: 9.9e+01 ;
+    VINELAND_PERSONAL_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_DOMESTIC_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COMMUNITY_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_DAILYLVNG_STANDARD: "NaN"^^xsd:double ;
+    VINELAND_INTERPERSONAL_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_PLAY_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COPING_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_SOCIAL_STANDARD: "NaN"^^xsd:double ;
+    VINELAND_SUM_SCORES: "NaN"^^xsd:double ;
+    VINELAND_ABC_STANDARD: "NaN"^^xsd:double ;
+    PIQ: 9.2e+01 ;
+    VINELAND_INFORMANT: "NaN"^^xsd:double ;
+    WISC_IV_VCI: "NaN"^^xsd:double ;
+    WISC_IV_PRI: "NaN"^^xsd:double ;
+    WISC_IV_WMI: "NaN"^^xsd:double ;
+    WISC_IV_PSI: "NaN"^^xsd:double ;
+    WISC_IV_SIM_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_VOCAB_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_INFO_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_BLK_DSN_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_PIC_CON_SCALED: "NaN"^^xsd:double ;
+    VIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    WISC_IV_MATRIX_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_DIGIT_SPAN_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_LET_NUM_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_CODING_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_SYM_SCALED: "NaN"^^xsd:double ;
+    AGE_AT_MPRAGE: "NaN"^^xsd:double ;
+    PIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    ADI_R_SOCIAL_TOTAL_A: 2e+01 ;
+    ADI_R_VERBAL_TOTAL_BV: 1.2e+01 ;
+    ADI_RRB_TOTAL_C: 4e+00 ;
+    SEX: "1" .
 
-nidm:_21149a9a-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+niiri:7add6aea-b25f-11e9-99db-003ee1ce9545 a onli:assessment-instrument,
         nidm:AcquisitionObject,
         prov:Entity ;
-    bids:ctopp.pa.comp "-2.057751965"^^xsd:string ;
-    bids:ctopp.rln.raw "-1.312258153"^^xsd:string ;
-    bids:mcdecode "-1.092535255"^^xsd:string ;
-    bids:mcpassfluency "-0.784756551"^^xsd:string ;
-    bids:mrt "-0.93963929"^^xsd:string ;
-    bids:piat.l.raw "-1.203144265"^^xsd:string ;
-    bids:piat.r.raw "-1.567351566"^^xsd:string ;
-    bids:ppvt.raw "-1.066616738"^^xsd:string ;
-    bids:sspan2.raw "0.499508827"^^xsd:string ;
-    bids:wasi.matr.raw "-0.160005731"^^xsd:string ;
-    ncicb:Age "1.696"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_211497de-c266-11e8-a305-0242ac110002 .
+    AGE_AT_SCAN: 2.1e+01 ;
+    DX_GROUP: "2" ;
+    HANDEDNESS_CATEGORY: "R"^^xsd:string ;
+    EYE_STATUS_AT_SCAN: "2" ;
+    ADOS_STEREO_BEHAV: "NaN"^^xsd:double ;
+    SRS_VERSION: "NaN"^^xsd:double ;
+    ADOS_SOCIAL: "NaN"^^xsd:double ;
+    ADOS_COMM: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_SOCAFFECT: "NaN"^^xsd:double ;
+    SITE_ID: "CMU"^^xsd:string ;
+    FIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    BMI: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_RRB: "NaN"^^xsd:double ;
+    MEDICATION_NAME: "NaN"^^xsd:double ;
+    HANDEDNESS_SCORES: "NaN"^^xsd:double ;
+    ADOS_MODULE: "NaN"^^xsd:double ;
+    AQ_TOTAL: "NaN"^^xsd:double ;
+    FILE_ID: "CMU_a_0050664"^^xsd:string ;
+    prov:wasGeneratedBy niiri:7add6068-b25f-11e9-99db-003ee1ce9545 ;
+    ADI_R_ONSET_TOTAL_D: "NaN"^^xsd:double ;
+    ADI_R_RSRCH_RELIABLE: "NaN"^^xsd:double ;
+    ADOS_TOTAL: "NaN"^^xsd:double ;
+    ADOS_RSRCH_RELIABLE: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_TOTAL: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_SEVERITY: "NaN"^^xsd:double ;
+    SRS_RAW_TOTAL: "NaN"^^xsd:double ;
+    SRS_AWARENESS: "NaN"^^xsd:double ;
+    SRS_COGNITION: "NaN"^^xsd:double ;
+    SRS_COMMUNICATION: "NaN"^^xsd:double ;
+    FIQ: 1.09e+02 ;
+    SRS_MOTIVATION: "NaN"^^xsd:double ;
+    SRS_MANNERISMS: "NaN"^^xsd:double ;
+    SCQ_TOTAL: "NaN"^^xsd:double ;
+    COMORBIDITY: "NaN"^^xsd:double ;
+    CURRENT_MED_STATUS: "0"^^xsd:string ;
+    OFF_STIMULANTS_AT_SCAN: -9.999e+03 ;
+    VINELAND_RECEPTIVE_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_EXPRESSIVE_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_WRITTEN_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COMMUNICATION_STANDARD: "NaN"^^xsd:double ;
+    VIQ: 1.07e+02 ;
+    VINELAND_PERSONAL_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_DOMESTIC_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COMMUNITY_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_DAILYLVNG_STANDARD: "NaN"^^xsd:double ;
+    VINELAND_INTERPERSONAL_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_PLAY_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COPING_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_SOCIAL_STANDARD: "NaN"^^xsd:double ;
+    VINELAND_SUM_SCORES: "NaN"^^xsd:double ;
+    VINELAND_ABC_STANDARD: "NaN"^^xsd:double ;
+    PIQ: 1.1e+02 ;
+    VINELAND_INFORMANT: "NaN"^^xsd:double ;
+    WISC_IV_VCI: "NaN"^^xsd:double ;
+    WISC_IV_PRI: "NaN"^^xsd:double ;
+    WISC_IV_WMI: "NaN"^^xsd:double ;
+    WISC_IV_PSI: "NaN"^^xsd:double ;
+    WISC_IV_SIM_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_VOCAB_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_INFO_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_BLK_DSN_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_PIC_CON_SCALED: "NaN"^^xsd:double ;
+    VIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    WISC_IV_MATRIX_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_DIGIT_SPAN_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_LET_NUM_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_CODING_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_SYM_SCALED: "NaN"^^xsd:double ;
+    AGE_AT_MPRAGE: "NaN"^^xsd:double ;
+    PIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    ADI_R_SOCIAL_TOTAL_A: "NaN"^^xsd:double ;
+    ADI_R_VERBAL_TOTAL_BV: "NaN"^^xsd:double ;
+    ADI_RRB_TOTAL_C: "NaN"^^xsd:double ;
+    SEX: "1" .
 
-nidm:_2114baca-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+niiri:7adee564-b25f-11e9-99db-003ee1ce9545 a onli:assessment-instrument,
         nidm:AcquisitionObject,
         prov:Entity ;
-    bids:ctopp.pa.comp "0.432346822"^^xsd:string ;
-    bids:ctopp.rln.raw "0.711806227"^^xsd:string ;
-    bids:mcdecode "-0.118376292"^^xsd:string ;
-    bids:mcpassfluency "0.275863417"^^xsd:string ;
-    bids:mrt "-1.64689467"^^xsd:string ;
-    bids:piat.l.raw "-0.540200317"^^xsd:string ;
-    bids:piat.r.raw "-0.541164426"^^xsd:string ;
-    bids:ppvt.raw "-0.879546487"^^xsd:string ;
-    bids:sspan2.raw "1.050148478"^^xsd:string ;
-    bids:wasi.matr.raw "-0.160005731"^^xsd:string ;
-    ncicb:Age "2.666"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_2114b7dc-c266-11e8-a305-0242ac110002 .
+    AGE_AT_SCAN: 3.3e+01 ;
+    DX_GROUP: "1" ;
+    HANDEDNESS_CATEGORY: "R"^^xsd:string ;
+    EYE_STATUS_AT_SCAN: "2" ;
+    ADOS_STEREO_BEHAV: 1e+00 ;
+    SRS_VERSION: "NaN"^^xsd:double ;
+    ADOS_SOCIAL: 7e+00 ;
+    ADOS_COMM: 5e+00 ;
+    ADOS_GOTHAM_SOCAFFECT: "NaN"^^xsd:double ;
+    SITE_ID: "CMU"^^xsd:string ;
+    FIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    BMI: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_RRB: "NaN"^^xsd:double ;
+    MEDICATION_NAME: "Atomoxetine; Sertraline"^^xsd:string ;
+    HANDEDNESS_SCORES: "NaN"^^xsd:double ;
+    ADOS_MODULE: 4e+00 ;
+    AQ_TOTAL: "NaN"^^xsd:double ;
+    FILE_ID: "CMU_a_0050642"^^xsd:string ;
+    prov:wasGeneratedBy niiri:7adeda7e-b25f-11e9-99db-003ee1ce9545 ;
+    DSM_IV_TR: "1" ;
+    ADI_R_ONSET_TOTAL_D: 3e+00 ;
+    ADI_R_RSRCH_RELIABLE: 1e+00 ;
+    ADOS_TOTAL: 1.2e+01 ;
+    ADOS_RSRCH_RELIABLE: 1e+00 ;
+    ADOS_GOTHAM_TOTAL: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_SEVERITY: "NaN"^^xsd:double ;
+    SRS_RAW_TOTAL: "NaN"^^xsd:double ;
+    SRS_AWARENESS: "NaN"^^xsd:double ;
+    SRS_COGNITION: "NaN"^^xsd:double ;
+    SRS_COMMUNICATION: "NaN"^^xsd:double ;
+    FIQ: 1.03e+02 ;
+    SRS_MOTIVATION: "NaN"^^xsd:double ;
+    SRS_MANNERISMS: "NaN"^^xsd:double ;
+    SCQ_TOTAL: "NaN"^^xsd:double ;
+    COMORBIDITY: "NaN"^^xsd:double ;
+    CURRENT_MED_STATUS: "1"^^xsd:string ;
+    OFF_STIMULANTS_AT_SCAN: -9.999e+03 ;
+    VINELAND_RECEPTIVE_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_EXPRESSIVE_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_WRITTEN_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COMMUNICATION_STANDARD: "NaN"^^xsd:double ;
+    VIQ: 9.8e+01 ;
+    VINELAND_PERSONAL_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_DOMESTIC_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COMMUNITY_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_DAILYLVNG_STANDARD: "NaN"^^xsd:double ;
+    VINELAND_INTERPERSONAL_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_PLAY_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COPING_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_SOCIAL_STANDARD: "NaN"^^xsd:double ;
+    VINELAND_SUM_SCORES: "NaN"^^xsd:double ;
+    VINELAND_ABC_STANDARD: "NaN"^^xsd:double ;
+    PIQ: 1.07e+02 ;
+    VINELAND_INFORMANT: "NaN"^^xsd:double ;
+    WISC_IV_VCI: "NaN"^^xsd:double ;
+    WISC_IV_PRI: "NaN"^^xsd:double ;
+    WISC_IV_WMI: "NaN"^^xsd:double ;
+    WISC_IV_PSI: "NaN"^^xsd:double ;
+    WISC_IV_SIM_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_VOCAB_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_INFO_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_BLK_DSN_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_PIC_CON_SCALED: "NaN"^^xsd:double ;
+    VIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    WISC_IV_MATRIX_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_DIGIT_SPAN_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_LET_NUM_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_CODING_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_SYM_SCALED: "NaN"^^xsd:double ;
+    AGE_AT_MPRAGE: "NaN"^^xsd:double ;
+    PIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    ADI_R_SOCIAL_TOTAL_A: 1.9e+01 ;
+    ADI_R_VERBAL_TOTAL_BV: 1.6e+01 ;
+    ADI_RRB_TOTAL_C: 8e+00 ;
+    SEX: "1" .
 
-nidm:_2114d852-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+niiri:7ae03dce-b25f-11e9-99db-003ee1ce9545 a onli:assessment-instrument,
         nidm:AcquisitionObject,
         prov:Entity ;
-    bids:ctopp.pa.comp "1.198531065"^^xsd:string ;
-    bids:ctopp.rln.raw "0.281154231"^^xsd:string ;
-    bids:mcdecode "1.04894931"^^xsd:string ;
-    bids:mcpassfluency "1.352659062"^^xsd:string ;
-    bids:mrt "0.828499159"^^xsd:string ;
-    bids:piat.l.raw "1.649026948"^^xsd:string ;
-    bids:piat.r.raw "1.369288529"^^xsd:string ;
-    bids:ppvt.raw "1.394947456"^^xsd:string ;
-    bids:sspan2.raw "-0.051130825"^^xsd:string ;
-    bids:wasi.matr.raw "1.796792022"^^xsd:string ;
-    ncicb:Age "4.296"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_2114d500-c266-11e8-a305-0242ac110002 .
+    AGE_AT_SCAN: 2.1e+01 ;
+    DX_GROUP: "2" ;
+    HANDEDNESS_CATEGORY: "R"^^xsd:string ;
+    EYE_STATUS_AT_SCAN: "2" ;
+    ADOS_STEREO_BEHAV: "NaN"^^xsd:double ;
+    SRS_VERSION: "NaN"^^xsd:double ;
+    ADOS_SOCIAL: "NaN"^^xsd:double ;
+    ADOS_COMM: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_SOCAFFECT: "NaN"^^xsd:double ;
+    SITE_ID: "CMU"^^xsd:string ;
+    FIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    BMI: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_RRB: "NaN"^^xsd:double ;
+    MEDICATION_NAME: "NaN"^^xsd:double ;
+    HANDEDNESS_SCORES: "NaN"^^xsd:double ;
+    ADOS_MODULE: "NaN"^^xsd:double ;
+    AQ_TOTAL: "NaN"^^xsd:double ;
+    FILE_ID: "CMU_a_0050663"^^xsd:string ;
+    prov:wasGeneratedBy niiri:7ae0346e-b25f-11e9-99db-003ee1ce9545 ;
+    ADI_R_ONSET_TOTAL_D: "NaN"^^xsd:double ;
+    ADI_R_RSRCH_RELIABLE: "NaN"^^xsd:double ;
+    ADOS_TOTAL: "NaN"^^xsd:double ;
+    ADOS_RSRCH_RELIABLE: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_TOTAL: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_SEVERITY: "NaN"^^xsd:double ;
+    SRS_RAW_TOTAL: "NaN"^^xsd:double ;
+    SRS_AWARENESS: "NaN"^^xsd:double ;
+    SRS_COGNITION: "NaN"^^xsd:double ;
+    SRS_COMMUNICATION: "NaN"^^xsd:double ;
+    FIQ: 1.01e+02 ;
+    SRS_MOTIVATION: "NaN"^^xsd:double ;
+    SRS_MANNERISMS: "NaN"^^xsd:double ;
+    SCQ_TOTAL: "NaN"^^xsd:double ;
+    COMORBIDITY: "NaN"^^xsd:double ;
+    CURRENT_MED_STATUS: "0"^^xsd:string ;
+    OFF_STIMULANTS_AT_SCAN: -9.999e+03 ;
+    VINELAND_RECEPTIVE_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_EXPRESSIVE_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_WRITTEN_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COMMUNICATION_STANDARD: "NaN"^^xsd:double ;
+    VIQ: 9.4e+01 ;
+    VINELAND_PERSONAL_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_DOMESTIC_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COMMUNITY_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_DAILYLVNG_STANDARD: "NaN"^^xsd:double ;
+    VINELAND_INTERPERSONAL_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_PLAY_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COPING_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_SOCIAL_STANDARD: "NaN"^^xsd:double ;
+    VINELAND_SUM_SCORES: "NaN"^^xsd:double ;
+    VINELAND_ABC_STANDARD: "NaN"^^xsd:double ;
+    PIQ: 1.08e+02 ;
+    VINELAND_INFORMANT: "NaN"^^xsd:double ;
+    WISC_IV_VCI: "NaN"^^xsd:double ;
+    WISC_IV_PRI: "NaN"^^xsd:double ;
+    WISC_IV_WMI: "NaN"^^xsd:double ;
+    WISC_IV_PSI: "NaN"^^xsd:double ;
+    WISC_IV_SIM_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_VOCAB_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_INFO_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_BLK_DSN_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_PIC_CON_SCALED: "NaN"^^xsd:double ;
+    VIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    WISC_IV_MATRIX_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_DIGIT_SPAN_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_LET_NUM_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_CODING_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_SYM_SCALED: "NaN"^^xsd:double ;
+    AGE_AT_MPRAGE: "NaN"^^xsd:double ;
+    PIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    ADI_R_SOCIAL_TOTAL_A: "NaN"^^xsd:double ;
+    ADI_R_VERBAL_TOTAL_BV: "NaN"^^xsd:double ;
+    ADI_RRB_TOTAL_C: "NaN"^^xsd:double ;
+    SEX: "1" .
 
-nidm:_2114f04e-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+niiri:7ae19d36-b25f-11e9-99db-003ee1ce9545 a onli:assessment-instrument,
         nidm:AcquisitionObject,
         prov:Entity ;
-    bids:ctopp.pa.comp "0.432346822"^^xsd:string ;
-    bids:ctopp.rln.raw "1.704698328"^^xsd:string ;
-    bids:mcdecode "-0.327108805"^^xsd:string ;
-    bids:mcpassfluency "-1.014531619"^^xsd:string ;
-    bids:mrt "-0.055570066"^^xsd:string ;
-    bids:piat.l.raw "-0.26376321"^^xsd:string ;
-    bids:piat.r.raw "0.053786656"^^xsd:string ;
-    bids:ppvt.raw "-0.214692134"^^xsd:string ;
-    bids:sspan2.raw "-0.051130825"^^xsd:string ;
-    bids:wasi.matr.raw "1.054141564"^^xsd:string ;
-    ncicb:Age "2.596"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_2114ec2a-c266-11e8-a305-0242ac110002 .
+    AGE_AT_SCAN: 2.5e+01 ;
+    DX_GROUP: "2" ;
+    HANDEDNESS_CATEGORY: "Ambi"^^xsd:string ;
+    EYE_STATUS_AT_SCAN: "2" ;
+    ADOS_STEREO_BEHAV: "NaN"^^xsd:double ;
+    SRS_VERSION: "NaN"^^xsd:double ;
+    ADOS_SOCIAL: "NaN"^^xsd:double ;
+    ADOS_COMM: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_SOCAFFECT: "NaN"^^xsd:double ;
+    SITE_ID: "CMU"^^xsd:string ;
+    FIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    BMI: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_RRB: "NaN"^^xsd:double ;
+    MEDICATION_NAME: "NaN"^^xsd:double ;
+    HANDEDNESS_SCORES: "NaN"^^xsd:double ;
+    ADOS_MODULE: "NaN"^^xsd:double ;
+    AQ_TOTAL: "NaN"^^xsd:double ;
+    FILE_ID: "CMU_a_0050660"^^xsd:string ;
+    prov:wasGeneratedBy niiri:7ae19336-b25f-11e9-99db-003ee1ce9545 ;
+    ADI_R_ONSET_TOTAL_D: "NaN"^^xsd:double ;
+    ADI_R_RSRCH_RELIABLE: "NaN"^^xsd:double ;
+    ADOS_TOTAL: "NaN"^^xsd:double ;
+    ADOS_RSRCH_RELIABLE: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_TOTAL: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_SEVERITY: "NaN"^^xsd:double ;
+    SRS_RAW_TOTAL: "NaN"^^xsd:double ;
+    SRS_AWARENESS: "NaN"^^xsd:double ;
+    SRS_COGNITION: "NaN"^^xsd:double ;
+    SRS_COMMUNICATION: "NaN"^^xsd:double ;
+    FIQ: 1.15e+02 ;
+    SRS_MOTIVATION: "NaN"^^xsd:double ;
+    SRS_MANNERISMS: "NaN"^^xsd:double ;
+    SCQ_TOTAL: "NaN"^^xsd:double ;
+    COMORBIDITY: "NaN"^^xsd:double ;
+    CURRENT_MED_STATUS: "0"^^xsd:string ;
+    OFF_STIMULANTS_AT_SCAN: -9.999e+03 ;
+    VINELAND_RECEPTIVE_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_EXPRESSIVE_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_WRITTEN_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COMMUNICATION_STANDARD: "NaN"^^xsd:double ;
+    VIQ: 1.16e+02 ;
+    VINELAND_PERSONAL_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_DOMESTIC_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COMMUNITY_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_DAILYLVNG_STANDARD: "NaN"^^xsd:double ;
+    VINELAND_INTERPERSONAL_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_PLAY_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COPING_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_SOCIAL_STANDARD: "NaN"^^xsd:double ;
+    VINELAND_SUM_SCORES: "NaN"^^xsd:double ;
+    VINELAND_ABC_STANDARD: "NaN"^^xsd:double ;
+    PIQ: 1.09e+02 ;
+    VINELAND_INFORMANT: "NaN"^^xsd:double ;
+    WISC_IV_VCI: "NaN"^^xsd:double ;
+    WISC_IV_PRI: "NaN"^^xsd:double ;
+    WISC_IV_WMI: "NaN"^^xsd:double ;
+    WISC_IV_PSI: "NaN"^^xsd:double ;
+    WISC_IV_SIM_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_VOCAB_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_INFO_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_BLK_DSN_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_PIC_CON_SCALED: "NaN"^^xsd:double ;
+    VIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    WISC_IV_MATRIX_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_DIGIT_SPAN_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_LET_NUM_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_CODING_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_SYM_SCALED: "NaN"^^xsd:double ;
+    AGE_AT_MPRAGE: "NaN"^^xsd:double ;
+    PIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    ADI_R_SOCIAL_TOTAL_A: "NaN"^^xsd:double ;
+    ADI_R_VERBAL_TOTAL_BV: "NaN"^^xsd:double ;
+    ADI_RRB_TOTAL_C: "NaN"^^xsd:double ;
+    SEX: "1" .
 
-nidm:_21150b56-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+niiri:7ae30e46-b25f-11e9-99db-003ee1ce9545 a onli:assessment-instrument,
         nidm:AcquisitionObject,
         prov:Entity ;
-    bids:ctopp.pa.comp "0.815438944"^^xsd:string ;
-    bids:ctopp.rln.raw "-0.42702905"^^xsd:string ;
-    bids:mcdecode "0.526289298"^^xsd:string ;
-    bids:mcpassfluency "0.682832226"^^xsd:string ;
-    bids:mrt "0.651685314"^^xsd:string ;
-    bids:piat.l.raw "0.044429483"^^xsd:string ;
-    bids:piat.r.raw "-0.357477881"^^xsd:string ;
-    bids:ppvt.raw "0.869850953"^^xsd:string ;
-    bids:sspan2.raw "-0.877090302"^^xsd:string ;
-    bids:wasi.matr.raw "-0.856711904"^^xsd:string ;
-    ncicb:Age "-0.994"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_2115053e-c266-11e8-a305-0242ac110002 .
+    AGE_AT_SCAN: 2.7e+01 ;
+    DX_GROUP: "1" ;
+    HANDEDNESS_CATEGORY: "R"^^xsd:string ;
+    EYE_STATUS_AT_SCAN: "2" ;
+    ADOS_STEREO_BEHAV: 3e+00 ;
+    SRS_VERSION: "NaN"^^xsd:double ;
+    ADOS_SOCIAL: 6e+00 ;
+    ADOS_COMM: 2e+00 ;
+    ADOS_GOTHAM_SOCAFFECT: "NaN"^^xsd:double ;
+    SITE_ID: "CMU"^^xsd:string ;
+    FIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    BMI: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_RRB: "NaN"^^xsd:double ;
+    MEDICATION_NAME: "Valproic acid; Lithium; Risperidone"^^xsd:string ;
+    HANDEDNESS_SCORES: "NaN"^^xsd:double ;
+    ADOS_MODULE: 4e+00 ;
+    AQ_TOTAL: "NaN"^^xsd:double ;
+    FILE_ID: "CMU_a_0050647"^^xsd:string ;
+    prov:wasGeneratedBy niiri:7ae303ba-b25f-11e9-99db-003ee1ce9545 ;
+    DSM_IV_TR: "1" ;
+    ADI_R_ONSET_TOTAL_D: 3e+00 ;
+    ADI_R_RSRCH_RELIABLE: 1e+00 ;
+    ADOS_TOTAL: 8e+00 ;
+    ADOS_RSRCH_RELIABLE: 1e+00 ;
+    ADOS_GOTHAM_TOTAL: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_SEVERITY: "NaN"^^xsd:double ;
+    SRS_RAW_TOTAL: "NaN"^^xsd:double ;
+    SRS_AWARENESS: "NaN"^^xsd:double ;
+    SRS_COGNITION: "NaN"^^xsd:double ;
+    SRS_COMMUNICATION: "NaN"^^xsd:double ;
+    FIQ: 1.04e+02 ;
+    SRS_MOTIVATION: "NaN"^^xsd:double ;
+    SRS_MANNERISMS: "NaN"^^xsd:double ;
+    SCQ_TOTAL: "NaN"^^xsd:double ;
+    COMORBIDITY: "NaN"^^xsd:double ;
+    CURRENT_MED_STATUS: "1"^^xsd:string ;
+    OFF_STIMULANTS_AT_SCAN: -9.999e+03 ;
+    VINELAND_RECEPTIVE_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_EXPRESSIVE_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_WRITTEN_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COMMUNICATION_STANDARD: "NaN"^^xsd:double ;
+    VIQ: 9.7e+01 ;
+    VINELAND_PERSONAL_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_DOMESTIC_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COMMUNITY_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_DAILYLVNG_STANDARD: "NaN"^^xsd:double ;
+    VINELAND_INTERPERSONAL_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_PLAY_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COPING_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_SOCIAL_STANDARD: "NaN"^^xsd:double ;
+    VINELAND_SUM_SCORES: "NaN"^^xsd:double ;
+    VINELAND_ABC_STANDARD: "NaN"^^xsd:double ;
+    PIQ: 1.09e+02 ;
+    VINELAND_INFORMANT: "NaN"^^xsd:double ;
+    WISC_IV_VCI: "NaN"^^xsd:double ;
+    WISC_IV_PRI: "NaN"^^xsd:double ;
+    WISC_IV_WMI: "NaN"^^xsd:double ;
+    WISC_IV_PSI: "NaN"^^xsd:double ;
+    WISC_IV_SIM_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_VOCAB_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_INFO_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_BLK_DSN_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_PIC_CON_SCALED: "NaN"^^xsd:double ;
+    VIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    WISC_IV_MATRIX_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_DIGIT_SPAN_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_LET_NUM_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_CODING_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_SYM_SCALED: "NaN"^^xsd:double ;
+    AGE_AT_MPRAGE: "NaN"^^xsd:double ;
+    PIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    ADI_R_SOCIAL_TOTAL_A: 2e+01 ;
+    ADI_R_VERBAL_TOTAL_BV: 1.6e+01 ;
+    ADI_RRB_TOTAL_C: 7e+00 ;
+    SEX: "1" .
 
-nidm:_2115217c-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+niiri:7ae48a28-b25f-11e9-99db-003ee1ce9545 a onli:assessment-instrument,
         nidm:AcquisitionObject,
         prov:Entity ;
-    bids:ctopp.pa.comp "0.623892883"^^xsd:string ;
-    bids:ctopp.rln.raw "0.240481543"^^xsd:string ;
-    bids:mcdecode "-0.037474545"^^xsd:string ;
-    bids:mcpassfluency "-0.838150016"^^xsd:string ;
-    bids:mrt "-0.5860116"^^xsd:string ;
-    bids:piat.l.raw "1.649026948"^^xsd:string ;
-    bids:piat.r.raw "1.07060038"^^xsd:string ;
-    bids:ppvt.raw "1.125367223"^^xsd:string ;
-    bids:sspan2.raw "0.224189001"^^xsd:string ;
-    bids:wasi.matr.raw "1.054141564"^^xsd:string ;
-    ncicb:Age "2.966"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_21151ec0-c266-11e8-a305-0242ac110002 .
+    AGE_AT_SCAN: 3e+01 ;
+    DX_GROUP: "1" ;
+    HANDEDNESS_CATEGORY: "R"^^xsd:string ;
+    EYE_STATUS_AT_SCAN: "2" ;
+    ADOS_STEREO_BEHAV: 3e+00 ;
+    SRS_VERSION: "NaN"^^xsd:double ;
+    ADOS_SOCIAL: 1.3e+01 ;
+    ADOS_COMM: 5e+00 ;
+    ADOS_GOTHAM_SOCAFFECT: "NaN"^^xsd:double ;
+    SITE_ID: "CMU"^^xsd:string ;
+    FIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    BMI: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_RRB: "NaN"^^xsd:double ;
+    MEDICATION_NAME: "NaN"^^xsd:double ;
+    HANDEDNESS_SCORES: "NaN"^^xsd:double ;
+    ADOS_MODULE: 4e+00 ;
+    AQ_TOTAL: "NaN"^^xsd:double ;
+    FILE_ID: "CMU_a_0050653"^^xsd:string ;
+    prov:wasGeneratedBy niiri:7ae47d08-b25f-11e9-99db-003ee1ce9545 ;
+    DSM_IV_TR: "1" ;
+    ADI_R_ONSET_TOTAL_D: 1e+00 ;
+    ADI_R_RSRCH_RELIABLE: 1e+00 ;
+    ADOS_TOTAL: 1.8e+01 ;
+    ADOS_RSRCH_RELIABLE: 1e+00 ;
+    ADOS_GOTHAM_TOTAL: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_SEVERITY: "NaN"^^xsd:double ;
+    SRS_RAW_TOTAL: "NaN"^^xsd:double ;
+    SRS_AWARENESS: "NaN"^^xsd:double ;
+    SRS_COGNITION: "NaN"^^xsd:double ;
+    SRS_COMMUNICATION: "NaN"^^xsd:double ;
+    FIQ: 1.34e+02 ;
+    SRS_MOTIVATION: "NaN"^^xsd:double ;
+    SRS_MANNERISMS: "NaN"^^xsd:double ;
+    SCQ_TOTAL: "NaN"^^xsd:double ;
+    COMORBIDITY: "NaN"^^xsd:double ;
+    CURRENT_MED_STATUS: "0"^^xsd:string ;
+    OFF_STIMULANTS_AT_SCAN: -9.999e+03 ;
+    VINELAND_RECEPTIVE_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_EXPRESSIVE_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_WRITTEN_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COMMUNICATION_STANDARD: "NaN"^^xsd:double ;
+    VIQ: 1.31e+02 ;
+    VINELAND_PERSONAL_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_DOMESTIC_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COMMUNITY_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_DAILYLVNG_STANDARD: "NaN"^^xsd:double ;
+    VINELAND_INTERPERSONAL_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_PLAY_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COPING_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_SOCIAL_STANDARD: "NaN"^^xsd:double ;
+    VINELAND_SUM_SCORES: "NaN"^^xsd:double ;
+    VINELAND_ABC_STANDARD: "NaN"^^xsd:double ;
+    PIQ: 1.29e+02 ;
+    VINELAND_INFORMANT: "NaN"^^xsd:double ;
+    WISC_IV_VCI: "NaN"^^xsd:double ;
+    WISC_IV_PRI: "NaN"^^xsd:double ;
+    WISC_IV_WMI: "NaN"^^xsd:double ;
+    WISC_IV_PSI: "NaN"^^xsd:double ;
+    WISC_IV_SIM_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_VOCAB_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_INFO_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_BLK_DSN_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_PIC_CON_SCALED: "NaN"^^xsd:double ;
+    VIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    WISC_IV_MATRIX_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_DIGIT_SPAN_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_LET_NUM_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_CODING_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_SYM_SCALED: "NaN"^^xsd:double ;
+    AGE_AT_MPRAGE: "NaN"^^xsd:double ;
+    PIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    ADI_R_SOCIAL_TOTAL_A: 2e+01 ;
+    ADI_R_VERBAL_TOTAL_BV: 1.3e+01 ;
+    ADI_RRB_TOTAL_C: 3e+00 ;
+    SEX: "1" .
 
-nidm:_211537fc-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+niiri:7ae608f8-b25f-11e9-99db-003ee1ce9545 a onli:assessment-instrument,
         nidm:AcquisitionObject,
         prov:Entity ;
-    bids:ctopp.pa.comp "1.198531065"^^xsd:string ;
-    bids:ctopp.rln.raw "-0.917493823"^^xsd:string ;
-    bids:mcdecode "1.670652035"^^xsd:string ;
-    bids:mcpassfluency "1.383435713"^^xsd:string ;
-    bids:mrt "2.243009919"^^xsd:string ;
-    bids:piat.l.raw "0.766663412"^^xsd:string ;
-    bids:piat.r.raw "1.369288529"^^xsd:string ;
-    bids:ppvt.raw "1.303491936"^^xsd:string ;
-    bids:sspan2.raw "0.774828652"^^xsd:string ;
-    bids:wasi.matr.raw "0.717818077"^^xsd:string ;
-    ncicb:Age "2.306"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_21153568-c266-11e8-a305-0242ac110002 .
+    AGE_AT_SCAN: 2.8e+01 ;
+    DX_GROUP: "2" ;
+    HANDEDNESS_CATEGORY: "R"^^xsd:string ;
+    EYE_STATUS_AT_SCAN: "2" ;
+    ADOS_STEREO_BEHAV: "NaN"^^xsd:double ;
+    SRS_VERSION: "NaN"^^xsd:double ;
+    ADOS_SOCIAL: "NaN"^^xsd:double ;
+    ADOS_COMM: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_SOCAFFECT: "NaN"^^xsd:double ;
+    SITE_ID: "CMU"^^xsd:string ;
+    FIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    BMI: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_RRB: "NaN"^^xsd:double ;
+    MEDICATION_NAME: "NaN"^^xsd:double ;
+    HANDEDNESS_SCORES: "NaN"^^xsd:double ;
+    ADOS_MODULE: "NaN"^^xsd:double ;
+    AQ_TOTAL: "NaN"^^xsd:double ;
+    FILE_ID: "CMU_a_0050656"^^xsd:string ;
+    prov:wasGeneratedBy niiri:7ae5fe62-b25f-11e9-99db-003ee1ce9545 ;
+    ADI_R_ONSET_TOTAL_D: "NaN"^^xsd:double ;
+    ADI_R_RSRCH_RELIABLE: "NaN"^^xsd:double ;
+    ADOS_TOTAL: "NaN"^^xsd:double ;
+    ADOS_RSRCH_RELIABLE: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_TOTAL: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_SEVERITY: "NaN"^^xsd:double ;
+    SRS_RAW_TOTAL: "NaN"^^xsd:double ;
+    SRS_AWARENESS: "NaN"^^xsd:double ;
+    SRS_COGNITION: "NaN"^^xsd:double ;
+    SRS_COMMUNICATION: "NaN"^^xsd:double ;
+    FIQ: 1.29e+02 ;
+    SRS_MOTIVATION: "NaN"^^xsd:double ;
+    SRS_MANNERISMS: "NaN"^^xsd:double ;
+    SCQ_TOTAL: "NaN"^^xsd:double ;
+    COMORBIDITY: "NaN"^^xsd:double ;
+    CURRENT_MED_STATUS: "0"^^xsd:string ;
+    OFF_STIMULANTS_AT_SCAN: -9.999e+03 ;
+    VINELAND_RECEPTIVE_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_EXPRESSIVE_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_WRITTEN_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COMMUNICATION_STANDARD: "NaN"^^xsd:double ;
+    VIQ: 1.25e+02 ;
+    VINELAND_PERSONAL_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_DOMESTIC_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COMMUNITY_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_DAILYLVNG_STANDARD: "NaN"^^xsd:double ;
+    VINELAND_INTERPERSONAL_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_PLAY_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COPING_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_SOCIAL_STANDARD: "NaN"^^xsd:double ;
+    VINELAND_SUM_SCORES: "NaN"^^xsd:double ;
+    VINELAND_ABC_STANDARD: "NaN"^^xsd:double ;
+    PIQ: 1.27e+02 ;
+    VINELAND_INFORMANT: "NaN"^^xsd:double ;
+    WISC_IV_VCI: "NaN"^^xsd:double ;
+    WISC_IV_PRI: "NaN"^^xsd:double ;
+    WISC_IV_WMI: "NaN"^^xsd:double ;
+    WISC_IV_PSI: "NaN"^^xsd:double ;
+    WISC_IV_SIM_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_VOCAB_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_INFO_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_BLK_DSN_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_PIC_CON_SCALED: "NaN"^^xsd:double ;
+    VIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    WISC_IV_MATRIX_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_DIGIT_SPAN_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_LET_NUM_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_CODING_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_SYM_SCALED: "NaN"^^xsd:double ;
+    AGE_AT_MPRAGE: "NaN"^^xsd:double ;
+    PIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    ADI_R_SOCIAL_TOTAL_A: "NaN"^^xsd:double ;
+    ADI_R_VERBAL_TOTAL_BV: "NaN"^^xsd:double ;
+    ADI_RRB_TOTAL_C: "NaN"^^xsd:double ;
+    SEX: "2" .
 
-nidm:_2115505c-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+niiri:7ae7a294-b25f-11e9-99db-003ee1ce9545 a onli:assessment-instrument,
         nidm:AcquisitionObject,
         prov:Entity ;
-    bids:ctopp.pa.comp "-1.866205904"^^xsd:string ;
-    bids:ctopp.rln.raw "1.630530485"^^xsd:string ;
-    bids:mcdecode "-1.82308338"^^xsd:string ;
-    bids:mcpassfluency "-1.261752467"^^xsd:string ;
-    bids:mrt "0.474871469"^^xsd:string ;
-    bids:piat.l.raw "-0.26376321"^^xsd:string ;
-    bids:piat.r.raw "-1.649223022"^^xsd:string ;
-    bids:ppvt.raw "-1.636541702"^^xsd:string ;
-    bids:sspan2.raw "-2.529009256"^^xsd:string ;
-    bids:wasi.matr.raw "0.403845915"^^xsd:string ;
-    ncicb:Age "3.046"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_21154cd8-c266-11e8-a305-0242ac110002 .
+    AGE_AT_SCAN: 2.7e+01 ;
+    DX_GROUP: "2" ;
+    HANDEDNESS_CATEGORY: "R"^^xsd:string ;
+    EYE_STATUS_AT_SCAN: "2" ;
+    ADOS_STEREO_BEHAV: "NaN"^^xsd:double ;
+    SRS_VERSION: "NaN"^^xsd:double ;
+    ADOS_SOCIAL: "NaN"^^xsd:double ;
+    ADOS_COMM: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_SOCAFFECT: "NaN"^^xsd:double ;
+    SITE_ID: "CMU"^^xsd:string ;
+    FIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    BMI: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_RRB: "NaN"^^xsd:double ;
+    MEDICATION_NAME: "NaN"^^xsd:double ;
+    HANDEDNESS_SCORES: "NaN"^^xsd:double ;
+    ADOS_MODULE: "NaN"^^xsd:double ;
+    AQ_TOTAL: "NaN"^^xsd:double ;
+    FILE_ID: "CMU_a_0050659"^^xsd:string ;
+    prov:wasGeneratedBy niiri:7ae7963c-b25f-11e9-99db-003ee1ce9545 ;
+    ADI_R_ONSET_TOTAL_D: "NaN"^^xsd:double ;
+    ADI_R_RSRCH_RELIABLE: "NaN"^^xsd:double ;
+    ADOS_TOTAL: "NaN"^^xsd:double ;
+    ADOS_RSRCH_RELIABLE: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_TOTAL: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_SEVERITY: "NaN"^^xsd:double ;
+    SRS_RAW_TOTAL: "NaN"^^xsd:double ;
+    SRS_AWARENESS: "NaN"^^xsd:double ;
+    SRS_COGNITION: "NaN"^^xsd:double ;
+    SRS_COMMUNICATION: "NaN"^^xsd:double ;
+    FIQ: 1.09e+02 ;
+    SRS_MOTIVATION: "NaN"^^xsd:double ;
+    SRS_MANNERISMS: "NaN"^^xsd:double ;
+    SCQ_TOTAL: "NaN"^^xsd:double ;
+    COMORBIDITY: "NaN"^^xsd:double ;
+    CURRENT_MED_STATUS: "0"^^xsd:string ;
+    OFF_STIMULANTS_AT_SCAN: -9.999e+03 ;
+    VINELAND_RECEPTIVE_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_EXPRESSIVE_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_WRITTEN_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COMMUNICATION_STANDARD: "NaN"^^xsd:double ;
+    VIQ: 1.11e+02 ;
+    VINELAND_PERSONAL_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_DOMESTIC_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COMMUNITY_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_DAILYLVNG_STANDARD: "NaN"^^xsd:double ;
+    VINELAND_INTERPERSONAL_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_PLAY_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COPING_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_SOCIAL_STANDARD: "NaN"^^xsd:double ;
+    VINELAND_SUM_SCORES: "NaN"^^xsd:double ;
+    VINELAND_ABC_STANDARD: "NaN"^^xsd:double ;
+    PIQ: 1.06e+02 ;
+    VINELAND_INFORMANT: "NaN"^^xsd:double ;
+    WISC_IV_VCI: "NaN"^^xsd:double ;
+    WISC_IV_PRI: "NaN"^^xsd:double ;
+    WISC_IV_WMI: "NaN"^^xsd:double ;
+    WISC_IV_PSI: "NaN"^^xsd:double ;
+    WISC_IV_SIM_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_VOCAB_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_INFO_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_BLK_DSN_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_PIC_CON_SCALED: "NaN"^^xsd:double ;
+    VIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    WISC_IV_MATRIX_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_DIGIT_SPAN_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_LET_NUM_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_CODING_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_SYM_SCALED: "NaN"^^xsd:double ;
+    AGE_AT_MPRAGE: "NaN"^^xsd:double ;
+    PIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    ADI_R_SOCIAL_TOTAL_A: "NaN"^^xsd:double ;
+    ADI_R_VERBAL_TOTAL_BV: "NaN"^^xsd:double ;
+    ADI_RRB_TOTAL_C: "NaN"^^xsd:double ;
+    SEX: "1" .
 
-nidm:_211567b8-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+niiri:7ae92632-b25f-11e9-99db-003ee1ce9545 a onli:assessment-instrument,
         nidm:AcquisitionObject,
         prov:Entity ;
-    bids:ctopp.pa.comp "1.390077125"^^xsd:string ;
-    bids:ctopp.rln.raw "0.874496981"^^xsd:string ;
-    bids:mcdecode "1.054575558"^^xsd:string ;
-    bids:mcpassfluency "-0.238263906"^^xsd:string ;
-    bids:mrt "-0.409197755"^^xsd:string ;
-    bids:piat.l.raw "2.157908059"^^xsd:string ;
-    bids:piat.r.raw "1.687181439"^^xsd:string ;
-    bids:ppvt.raw "1.582744577"^^xsd:string ;
-    bids:sspan2.raw "1.325468304"^^xsd:string ;
-    bids:wasi.matr.raw "2.204589077"^^xsd:string ;
-    ncicb:Age "2.096"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_21156312-c266-11e8-a305-0242ac110002 .
+    AGE_AT_SCAN: 2.5e+01 ;
+    DX_GROUP: "2" ;
+    HANDEDNESS_CATEGORY: "R"^^xsd:string ;
+    EYE_STATUS_AT_SCAN: "2" ;
+    ADOS_STEREO_BEHAV: "NaN"^^xsd:double ;
+    SRS_VERSION: "NaN"^^xsd:double ;
+    ADOS_SOCIAL: "NaN"^^xsd:double ;
+    ADOS_COMM: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_SOCAFFECT: "NaN"^^xsd:double ;
+    SITE_ID: "CMU"^^xsd:string ;
+    FIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    BMI: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_RRB: "NaN"^^xsd:double ;
+    MEDICATION_NAME: "NaN"^^xsd:double ;
+    HANDEDNESS_SCORES: "NaN"^^xsd:double ;
+    ADOS_MODULE: "NaN"^^xsd:double ;
+    AQ_TOTAL: "NaN"^^xsd:double ;
+    FILE_ID: "CMU_a_0050668"^^xsd:string ;
+    prov:wasGeneratedBy niiri:7ae91afc-b25f-11e9-99db-003ee1ce9545 ;
+    ADI_R_ONSET_TOTAL_D: "NaN"^^xsd:double ;
+    ADI_R_RSRCH_RELIABLE: "NaN"^^xsd:double ;
+    ADOS_TOTAL: "NaN"^^xsd:double ;
+    ADOS_RSRCH_RELIABLE: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_TOTAL: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_SEVERITY: "NaN"^^xsd:double ;
+    SRS_RAW_TOTAL: "NaN"^^xsd:double ;
+    SRS_AWARENESS: "NaN"^^xsd:double ;
+    SRS_COGNITION: "NaN"^^xsd:double ;
+    SRS_COMMUNICATION: "NaN"^^xsd:double ;
+    FIQ: 1.1e+02 ;
+    SRS_MOTIVATION: "NaN"^^xsd:double ;
+    SRS_MANNERISMS: "NaN"^^xsd:double ;
+    SCQ_TOTAL: "NaN"^^xsd:double ;
+    COMORBIDITY: "NaN"^^xsd:double ;
+    CURRENT_MED_STATUS: "0"^^xsd:string ;
+    OFF_STIMULANTS_AT_SCAN: -9.999e+03 ;
+    VINELAND_RECEPTIVE_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_EXPRESSIVE_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_WRITTEN_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COMMUNICATION_STANDARD: "NaN"^^xsd:double ;
+    VIQ: 1.09e+02 ;
+    VINELAND_PERSONAL_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_DOMESTIC_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COMMUNITY_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_DAILYLVNG_STANDARD: "NaN"^^xsd:double ;
+    VINELAND_INTERPERSONAL_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_PLAY_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COPING_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_SOCIAL_STANDARD: "NaN"^^xsd:double ;
+    VINELAND_SUM_SCORES: "NaN"^^xsd:double ;
+    VINELAND_ABC_STANDARD: "NaN"^^xsd:double ;
+    PIQ: 1.08e+02 ;
+    VINELAND_INFORMANT: "NaN"^^xsd:double ;
+    WISC_IV_VCI: "NaN"^^xsd:double ;
+    WISC_IV_PRI: "NaN"^^xsd:double ;
+    WISC_IV_WMI: "NaN"^^xsd:double ;
+    WISC_IV_PSI: "NaN"^^xsd:double ;
+    WISC_IV_SIM_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_VOCAB_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_INFO_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_BLK_DSN_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_PIC_CON_SCALED: "NaN"^^xsd:double ;
+    VIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    WISC_IV_MATRIX_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_DIGIT_SPAN_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_LET_NUM_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_CODING_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_SYM_SCALED: "NaN"^^xsd:double ;
+    AGE_AT_MPRAGE: "NaN"^^xsd:double ;
+    PIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    ADI_R_SOCIAL_TOTAL_A: "NaN"^^xsd:double ;
+    ADI_R_VERBAL_TOTAL_BV: "NaN"^^xsd:double ;
+    ADI_RRB_TOTAL_C: "NaN"^^xsd:double ;
+    SEX: "1" .
 
-nidm:_2115825c-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+niiri:7aea903a-b25f-11e9-99db-003ee1ce9545 a onli:assessment-instrument,
         nidm:AcquisitionObject,
         prov:Entity ;
-    bids:ctopp.pa.comp "1.581623186"^^xsd:string ;
-    bids:ctopp.rln.raw "-0.596897338"^^xsd:string ;
-    bids:mcdecode "1.130829028"^^xsd:string ;
-    bids:mcpassfluency "1.08213739"^^xsd:string ;
-    bids:mrt "1.182126849"^^xsd:string ;
-    bids:piat.l.raw "1.18633452"^^xsd:string ;
-    bids:piat.r.raw "1.369288529"^^xsd:string ;
-    bids:ppvt.raw "1.125367223"^^xsd:string ;
-    bids:sspan2.raw "1.738448042"^^xsd:string ;
-    bids:wasi.matr.raw "-0.160005731"^^xsd:string ;
-    ncicb:Age "2.546"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_21157faa-c266-11e8-a305-0242ac110002 .
+    AGE_AT_SCAN: 2.2e+01 ;
+    DX_GROUP: "1" ;
+    HANDEDNESS_CATEGORY: "R"^^xsd:string ;
+    EYE_STATUS_AT_SCAN: "2" ;
+    ADOS_STEREO_BEHAV: 6e+00 ;
+    SRS_VERSION: "NaN"^^xsd:double ;
+    ADOS_SOCIAL: 6e+00 ;
+    ADOS_COMM: 5e+00 ;
+    ADOS_GOTHAM_SOCAFFECT: "NaN"^^xsd:double ;
+    SITE_ID: "CMU"^^xsd:string ;
+    FIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    BMI: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_RRB: "NaN"^^xsd:double ;
+    MEDICATION_NAME: "NaN"^^xsd:double ;
+    HANDEDNESS_SCORES: "NaN"^^xsd:double ;
+    ADOS_MODULE: 4e+00 ;
+    AQ_TOTAL: "NaN"^^xsd:double ;
+    FILE_ID: "CMU_a_0050649"^^xsd:string ;
+    prov:wasGeneratedBy niiri:7aea85ae-b25f-11e9-99db-003ee1ce9545 ;
+    DSM_IV_TR: "1" ;
+    ADI_R_ONSET_TOTAL_D: 3e+00 ;
+    ADI_R_RSRCH_RELIABLE: 1e+00 ;
+    ADOS_TOTAL: 1.1e+01 ;
+    ADOS_RSRCH_RELIABLE: 1e+00 ;
+    ADOS_GOTHAM_TOTAL: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_SEVERITY: "NaN"^^xsd:double ;
+    SRS_RAW_TOTAL: "NaN"^^xsd:double ;
+    SRS_AWARENESS: "NaN"^^xsd:double ;
+    SRS_COGNITION: "NaN"^^xsd:double ;
+    SRS_COMMUNICATION: "NaN"^^xsd:double ;
+    FIQ: 1.27e+02 ;
+    SRS_MOTIVATION: "NaN"^^xsd:double ;
+    SRS_MANNERISMS: "NaN"^^xsd:double ;
+    SCQ_TOTAL: "NaN"^^xsd:double ;
+    COMORBIDITY: "NaN"^^xsd:double ;
+    CURRENT_MED_STATUS: "0"^^xsd:string ;
+    OFF_STIMULANTS_AT_SCAN: -9.999e+03 ;
+    VINELAND_RECEPTIVE_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_EXPRESSIVE_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_WRITTEN_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COMMUNICATION_STANDARD: "NaN"^^xsd:double ;
+    VIQ: 1.21e+02 ;
+    VINELAND_PERSONAL_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_DOMESTIC_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COMMUNITY_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_DAILYLVNG_STANDARD: "NaN"^^xsd:double ;
+    VINELAND_INTERPERSONAL_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_PLAY_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COPING_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_SOCIAL_STANDARD: "NaN"^^xsd:double ;
+    VINELAND_SUM_SCORES: "NaN"^^xsd:double ;
+    VINELAND_ABC_STANDARD: "NaN"^^xsd:double ;
+    PIQ: 1.26e+02 ;
+    VINELAND_INFORMANT: "NaN"^^xsd:double ;
+    WISC_IV_VCI: "NaN"^^xsd:double ;
+    WISC_IV_PRI: "NaN"^^xsd:double ;
+    WISC_IV_WMI: "NaN"^^xsd:double ;
+    WISC_IV_PSI: "NaN"^^xsd:double ;
+    WISC_IV_SIM_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_VOCAB_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_INFO_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_BLK_DSN_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_PIC_CON_SCALED: "NaN"^^xsd:double ;
+    VIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    WISC_IV_MATRIX_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_DIGIT_SPAN_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_LET_NUM_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_CODING_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_SYM_SCALED: "NaN"^^xsd:double ;
+    AGE_AT_MPRAGE: "NaN"^^xsd:double ;
+    PIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    ADI_R_SOCIAL_TOTAL_A: 1.9e+01 ;
+    ADI_R_VERBAL_TOTAL_BV: 1.1e+01 ;
+    ADI_RRB_TOTAL_C: 4e+00 ;
+    SEX: "1" .
 
-nidm:_21159e9a-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
+niiri:7aebfaec-b25f-11e9-99db-003ee1ce9545 a onli:assessment-instrument,
         nidm:AcquisitionObject,
         prov:Entity ;
-    bids:ctopp.pa.comp "-0.716929541"^^xsd:string ;
-    bids:ctopp.rln.raw "-1.541939217"^^xsd:string ;
-    bids:mcdecode "0.752633761"^^xsd:string ;
-    bids:mcpassfluency "1.422305162"^^xsd:string ;
-    bids:mrt "-0.409197755"^^xsd:string ;
-    bids:piat.l.raw "0.044429483"^^xsd:string ;
-    bids:piat.r.raw "0.282687538"^^xsd:string ;
-    bids:ppvt.raw "0.473827358"^^xsd:string ;
-    bids:sspan2.raw "-0.464110563"^^xsd:string ;
-    bids:wasi.matr.raw "0.111485266"^^xsd:string ;
-    ncicb:Age "3.176"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_21159ac6-c266-11e8-a305-0242ac110002 .
+    AGE_AT_SCAN: 3.3e+01 ;
+    DX_GROUP: "2" ;
+    HANDEDNESS_CATEGORY: "R"^^xsd:string ;
+    EYE_STATUS_AT_SCAN: "2" ;
+    ADOS_STEREO_BEHAV: "NaN"^^xsd:double ;
+    SRS_VERSION: "NaN"^^xsd:double ;
+    ADOS_SOCIAL: "NaN"^^xsd:double ;
+    ADOS_COMM: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_SOCAFFECT: "NaN"^^xsd:double ;
+    SITE_ID: "CMU"^^xsd:string ;
+    FIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    BMI: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_RRB: "NaN"^^xsd:double ;
+    MEDICATION_NAME: "NaN"^^xsd:double ;
+    HANDEDNESS_SCORES: "NaN"^^xsd:double ;
+    ADOS_MODULE: "NaN"^^xsd:double ;
+    AQ_TOTAL: "NaN"^^xsd:double ;
+    FILE_ID: "CMU_a_0050665"^^xsd:string ;
+    prov:wasGeneratedBy niiri:7aebefc0-b25f-11e9-99db-003ee1ce9545 ;
+    ADI_R_ONSET_TOTAL_D: "NaN"^^xsd:double ;
+    ADI_R_RSRCH_RELIABLE: "NaN"^^xsd:double ;
+    ADOS_TOTAL: "NaN"^^xsd:double ;
+    ADOS_RSRCH_RELIABLE: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_TOTAL: "NaN"^^xsd:double ;
+    ADOS_GOTHAM_SEVERITY: "NaN"^^xsd:double ;
+    SRS_RAW_TOTAL: "NaN"^^xsd:double ;
+    SRS_AWARENESS: "NaN"^^xsd:double ;
+    SRS_COGNITION: "NaN"^^xsd:double ;
+    SRS_COMMUNICATION: "NaN"^^xsd:double ;
+    FIQ: 1.09e+02 ;
+    SRS_MOTIVATION: "NaN"^^xsd:double ;
+    SRS_MANNERISMS: "NaN"^^xsd:double ;
+    SCQ_TOTAL: "NaN"^^xsd:double ;
+    COMORBIDITY: "NaN"^^xsd:double ;
+    CURRENT_MED_STATUS: "0"^^xsd:string ;
+    OFF_STIMULANTS_AT_SCAN: -9.999e+03 ;
+    VINELAND_RECEPTIVE_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_EXPRESSIVE_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_WRITTEN_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COMMUNICATION_STANDARD: "NaN"^^xsd:double ;
+    VIQ: 1.11e+02 ;
+    VINELAND_PERSONAL_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_DOMESTIC_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COMMUNITY_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_DAILYLVNG_STANDARD: "NaN"^^xsd:double ;
+    VINELAND_INTERPERSONAL_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_PLAY_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_COPING_V_SCALED: "NaN"^^xsd:double ;
+    VINELAND_SOCIAL_STANDARD: "NaN"^^xsd:double ;
+    VINELAND_SUM_SCORES: "NaN"^^xsd:double ;
+    VINELAND_ABC_STANDARD: "NaN"^^xsd:double ;
+    PIQ: 1.04e+02 ;
+    VINELAND_INFORMANT: "NaN"^^xsd:double ;
+    WISC_IV_VCI: "NaN"^^xsd:double ;
+    WISC_IV_PRI: "NaN"^^xsd:double ;
+    WISC_IV_WMI: "NaN"^^xsd:double ;
+    WISC_IV_PSI: "NaN"^^xsd:double ;
+    WISC_IV_SIM_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_VOCAB_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_INFO_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_BLK_DSN_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_PIC_CON_SCALED: "NaN"^^xsd:double ;
+    VIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    WISC_IV_MATRIX_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_DIGIT_SPAN_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_LET_NUM_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_CODING_SCALED: "NaN"^^xsd:double ;
+    WISC_IV_SYM_SCALED: "NaN"^^xsd:double ;
+    AGE_AT_MPRAGE: "NaN"^^xsd:double ;
+    PIQ_TEST_TYPE: "WISC"^^xsd:string ;
+    ADI_R_SOCIAL_TOTAL_A: "NaN"^^xsd:double ;
+    ADI_R_VERBAL_TOTAL_BV: "NaN"^^xsd:double ;
+    ADI_RRB_TOTAL_C: "NaN"^^xsd:double ;
+    SEX: "1" .
 
-nidm:_2115b89e-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
-        nidm:AcquisitionObject,
-        prov:Entity ;
-    bids:ctopp.pa.comp "-0.33383742"^^xsd:string ;
-    bids:ctopp.rln.raw "-0.723700425"^^xsd:string ;
-    bids:mcdecode "-0.407781295"^^xsd:string ;
-    bids:mcpassfluency "0.829005225"^^xsd:string ;
-    bids:mrt "0.828499159"^^xsd:string ;
-    bids:piat.l.raw "-1.528441234"^^xsd:string ;
-    bids:piat.r.raw "-0.711086293"^^xsd:string ;
-    bids:ppvt.raw "-0.151674096"^^xsd:string ;
-    bids:sspan2.raw "-0.32645065"^^xsd:string ;
-    bids:wasi.matr.raw "-0.411371066"^^xsd:string ;
-    ncicb:Age "2.946"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_2115b5e2-c266-11e8-a305-0242ac110002 .
+niiri:75ca69ae-b25f-11e9-aa25-003ee1ce9545 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:75c1de6a-b25f-11e9-aa25-003ee1ce9545 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:75ca6e7c-b25f-11e9-aa25-003ee1ce9545 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith niiri:75ca6e7c-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_2115cfa0-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
-        nidm:AcquisitionObject,
-        prov:Entity ;
-    bids:ctopp.pa.comp "0.815438944"^^xsd:string ;
-    bids:ctopp.rln.raw "0.051473167"^^xsd:string ;
-    bids:mcdecode "0.136983754"^^xsd:string ;
-    bids:mcpassfluency "0.175026788"^^xsd:string ;
-    bids:mrt "0.298057624"^^xsd:string ;
-    bids:piat.l.raw "0.766663412"^^xsd:string ;
-    bids:piat.r.raw "0.527998593"^^xsd:string ;
-    bids:ppvt.raw "0.550136884"^^xsd:string ;
-    bids:sspan2.raw "-0.32645065"^^xsd:string ;
-    bids:wasi.matr.raw "0.111485266"^^xsd:string ;
-    ncicb:Age "-2.664"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_2115cb9a-c266-11e8-a305-0242ac110002 .
+niiri:75d22892-b25f-11e9-aa25-003ee1ce9545 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:75c1de6a-b25f-11e9-aa25-003ee1ce9545 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:75ca6e7c-b25f-11e9-aa25-003ee1ce9545 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith niiri:75ca6e7c-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_2115e88c-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
-        nidm:AcquisitionObject,
-        prov:Entity ;
-    bids:ctopp.pa.comp "-0.142291359"^^xsd:string ;
-    bids:ctopp.rln.raw "-0.111217587"^^xsd:string ;
-    bids:mcdecode "-0.448107396"^^xsd:string ;
-    bids:mcpassfluency "-0.518459453"^^xsd:string ;
-    bids:mrt "-0.055570066"^^xsd:string ;
-    bids:piat.l.raw "-1.528441234"^^xsd:string ;
-    bids:piat.r.raw "-1.788280518"^^xsd:string ;
-    bids:ppvt.raw "-1.278595649"^^xsd:string ;
-    bids:sspan2.raw "-0.739430389"^^xsd:string ;
-    bids:wasi.matr.raw "-1.052186899"^^xsd:string ;
-    ncicb:Age "-2.484"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_2115e468-c266-11e8-a305-0242ac110002 .
+niiri:75fe8810-b25f-11e9-aa25-003ee1ce9545 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:75f62166-b25f-11e9-aa25-003ee1ce9545 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:75fe8de2-b25f-11e9-aa25-003ee1ce9545 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith niiri:75fe8de2-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_2115fd22-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
-        nidm:AcquisitionObject,
-        prov:Entity ;
-    bids:ctopp.pa.comp "-0.33383742"^^xsd:string ;
-    bids:ctopp.rln.raw "2.319573678"^^xsd:string ;
-    bids:mcdecode "-0.514683006"^^xsd:string ;
-    bids:mcpassfluency "0.437007654"^^xsd:string ;
-    bids:mrt "0.298057624"^^xsd:string ;
-    bids:piat.l.raw "0.766663412"^^xsd:string ;
-    bids:piat.r.raw "0.282687538"^^xsd:string ;
-    bids:ppvt.raw "0.398928134"^^xsd:string ;
-    bids:sspan2.raw "0.086529088"^^xsd:string ;
-    bids:wasi.matr.raw "0.717818077"^^xsd:string ;
-    ncicb:Age "-3.454"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_2115fa7a-c266-11e8-a305-0242ac110002 .
+niiri:7606a87e-b25f-11e9-aa25-003ee1ce9545 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:75f62166-b25f-11e9-aa25-003ee1ce9545 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:75fe8de2-b25f-11e9-aa25-003ee1ce9545 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith niiri:75fe8de2-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_21161708-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
-        nidm:AcquisitionObject,
-        prov:Entity ;
-    bids:ctopp.pa.comp "0.623892883"^^xsd:string ;
-    bids:ctopp.rln.raw "0.501265252"^^xsd:string ;
-    bids:mcdecode "0.127830951"^^xsd:string ;
-    bids:mcpassfluency "0.866775802"^^xsd:string ;
-    bids:mrt "0.298057624"^^xsd:string ;
-    bids:piat.l.raw "0.044429483"^^xsd:string ;
-    bids:piat.r.raw "0.282687538"^^xsd:string ;
-    bids:ppvt.raw "0.550136884"^^xsd:string ;
-    bids:sspan2.raw "0.912488565"^^xsd:string ;
-    bids:wasi.matr.raw "1.054141564"^^xsd:string ;
-    ncicb:Age "-3.634"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_21161442-c266-11e8-a305-0242ac110002 .
+niiri:7631cae0-b25f-11e9-aa25-003ee1ce9545 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:7629a112-b25f-11e9-aa25-003ee1ce9545 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:7631ce78-b25f-11e9-aa25-003ee1ce9545 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith niiri:7631ce78-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_211630ee-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
-        nidm:AcquisitionObject,
-        prov:Entity ;
-    bids:ctopp.pa.comp "0.432346822"^^xsd:string ;
-    bids:ctopp.rln.raw "0.565863051"^^xsd:string ;
-    bids:mcdecode "-0.364877773"^^xsd:string ;
-    bids:mcpassfluency "-0.237980078"^^xsd:string ;
-    bids:mrt "-0.055570066"^^xsd:string ;
-    bids:piat.l.raw "0.38698961"^^xsd:string ;
-    bids:piat.r.raw "0.282687538"^^xsd:string ;
-    bids:ppvt.raw "0.182508928"^^xsd:string ;
-    bids:sspan2.raw "-1.290070041"^^xsd:string ;
-    bids:wasi.matr.raw "0.111485266"^^xsd:string ;
-    ncicb:Age "-2.994"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_21162e28-c266-11e8-a305-0242ac110002 .
+niiri:7638e47e-b25f-11e9-aa25-003ee1ce9545 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:7629a112-b25f-11e9-aa25-003ee1ce9545 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:7631ce78-b25f-11e9-aa25-003ee1ce9545 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith niiri:7631ce78-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_21164c50-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
-        nidm:AcquisitionObject,
-        prov:Entity ;
-    bids:ctopp.pa.comp "-1.291567723"^^xsd:string ;
-    bids:ctopp.rln.raw "0.309864365"^^xsd:string ;
-    bids:mcdecode "-1.410895925"^^xsd:string ;
-    bids:mcpassfluency "-1.618257766"^^xsd:string ;
-    bids:mrt "-0.055570066"^^xsd:string ;
-    bids:piat.l.raw "-2.353075167"^^xsd:string ;
-    bids:piat.r.raw "-1.26571598"^^xsd:string ;
-    bids:ppvt.raw "-1.196614896"^^xsd:string ;
-    bids:sspan2.raw "0.224189001"^^xsd:string ;
-    bids:wasi.matr.raw "-1.538880735"^^xsd:string ;
-    ncicb:Age "-2.364"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_211644e4-c266-11e8-a305-0242ac110002 .
+niiri:766086f0-b25f-11e9-aa25-003ee1ce9545 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:76583b12-b25f-11e9-aa25-003ee1ce9545 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:76608bbe-b25f-11e9-aa25-003ee1ce9545 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith niiri:76608bbe-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_21166a50-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
-        nidm:AcquisitionObject,
-        prov:Entity ;
-    bids:ctopp.pa.comp "-0.142291359"^^xsd:string ;
-    bids:ctopp.rln.raw "0.405564808"^^xsd:string ;
-    bids:mcdecode "-0.421531882"^^xsd:string ;
-    bids:mcpassfluency "-1.074143525"^^xsd:string ;
-    bids:mrt "-0.409197755"^^xsd:string ;
-    bids:piat.l.raw "0.044429483"^^xsd:string ;
-    bids:piat.r.raw "-0.541164426"^^xsd:string ;
-    bids:ppvt.raw "-0.151674096"^^xsd:string ;
-    bids:sspan2.raw "-0.188790738"^^xsd:string ;
-    bids:wasi.matr.raw "0.111485266"^^xsd:string ;
-    ncicb:Age "-3.924"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_2116665e-c266-11e8-a305-0242ac110002 .
+niiri:7667fade-b25f-11e9-aa25-003ee1ce9545 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:76583b12-b25f-11e9-aa25-003ee1ce9545 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:76608bbe-b25f-11e9-aa25-003ee1ce9545 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith niiri:76608bbe-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_2116a40c-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
-        nidm:AcquisitionObject,
-        prov:Entity ;
-    bids:ctopp.pa.comp "0.815438944"^^xsd:string ;
-    bids:ctopp.rln.raw "0.965412402"^^xsd:string ;
-    bids:mcdecode "-0.658529676"^^xsd:string ;
-    bids:mcpassfluency "-0.019920964"^^xsd:string ;
-    bids:mrt "-0.762825445"^^xsd:string ;
-    bids:piat.l.raw "0.766663412"^^xsd:string ;
-    bids:piat.r.raw "0.282687538"^^xsd:string ;
-    bids:ppvt.raw "-0.396419265"^^xsd:string ;
-    bids:sspan2.raw "-0.051130825"^^xsd:string ;
-    bids:wasi.matr.raw "1.054141564"^^xsd:string ;
-    ncicb:Age "-3.974"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_21169ea8-c266-11e8-a305-0242ac110002 .
+niiri:76918034-b25f-11e9-aa25-003ee1ce9545 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:76896278-b25f-11e9-aa25-003ee1ce9545 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:769183f4-b25f-11e9-aa25-003ee1ce9545 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith niiri:769183f4-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_2116c6bc-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
-        nidm:AcquisitionObject,
-        prov:Entity ;
-    bids:ctopp.pa.comp "-0.52538348"^^xsd:string ;
-    bids:ctopp.rln.raw "-0.005947099"^^xsd:string ;
-    bids:mcdecode "0.080181391"^^xsd:string ;
-    bids:mcpassfluency "0.218993699"^^xsd:string ;
-    bids:mrt "-0.762825445"^^xsd:string ;
-    bids:piat.l.raw "-0.540200317"^^xsd:string ;
-    bids:piat.r.raw "0.790404814"^^xsd:string ;
-    bids:ppvt.raw "-1.021351276"^^xsd:string ;
-    bids:sspan2.raw "-2.116029518"^^xsd:string ;
-    bids:wasi.matr.raw "-0.411371066"^^xsd:string ;
-    ncicb:Age "1.916"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_2116c11c-c266-11e8-a305-0242ac110002 .
+niiri:76994990-b25f-11e9-aa25-003ee1ce9545 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:76896278-b25f-11e9-aa25-003ee1ce9545 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:769183f4-b25f-11e9-aa25-003ee1ce9545 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith niiri:769183f4-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_2116e52a-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
-        nidm:AcquisitionObject,
-        prov:Entity ;
-    bids:ctopp.pa.comp "0.432346822"^^xsd:string ;
-    bids:ctopp.rln.raw "-0.247590719"^^xsd:string ;
-    bids:mcdecode "-0.583168788"^^xsd:string ;
-    bids:mcpassfluency "-0.272977744"^^xsd:string ;
-    bids:mrt "-0.762825445"^^xsd:string ;
-    bids:piat.l.raw "-0.26376321"^^xsd:string ;
-    bids:piat.r.raw "-1.649223022"^^xsd:string ;
-    bids:ppvt.raw "-0.728406873"^^xsd:string ;
-    bids:sspan2.raw "-1.152410128"^^xsd:string ;
-    bids:wasi.matr.raw "-0.411371066"^^xsd:string ;
-    ncicb:Age "-4.214"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_2116df3a-c266-11e8-a305-0242ac110002 .
+niiri:76c39f88-b25f-11e9-aa25-003ee1ce9545 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:76bb9716-b25f-11e9-aa25-003ee1ce9545 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:76c3a2d0-b25f-11e9-aa25-003ee1ce9545 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith niiri:76c3a2d0-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_2117029e-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
-        nidm:AcquisitionObject,
-        prov:Entity ;
-    bids:ctopp.pa.comp "-1.100021662"^^xsd:string ;
-    bids:ctopp.rln.raw "-0.178207897"^^xsd:string ;
-    bids:mcdecode "0.465225445"^^xsd:string ;
-    bids:mcpassfluency "0.88506509"^^xsd:string ;
-    bids:mrt "0.121243779"^^xsd:string ;
-    bids:piat.l.raw "1.18633452"^^xsd:string ;
-    bids:piat.r.raw "0.527998593"^^xsd:string ;
-    bids:ppvt.raw "0.550136884"^^xsd:string ;
-    bids:sspan2.raw "0.912488565"^^xsd:string ;
-    bids:wasi.matr.raw "-0.643356946"^^xsd:string ;
-    ncicb:Age "-2.834"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_2116fefc-c266-11e8-a305-0242ac110002 .
+niiri:76cb1c0e-b25f-11e9-aa25-003ee1ce9545 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:76bb9716-b25f-11e9-aa25-003ee1ce9545 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:76c3a2d0-b25f-11e9-aa25-003ee1ce9545 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith niiri:76c3a2d0-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_21171ce8-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
-        nidm:AcquisitionObject,
-        prov:Entity ;
-    bids:ctopp.pa.comp "-1.291567723"^^xsd:string ;
-    bids:ctopp.rln.raw "-0.522729494"^^xsd:string ;
-    bids:mcdecode "-1.100105001"^^xsd:string ;
-    bids:mcpassfluency "-0.796494704"^^xsd:string ;
-    bids:mrt "-1.64689467"^^xsd:string ;
-    bids:piat.l.raw "-0.26376321"^^xsd:string ;
-    bids:piat.r.raw "-0.159379738"^^xsd:string ;
-    bids:ppvt.raw "-0.779849852"^^xsd:string ;
-    bids:sspan2.raw "0.499508827"^^xsd:string ;
-    bids:wasi.matr.raw "0.111485266"^^xsd:string ;
-    ncicb:Age "0.006"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_21171a0e-c266-11e8-a305-0242ac110002 .
+niiri:76f572ec-b25f-11e9-aa25-003ee1ce9545 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:76ed37c6-b25f-11e9-aa25-003ee1ce9545 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:76f5777e-b25f-11e9-aa25-003ee1ce9545 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith niiri:76f5777e-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_21173516-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
-        nidm:AcquisitionObject,
-        prov:Entity ;
-    bids:ctopp.pa.comp "-0.52538348"^^xsd:string ;
-    bids:ctopp.rln.raw "0.671133539"^^xsd:string ;
-    bids:mcdecode "-0.183992079"^^xsd:string ;
-    bids:mcpassfluency "-0.266795454"^^xsd:string ;
-    bids:mrt "0.121243779"^^xsd:string ;
-    bids:piat.l.raw "0.044429483"^^xsd:string ;
-    bids:piat.r.raw "0.282687538"^^xsd:string ;
-    bids:ppvt.raw "0.044947271"^^xsd:string ;
-    bids:sspan2.raw "0.086529088"^^xsd:string ;
-    bids:wasi.matr.raw "-2.132151697"^^xsd:string ;
-    ncicb:Age "0.996"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_21173232-c266-11e8-a305-0242ac110002 .
+niiri:76fcc268-b25f-11e9-aa25-003ee1ce9545 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:76ed37c6-b25f-11e9-aa25-003ee1ce9545 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:76f5777e-b25f-11e9-aa25-003ee1ce9545 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith niiri:76f5777e-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_2117505a-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
-        nidm:AcquisitionObject,
-        prov:Entity ;
-    bids:ctopp.pa.comp "0.049254701"^^xsd:string ;
-    bids:ctopp.rln.raw "-0.027479699"^^xsd:string ;
-    bids:mcdecode "-0.322906776"^^xsd:string ;
-    bids:mcpassfluency "-1.509969913"^^xsd:string ;
-    bids:mrt "-1.823708515"^^xsd:string ;
-    bids:piat.l.raw "-1.007601345"^^xsd:string ;
-    bids:piat.r.raw "-1.567351566"^^xsd:string ;
-    bids:ppvt.raw "-1.636541702"^^xsd:string ;
-    bids:sspan2.raw "-0.32645065"^^xsd:string ;
-    bids:wasi.matr.raw "-0.160005731"^^xsd:string ;
-    ncicb:Age "-3.894"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_21174d58-c266-11e8-a305-0242ac110002 .
+niiri:7725a2e6-b25f-11e9-aa25-003ee1ce9545 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:771d99a2-b25f-11e9-aa25-003ee1ce9545 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:7725a64c-b25f-11e9-aa25-003ee1ce9545 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith niiri:7725a64c-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_21176b94-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
-        nidm:AcquisitionObject,
-        prov:Entity ;
-    bids:ctopp.pa.comp "-0.52538348"^^xsd:string ;
-    bids:ctopp.rln.raw "-0.905531268"^^xsd:string ;
-    bids:mcdecode "0.22823183"^^xsd:string ;
-    bids:mcpassfluency "0.304378176"^^xsd:string ;
-    bids:mrt "0.651685314"^^xsd:string ;
-    bids:piat.l.raw "-0.26376321"^^xsd:string ;
-    bids:piat.r.raw "-0.541164426"^^xsd:string ;
-    bids:ppvt.raw "0.473827358"^^xsd:string ;
-    bids:sspan2.raw "-0.877090302"^^xsd:string ;
-    bids:wasi.matr.raw "-2.239972262"^^xsd:string ;
-    ncicb:Age "-3.924"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_2117682e-c266-11e8-a305-0242ac110002 .
+niiri:772d9384-b25f-11e9-aa25-003ee1ce9545 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:771d99a2-b25f-11e9-aa25-003ee1ce9545 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:7725a64c-b25f-11e9-aa25-003ee1ce9545 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith niiri:7725a64c-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_211785d4-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
-        nidm:AcquisitionObject,
-        prov:Entity ;
-    bids:ctopp.pa.comp "-1.483113783"^^xsd:string ;
-    bids:ctopp.rln.raw "-1.872105747"^^xsd:string ;
-    bids:mcdecode "0.423853433"^^xsd:string ;
-    bids:mcpassfluency "-0.878464585"^^xsd:string ;
-    bids:mrt "-0.232383911"^^xsd:string ;
-    bids:piat.l.raw "-1.967479684"^^xsd:string ;
-    bids:piat.r.raw "-1.26571598"^^xsd:string ;
-    bids:ppvt.raw "-1.431831939"^^xsd:string ;
-    bids:sspan2.raw "-1.290070041"^^xsd:string ;
-    bids:wasi.matr.raw "-0.160005731"^^xsd:string ;
-    ncicb:Age "-2.074"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_21178200-c266-11e8-a305-0242ac110002 .
+niiri:77577050-b25f-11e9-aa25-003ee1ce9545 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:774f7652-b25f-11e9-aa25-003ee1ce9545 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:775773ca-b25f-11e9-aa25-003ee1ce9545 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith niiri:775773ca-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_2117a21c-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
-        nidm:AcquisitionObject,
-        prov:Entity ;
-    bids:ctopp.pa.comp "-1.291567723"^^xsd:string ;
-    bids:ctopp.rln.raw "-0.740448003"^^xsd:string ;
-    bids:mcdecode "-1.053603443"^^xsd:string ;
-    bids:mcpassfluency "0.033521889"^^xsd:string ;
-    bids:mrt "1.182126849"^^xsd:string ;
-    bids:piat.l.raw "0.044429483"^^xsd:string ;
-    bids:piat.r.raw "-0.541164426"^^xsd:string ;
-    bids:ppvt.raw "0.044947271"^^xsd:string ;
-    bids:sspan2.raw "0.086529088"^^xsd:string ;
-    bids:wasi.matr.raw "-1.23053544"^^xsd:string ;
-    ncicb:Age "2.136"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_21179d30-c266-11e8-a305-0242ac110002 .
+niiri:775ed3a4-b25f-11e9-aa25-003ee1ce9545 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:774f7652-b25f-11e9-aa25-003ee1ce9545 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:775773ca-b25f-11e9-aa25-003ee1ce9545 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith niiri:775773ca-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_2117b888-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
-        nidm:AcquisitionObject,
-        prov:Entity ;
-    bids:ctopp.pa.comp "-0.908475602"^^xsd:string ;
-    bids:ctopp.rln.raw "-0.950988978"^^xsd:string ;
-    bids:mcdecode "0.308911573"^^xsd:string ;
-    bids:mcpassfluency "0.336262773"^^xsd:string ;
-    bids:mrt "-1.823708515"^^xsd:string ;
-    bids:piat.l.raw "-0.540200317"^^xsd:string ;
-    bids:piat.r.raw "-0.357477881"^^xsd:string ;
-    bids:ppvt.raw "-1.813636262"^^xsd:string ;
-    bids:sspan2.raw "-0.051130825"^^xsd:string ;
-    bids:wasi.matr.raw "-0.411371066"^^xsd:string ;
-    ncicb:Age "1.976"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_2117b522-c266-11e8-a305-0242ac110002 .
+niiri:7788ffd0-b25f-11e9-aa25-003ee1ce9545 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:7780eea8-b25f-11e9-aa25-003ee1ce9545 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:77890354-b25f-11e9-aa25-003ee1ce9545 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith niiri:77890354-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_2117d6d8-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
-        nidm:AcquisitionObject,
-        prov:Entity ;
-    bids:ctopp.pa.comp "0.049254701"^^xsd:string ;
-    bids:ctopp.rln.raw "0.702236183"^^xsd:string ;
-    bids:mcdecode "-0.161447774"^^xsd:string ;
-    bids:mcpassfluency "0.075769487"^^xsd:string ;
-    bids:mrt "-1.470080825"^^xsd:string ;
-    bids:piat.l.raw "-0.26376321"^^xsd:string ;
-    bids:piat.r.raw "1.369288529"^^xsd:string ;
-    bids:ppvt.raw "0.953492924"^^xsd:string ;
-    bids:sspan2.raw "0.361848914"^^xsd:string ;
-    bids:wasi.matr.raw "-0.411371066"^^xsd:string ;
-    ncicb:Age "0.556"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_2117d340-c266-11e8-a305-0242ac110002 .
+niiri:77912a84-b25f-11e9-aa25-003ee1ce9545 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:7780eea8-b25f-11e9-aa25-003ee1ce9545 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:77890354-b25f-11e9-aa25-003ee1ce9545 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith niiri:77890354-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_2117f208-c266-11e8-a305-0242ac110002 a onli:assessment-instrument,
-        nidm:AcquisitionObject,
-        prov:Entity ;
-    bids:ctopp.pa.comp "1.198531065"^^xsd:string ;
-    bids:ctopp.rln.raw "-1.104109688"^^xsd:string ;
-    bids:mcdecode "1.514966059"^^xsd:string ;
-    bids:mcpassfluency "1.680192391"^^xsd:string ;
-    bids:mrt "1.358940694"^^xsd:string ;
-    bids:piat.l.raw "0.766663412"^^xsd:string ;
-    bids:piat.r.raw "1.07060038"^^xsd:string ;
-    bids:ppvt.raw "1.303491936"^^xsd:string ;
-    bids:sspan2.raw "1.876107955"^^xsd:string ;
-    bids:wasi.matr.raw "1.413554228"^^xsd:string ;
-    ncicb:Age "1.416"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_2117eeca-c266-11e8-a305-0242ac110002 .
+niiri:77bd6f9a-b25f-11e9-aa25-003ee1ce9545 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:77b578bc-b25f-11e9-aa25-003ee1ce9545 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:77bd72ec-b25f-11e9-aa25-003ee1ce9545 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith niiri:77bd72ec-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_2118471c-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-01/anat/sub-01_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_21183fe2-c266-11e8-a305-0242ac110002 .
+niiri:77c48078-b25f-11e9-aa25-003ee1ce9545 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:77b578bc-b25f-11e9-aa25-003ee1ce9545 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:77bd72ec-b25f-11e9-aa25-003ee1ce9545 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith niiri:77bd72ec-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_21188362-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-02/anat/sub-02_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_21187ef8-c266-11e8-a305-0242ac110002 .
+niiri:77ef4c2c-b25f-11e9-aa25-003ee1ce9545 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:77e6e0fa-b25f-11e9-aa25-003ee1ce9545 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:77ef4fb0-b25f-11e9-aa25-003ee1ce9545 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith niiri:77ef4fb0-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_2118a41e-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-03/anat/sub-03_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_21189ef6-c266-11e8-a305-0242ac110002 .
+niiri:77f658dc-b25f-11e9-aa25-003ee1ce9545 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:77e6e0fa-b25f-11e9-aa25-003ee1ce9545 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:77ef4fb0-b25f-11e9-aa25-003ee1ce9545 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith niiri:77ef4fb0-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_2118c43a-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-04/anat/sub-04_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_2118bd14-c266-11e8-a305-0242ac110002 .
+niiri:78207464-b25f-11e9-aa25-003ee1ce9545 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:7818541e-b25f-11e9-aa25-003ee1ce9545 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:782077e8-b25f-11e9-aa25-003ee1ce9545 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith niiri:782077e8-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_2118e212-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-05/anat/sub-05_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_2118dd12-c266-11e8-a305-0242ac110002 .
+niiri:7828a67a-b25f-11e9-aa25-003ee1ce9545 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:7818541e-b25f-11e9-aa25-003ee1ce9545 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:782077e8-b25f-11e9-aa25-003ee1ce9545 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith niiri:782077e8-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_21190a6c-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-06/anat/sub-06_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_211904e0-c266-11e8-a305-0242ac110002 .
+niiri:7853c47c-b25f-11e9-aa25-003ee1ce9545 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:784b9dce-b25f-11e9-aa25-003ee1ce9545 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:7853c800-b25f-11e9-aa25-003ee1ce9545 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith niiri:7853c800-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_21192bd2-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-07/anat/sub-07_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_21192722-c266-11e8-a305-0242ac110002 .
+niiri:785b09f8-b25f-11e9-aa25-003ee1ce9545 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:784b9dce-b25f-11e9-aa25-003ee1ce9545 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:7853c800-b25f-11e9-aa25-003ee1ce9545 ;
+            prov:hadRole sio:Subject ] ;
+    prov:wasAssociatedWith niiri:7853c800-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_21194ba8-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-08/anat/sub-08_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_2119464e-c266-11e8-a305-0242ac110002 .
-
-nidm:_21196aa2-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-09/anat/sub-09_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_21196638-c266-11e8-a305-0242ac110002 .
-
-nidm:_21198a46-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-10/anat/sub-10_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_2119826c-c266-11e8-a305-0242ac110002 .
-
-nidm:_2119b80e-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-11/anat/sub-11_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_2119aeea-c266-11e8-a305-0242ac110002 .
-
-nidm:_2119de10-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-12/anat/sub-12_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_2119d6ae-c266-11e8-a305-0242ac110002 .
-
-nidm:_211a00ca-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-13/anat/sub-13_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_2119f9d6-c266-11e8-a305-0242ac110002 .
-
-nidm:_211a8766-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-14/anat/sub-14_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_211a7e24-c266-11e8-a305-0242ac110002 .
-
-nidm:_211ab0ba-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-15/anat/sub-15_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_211aaa20-c266-11e8-a305-0242ac110002 .
-
-nidm:_211adbe4-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-16/anat/sub-16_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_211ad3ba-c266-11e8-a305-0242ac110002 .
-
-nidm:_211aff02-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-17/anat/sub-17_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_211afa84-c266-11e8-a305-0242ac110002 .
-
-nidm:_211b2414-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-18/anat/sub-18_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_211b1e7e-c266-11e8-a305-0242ac110002 .
-
-nidm:_211b4890-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-19/anat/sub-19_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_211b42be-c266-11e8-a305-0242ac110002 .
-
-nidm:_211b71e4-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-20/anat/sub-20_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_211b6c44-c266-11e8-a305-0242ac110002 .
-
-nidm:_211b93f4-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-21/anat/sub-21_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_211b8e0e-c266-11e8-a305-0242ac110002 .
-
-nidm:_211bb690-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-22/anat/sub-22_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_211bb21c-c266-11e8-a305-0242ac110002 .
-
-nidm:_211bde18-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-23/anat/sub-23_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_211bd9b8-c266-11e8-a305-0242ac110002 .
-
-nidm:_211c0528-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-24/anat/sub-24_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_211bfdc6-c266-11e8-a305-0242ac110002 .
-
-nidm:_211c29c2-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-25/anat/sub-25_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_211c23b4-c266-11e8-a305-0242ac110002 .
-
-nidm:_211c51ea-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-26/anat/sub-26_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_211c490c-c266-11e8-a305-0242ac110002 .
-
-nidm:_211c713e-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-27/anat/sub-27_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_211c6cde-c266-11e8-a305-0242ac110002 .
-
-nidm:_211c927c-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-28/anat/sub-28_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_211c8de0-c266-11e8-a305-0242ac110002 .
-
-nidm:_211cb52c-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-29/anat/sub-29_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_211caec4-c266-11e8-a305-0242ac110002 .
-
-nidm:_211cdb6a-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-30/anat/sub-30_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_211cd57a-c266-11e8-a305-0242ac110002 .
-
-nidm:_211cfc12-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-31/anat/sub-31_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_211cf686-c266-11e8-a305-0242ac110002 .
-
-nidm:_211d1e22-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-32/anat/sub-32_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_211d18fa-c266-11e8-a305-0242ac110002 .
-
-nidm:_211d522a-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-33/anat/sub-33_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_211d47a8-c266-11e8-a305-0242ac110002 .
-
-nidm:_211d7e6c-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-34/anat/sub-34_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_211d778c-c266-11e8-a305-0242ac110002 .
-
-nidm:_211da14e-c266-11e8-a305-0242ac110002 a nidm:AcquisitionObject,
-        prov:Entity ;
-    nidm:AcquisitionModality nidm:MagneticResonanceImaging ;
-    nidm:hasImageContrastType nidm:T1Weighted ;
-    nidm:hasImageUsageType nidm:Anatomical ;
-    nfo:filename "/sub-35/anat/sub-35_T1w.nii.gz"^^xsd:string ;
-    prov:wasGeneratedBy nidm:_211d9c44-c266-11e8-a305-0242ac110002 .
-
-nidm:_21141372-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+niiri:7ad7449e-b25f-11e9-99db-003ee1ce9545 a onli:instrument-based-assessment,
         nidm:Acquisition,
         prov:Activity ;
-    dct:isPartOf nidm:_211408b4-c266-11e8-a305-0242ac110002 ;
+    dct:isPartOf niiri:75f62166-b25f-11e9-aa25-003ee1ce9545 ;
     prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_21143280-c266-11e8-a305-0242ac110002 ;
+            prov:agent niiri:75fe8de2-b25f-11e9-aa25-003ee1ce9545 ;
             prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_21143280-c266-11e8-a305-0242ac110002 .
+    prov:wasAssociatedWith niiri:75fe8de2-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_211457ba-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+niiri:7ad97b6a-b25f-11e9-99db-003ee1ce9545 a onli:instrument-based-assessment,
         nidm:Acquisition,
         prov:Activity ;
-    dct:isPartOf nidm:_21145058-c266-11e8-a305-0242ac110002 ;
+    dct:isPartOf niiri:7818541e-b25f-11e9-aa25-003ee1ce9545 ;
     prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_211464da-c266-11e8-a305-0242ac110002 ;
+            prov:agent niiri:782077e8-b25f-11e9-aa25-003ee1ce9545 ;
             prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_211464da-c266-11e8-a305-0242ac110002 .
+    prov:wasAssociatedWith niiri:782077e8-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_21147c54-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+niiri:7adbe396-b25f-11e9-99db-003ee1ce9545 a onli:instrument-based-assessment,
         nidm:Acquisition,
         prov:Activity ;
-    dct:isPartOf nidm:_211478d0-c266-11e8-a305-0242ac110002 ;
+    dct:isPartOf niiri:76bb9716-b25f-11e9-aa25-003ee1ce9545 ;
     prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2114873a-c266-11e8-a305-0242ac110002 ;
+            prov:agent niiri:76c3a2d0-b25f-11e9-aa25-003ee1ce9545 ;
             prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2114873a-c266-11e8-a305-0242ac110002 .
+    prov:wasAssociatedWith niiri:76c3a2d0-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_211497de-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+niiri:7add6068-b25f-11e9-99db-003ee1ce9545 a onli:instrument-based-assessment,
         nidm:Acquisition,
         prov:Activity ;
-    dct:isPartOf nidm:_2114952c-c266-11e8-a305-0242ac110002 ;
+    dct:isPartOf niiri:77b578bc-b25f-11e9-aa25-003ee1ce9545 ;
     prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_21149edc-c266-11e8-a305-0242ac110002 ;
+            prov:agent niiri:77bd72ec-b25f-11e9-aa25-003ee1ce9545 ;
             prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_21149edc-c266-11e8-a305-0242ac110002 .
+    prov:wasAssociatedWith niiri:77bd72ec-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_2114b7dc-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+niiri:7adeda7e-b25f-11e9-99db-003ee1ce9545 a onli:instrument-based-assessment,
         nidm:Acquisition,
         prov:Activity ;
-    dct:isPartOf nidm:_2114b2fa-c266-11e8-a305-0242ac110002 ;
+    dct:isPartOf niiri:75c1de6a-b25f-11e9-aa25-003ee1ce9545 ;
     prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2114bf2a-c266-11e8-a305-0242ac110002 ;
+            prov:agent niiri:75ca6e7c-b25f-11e9-aa25-003ee1ce9545 ;
             prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2114bf2a-c266-11e8-a305-0242ac110002 .
+    prov:wasAssociatedWith niiri:75ca6e7c-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_2114d500-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+niiri:7ae0346e-b25f-11e9-99db-003ee1ce9545 a onli:instrument-based-assessment,
         nidm:Acquisition,
         prov:Activity ;
-    dct:isPartOf nidm:_2114cc22-c266-11e8-a305-0242ac110002 ;
+    dct:isPartOf niiri:7780eea8-b25f-11e9-aa25-003ee1ce9545 ;
     prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2114db86-c266-11e8-a305-0242ac110002 ;
+            prov:agent niiri:77890354-b25f-11e9-aa25-003ee1ce9545 ;
             prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2114db86-c266-11e8-a305-0242ac110002 .
+    prov:wasAssociatedWith niiri:77890354-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_2114ec2a-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+niiri:7ae19336-b25f-11e9-99db-003ee1ce9545 a onli:instrument-based-assessment,
         nidm:Acquisition,
         prov:Activity ;
-    dct:isPartOf nidm:_2114e8ce-c266-11e8-a305-0242ac110002 ;
+    dct:isPartOf niiri:774f7652-b25f-11e9-aa25-003ee1ce9545 ;
     prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2114f472-c266-11e8-a305-0242ac110002 ;
+            prov:agent niiri:775773ca-b25f-11e9-aa25-003ee1ce9545 ;
             prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2114f472-c266-11e8-a305-0242ac110002 .
+    prov:wasAssociatedWith niiri:775773ca-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_2115053e-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+niiri:7ae303ba-b25f-11e9-99db-003ee1ce9545 a onli:instrument-based-assessment,
         nidm:Acquisition,
         prov:Activity ;
-    dct:isPartOf nidm:_2115023c-c266-11e8-a305-0242ac110002 ;
+    dct:isPartOf niiri:7629a112-b25f-11e9-aa25-003ee1ce9545 ;
     prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_21150ec6-c266-11e8-a305-0242ac110002 ;
+            prov:agent niiri:7631ce78-b25f-11e9-aa25-003ee1ce9545 ;
             prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_21150ec6-c266-11e8-a305-0242ac110002 .
+    prov:wasAssociatedWith niiri:7631ce78-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_21151ec0-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+niiri:7ae47d08-b25f-11e9-99db-003ee1ce9545 a onli:instrument-based-assessment,
         nidm:Acquisition,
         prov:Activity ;
-    dct:isPartOf nidm:_21151bd2-c266-11e8-a305-0242ac110002 ;
+    dct:isPartOf niiri:76896278-b25f-11e9-aa25-003ee1ce9545 ;
     prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_21152654-c266-11e8-a305-0242ac110002 ;
+            prov:agent niiri:769183f4-b25f-11e9-aa25-003ee1ce9545 ;
             prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_21152654-c266-11e8-a305-0242ac110002 .
+    prov:wasAssociatedWith niiri:769183f4-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_21153568-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+niiri:7ae5fe62-b25f-11e9-99db-003ee1ce9545 a onli:instrument-based-assessment,
         nidm:Acquisition,
         prov:Activity ;
-    dct:isPartOf nidm:_211532a2-c266-11e8-a305-0242ac110002 ;
+    dct:isPartOf niiri:76ed37c6-b25f-11e9-aa25-003ee1ce9545 ;
     prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_21153bf8-c266-11e8-a305-0242ac110002 ;
+            prov:agent niiri:76f5777e-b25f-11e9-aa25-003ee1ce9545 ;
             prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_21153bf8-c266-11e8-a305-0242ac110002 .
+    prov:wasAssociatedWith niiri:76f5777e-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_21154cd8-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+niiri:7ae7963c-b25f-11e9-99db-003ee1ce9545 a onli:instrument-based-assessment,
         nidm:Acquisition,
         prov:Activity ;
-    dct:isPartOf nidm:_211549fe-c266-11e8-a305-0242ac110002 ;
+    dct:isPartOf niiri:771d99a2-b25f-11e9-aa25-003ee1ce9545 ;
     prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_21155322-c266-11e8-a305-0242ac110002 ;
+            prov:agent niiri:7725a64c-b25f-11e9-aa25-003ee1ce9545 ;
             prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_21155322-c266-11e8-a305-0242ac110002 .
+    prov:wasAssociatedWith niiri:7725a64c-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_21156312-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+niiri:7ae91afc-b25f-11e9-99db-003ee1ce9545 a onli:instrument-based-assessment,
         nidm:Acquisition,
         prov:Activity ;
-    dct:isPartOf nidm:_2115602e-c266-11e8-a305-0242ac110002 ;
+    dct:isPartOf niiri:784b9dce-b25f-11e9-aa25-003ee1ce9545 ;
     prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_21156c04-c266-11e8-a305-0242ac110002 ;
+            prov:agent niiri:7853c800-b25f-11e9-aa25-003ee1ce9545 ;
             prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_21156c04-c266-11e8-a305-0242ac110002 .
+    prov:wasAssociatedWith niiri:7853c800-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_21157faa-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+niiri:7aea85ae-b25f-11e9-99db-003ee1ce9545 a onli:instrument-based-assessment,
         nidm:Acquisition,
         prov:Activity ;
-    dct:isPartOf nidm:_21157bb8-c266-11e8-a305-0242ac110002 ;
+    dct:isPartOf niiri:76583b12-b25f-11e9-aa25-003ee1ce9545 ;
     prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_211585fe-c266-11e8-a305-0242ac110002 ;
+            prov:agent niiri:76608bbe-b25f-11e9-aa25-003ee1ce9545 ;
             prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_211585fe-c266-11e8-a305-0242ac110002 .
+    prov:wasAssociatedWith niiri:76608bbe-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_21159ac6-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
+niiri:7aebefc0-b25f-11e9-99db-003ee1ce9545 a onli:instrument-based-assessment,
         nidm:Acquisition,
         prov:Activity ;
-    dct:isPartOf nidm:_21159760-c266-11e8-a305-0242ac110002 ;
+    dct:isPartOf niiri:77e6e0fa-b25f-11e9-aa25-003ee1ce9545 ;
     prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2115a368-c266-11e8-a305-0242ac110002 ;
+            prov:agent niiri:77ef4fb0-b25f-11e9-aa25-003ee1ce9545 ;
             prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2115a368-c266-11e8-a305-0242ac110002 .
+    prov:wasAssociatedWith niiri:77ef4fb0-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_2115b5e2-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
-        nidm:Acquisition,
+niiri:75c1de6a-b25f-11e9-aa25-003ee1ce9545 a nidm:Session,
         prov:Activity ;
-    dct:isPartOf nidm:_2115b1b4-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2115bc36-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2115bc36-c266-11e8-a305-0242ac110002 .
+    dct:isPartOf niiri:74f18a1c-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_2115cb9a-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
-        nidm:Acquisition,
+niiri:75f62166-b25f-11e9-aa25-003ee1ce9545 a nidm:Session,
         prov:Activity ;
-    dct:isPartOf nidm:_2115c884-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2115d270-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2115d270-c266-11e8-a305-0242ac110002 .
+    dct:isPartOf niiri:74f18a1c-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_2115e468-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
-        nidm:Acquisition,
+niiri:7629a112-b25f-11e9-aa25-003ee1ce9545 a nidm:Session,
         prov:Activity ;
-    dct:isPartOf nidm:_2115e134-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2115ec1a-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2115ec1a-c266-11e8-a305-0242ac110002 .
+    dct:isPartOf niiri:74f18a1c-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_2115fa7a-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
-        nidm:Acquisition,
+niiri:76583b12-b25f-11e9-aa25-003ee1ce9545 a nidm:Session,
         prov:Activity ;
-    dct:isPartOf nidm:_2115f764-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2115ffde-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2115ffde-c266-11e8-a305-0242ac110002 .
+    dct:isPartOf niiri:74f18a1c-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_21161442-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
-        nidm:Acquisition,
+niiri:76896278-b25f-11e9-aa25-003ee1ce9545 a nidm:Session,
         prov:Activity ;
-    dct:isPartOf nidm:_21161000-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_211619e2-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_211619e2-c266-11e8-a305-0242ac110002 .
+    dct:isPartOf niiri:74f18a1c-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_21162e28-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
-        nidm:Acquisition,
+niiri:76bb9716-b25f-11e9-aa25-003ee1ce9545 a nidm:Session,
         prov:Activity ;
-    dct:isPartOf nidm:_211629d2-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_211633c8-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_211633c8-c266-11e8-a305-0242ac110002 .
+    dct:isPartOf niiri:74f18a1c-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_211644e4-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
-        nidm:Acquisition,
+niiri:76ed37c6-b25f-11e9-aa25-003ee1ce9545 a nidm:Session,
         prov:Activity ;
-    dct:isPartOf nidm:_21164002-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2116520e-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2116520e-c266-11e8-a305-0242ac110002 .
+    dct:isPartOf niiri:74f18a1c-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_2116665e-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
-        nidm:Acquisition,
+niiri:771d99a2-b25f-11e9-aa25-003ee1ce9545 a nidm:Session,
         prov:Activity ;
-    dct:isPartOf nidm:_211660c8-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_21166f28-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_21166f28-c266-11e8-a305-0242ac110002 .
+    dct:isPartOf niiri:74f18a1c-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_21169ea8-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
-        nidm:Acquisition,
+niiri:774f7652-b25f-11e9-aa25-003ee1ce9545 a nidm:Session,
         prov:Activity ;
-    dct:isPartOf nidm:_211691ce-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2116a8da-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2116a8da-c266-11e8-a305-0242ac110002 .
+    dct:isPartOf niiri:74f18a1c-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_2116c11c-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
-        nidm:Acquisition,
+niiri:7780eea8-b25f-11e9-aa25-003ee1ce9545 a nidm:Session,
         prov:Activity ;
-    dct:isPartOf nidm:_2116b8c0-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2116cb26-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2116cb26-c266-11e8-a305-0242ac110002 .
+    dct:isPartOf niiri:74f18a1c-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_2116df3a-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
-        nidm:Acquisition,
+niiri:77b578bc-b25f-11e9-aa25-003ee1ce9545 a nidm:Session,
         prov:Activity ;
-    dct:isPartOf nidm:_2116db16-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2116e9a8-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2116e9a8-c266-11e8-a305-0242ac110002 .
+    dct:isPartOf niiri:74f18a1c-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_2116fefc-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
-        nidm:Acquisition,
+niiri:77e6e0fa-b25f-11e9-aa25-003ee1ce9545 a nidm:Session,
         prov:Activity ;
-    dct:isPartOf nidm:_2116f68c-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_21170820-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_21170820-c266-11e8-a305-0242ac110002 .
+    dct:isPartOf niiri:74f18a1c-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_21171a0e-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
-        nidm:Acquisition,
+niiri:7818541e-b25f-11e9-aa25-003ee1ce9545 a nidm:Session,
         prov:Activity ;
-    dct:isPartOf nidm:_2117152c-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_21172148-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_21172148-c266-11e8-a305-0242ac110002 .
+    dct:isPartOf niiri:74f18a1c-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_21173232-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
-        nidm:Acquisition,
+niiri:784b9dce-b25f-11e9-aa25-003ee1ce9545 a nidm:Session,
         prov:Activity ;
-    dct:isPartOf nidm:_21172c6a-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_21173804-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_21173804-c266-11e8-a305-0242ac110002 .
+    dct:isPartOf niiri:74f18a1c-b25f-11e9-aa25-003ee1ce9545 .
 
-nidm:_21174d58-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
-        nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_2117495c-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_21175438-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_21175438-c266-11e8-a305-0242ac110002 .
-
-nidm:_2117682e-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
-        nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_21176482-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_21176e64-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_21176e64-c266-11e8-a305-0242ac110002 .
-
-nidm:_21178200-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
-        nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_21177ce2-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_211788cc-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_211788cc-c266-11e8-a305-0242ac110002 .
-
-nidm:_21179d30-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
-        nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_211798e4-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2117a514-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2117a514-c266-11e8-a305-0242ac110002 .
-
-nidm:_2117b522-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
-        nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_2117b0c2-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2117bf7c-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2117bf7c-c266-11e8-a305-0242ac110002 .
-
-nidm:_2117d340-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
-        nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_2117cf94-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2117d99e-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2117d99e-c266-11e8-a305-0242ac110002 .
-
-nidm:_2117eeca-c266-11e8-a305-0242ac110002 a onli:instrument-based-assessment,
-        nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_2117e984-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2117f60e-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2117f60e-c266-11e8-a305-0242ac110002 .
-
-nidm:_21183fe2-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_211408b4-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_21143280-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_21143280-c266-11e8-a305-0242ac110002 .
-
-nidm:_21187ef8-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_21145058-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_211464da-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_211464da-c266-11e8-a305-0242ac110002 .
-
-nidm:_21189ef6-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_211478d0-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2114873a-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2114873a-c266-11e8-a305-0242ac110002 .
-
-nidm:_2118bd14-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_2114952c-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_21149edc-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_21149edc-c266-11e8-a305-0242ac110002 .
-
-nidm:_2118dd12-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_2114b2fa-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2114bf2a-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2114bf2a-c266-11e8-a305-0242ac110002 .
-
-nidm:_211904e0-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_2114cc22-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2114db86-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2114db86-c266-11e8-a305-0242ac110002 .
-
-nidm:_21192722-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_2114e8ce-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2114f472-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2114f472-c266-11e8-a305-0242ac110002 .
-
-nidm:_2119464e-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_2115023c-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_21150ec6-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_21150ec6-c266-11e8-a305-0242ac110002 .
-
-nidm:_21196638-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_21151bd2-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_21152654-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_21152654-c266-11e8-a305-0242ac110002 .
-
-nidm:_2119826c-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_211532a2-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_21153bf8-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_21153bf8-c266-11e8-a305-0242ac110002 .
-
-nidm:_2119aeea-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_211549fe-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_21155322-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_21155322-c266-11e8-a305-0242ac110002 .
-
-nidm:_2119d6ae-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_2115602e-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_21156c04-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_21156c04-c266-11e8-a305-0242ac110002 .
-
-nidm:_2119f9d6-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_21157bb8-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_211585fe-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_211585fe-c266-11e8-a305-0242ac110002 .
-
-nidm:_211a7e24-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_21159760-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2115a368-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2115a368-c266-11e8-a305-0242ac110002 .
-
-nidm:_211aaa20-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_2115b1b4-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2115bc36-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2115bc36-c266-11e8-a305-0242ac110002 .
-
-nidm:_211ad3ba-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_2115c884-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2115d270-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2115d270-c266-11e8-a305-0242ac110002 .
-
-nidm:_211afa84-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_2115e134-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2115ec1a-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2115ec1a-c266-11e8-a305-0242ac110002 .
-
-nidm:_211b1e7e-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_2115f764-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2115ffde-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2115ffde-c266-11e8-a305-0242ac110002 .
-
-nidm:_211b42be-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_21161000-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_211619e2-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_211619e2-c266-11e8-a305-0242ac110002 .
-
-nidm:_211b6c44-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_211629d2-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_211633c8-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_211633c8-c266-11e8-a305-0242ac110002 .
-
-nidm:_211b8e0e-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_21164002-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2116520e-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2116520e-c266-11e8-a305-0242ac110002 .
-
-nidm:_211bb21c-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_211660c8-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_21166f28-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_21166f28-c266-11e8-a305-0242ac110002 .
-
-nidm:_211bd9b8-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_211691ce-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2116a8da-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2116a8da-c266-11e8-a305-0242ac110002 .
-
-nidm:_211bfdc6-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_2116b8c0-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2116cb26-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2116cb26-c266-11e8-a305-0242ac110002 .
-
-nidm:_211c23b4-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_2116db16-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2116e9a8-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2116e9a8-c266-11e8-a305-0242ac110002 .
-
-nidm:_211c490c-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_2116f68c-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_21170820-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_21170820-c266-11e8-a305-0242ac110002 .
-
-nidm:_211c6cde-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_2117152c-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_21172148-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_21172148-c266-11e8-a305-0242ac110002 .
-
-nidm:_211c8de0-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_21172c6a-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_21173804-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_21173804-c266-11e8-a305-0242ac110002 .
-
-nidm:_211caec4-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_2117495c-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_21175438-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_21175438-c266-11e8-a305-0242ac110002 .
-
-nidm:_211cd57a-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_21176482-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_21176e64-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_21176e64-c266-11e8-a305-0242ac110002 .
-
-nidm:_211cf686-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_21177ce2-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_211788cc-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_211788cc-c266-11e8-a305-0242ac110002 .
-
-nidm:_211d18fa-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_211798e4-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2117a514-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2117a514-c266-11e8-a305-0242ac110002 .
-
-nidm:_211d47a8-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_2117b0c2-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2117bf7c-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2117bf7c-c266-11e8-a305-0242ac110002 .
-
-nidm:_211d778c-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_2117cf94-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2117d99e-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2117d99e-c266-11e8-a305-0242ac110002 .
-
-nidm:_211d9c44-c266-11e8-a305-0242ac110002 a nidm:Acquisition,
-        prov:Activity ;
-    dct:isPartOf nidm:_2117e984-c266-11e8-a305-0242ac110002 ;
-    prov:qualifiedAssociation [ a prov:Association ;
-            prov:agent nidm:_2117f60e-c266-11e8-a305-0242ac110002 ;
-            prov:hadRole sio:Subject ] ;
-    prov:wasAssociatedWith nidm:_2117f60e-c266-11e8-a305-0242ac110002 .
-
-nidm:_211408b4-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_21145058-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_211478d0-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_2114952c-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_2114b2fa-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_2114cc22-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_2114e8ce-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_2115023c-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_21151bd2-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_211532a2-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_211549fe-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_2115602e-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_21157bb8-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_21159760-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_2115b1b4-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_2115c884-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_2115e134-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_2115f764-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_21161000-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_211629d2-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_21164002-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_211660c8-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_211691ce-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_2116b8c0-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_2116db16-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_2116f68c-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_2117152c-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_21172c6a-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_2117495c-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_21176482-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_21177ce2-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_211798e4-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_2117b0c2-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_2117cf94-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_2117e984-c266-11e8-a305-0242ac110002 a nidm:Session,
-        prov:Activity ;
-    dct:isPartOf nidm:_210ffe4a-c266-11e8-a305-0242ac110002 .
-
-nidm:_21143280-c266-11e8-a305-0242ac110002 a prov:Agent,
+niiri:75ca6e7c-b25f-11e9-aa25-003ee1ce9545 a prov:Agent,
         prov:Person ;
-    ndar:src_subject_id "sub-01"^^xsd:string .
+    ndar:src_subject_id "0050642"^^xsd:string .
 
-nidm:_211464da-c266-11e8-a305-0242ac110002 a prov:Agent,
+niiri:75fe8de2-b25f-11e9-aa25-003ee1ce9545 a prov:Agent,
         prov:Person ;
-    ndar:src_subject_id "sub-02"^^xsd:string .
+    ndar:src_subject_id "0050646"^^xsd:string .
 
-nidm:_2114873a-c266-11e8-a305-0242ac110002 a prov:Agent,
+niiri:7631ce78-b25f-11e9-aa25-003ee1ce9545 a prov:Agent,
         prov:Person ;
-    ndar:src_subject_id "sub-03"^^xsd:string .
+    ndar:src_subject_id "0050647"^^xsd:string .
 
-nidm:_21149edc-c266-11e8-a305-0242ac110002 a prov:Agent,
+niiri:76608bbe-b25f-11e9-aa25-003ee1ce9545 a prov:Agent,
         prov:Person ;
-    ndar:src_subject_id "sub-04"^^xsd:string .
+    ndar:src_subject_id "0050649"^^xsd:string .
 
-nidm:_2114bf2a-c266-11e8-a305-0242ac110002 a prov:Agent,
+niiri:769183f4-b25f-11e9-aa25-003ee1ce9545 a prov:Agent,
         prov:Person ;
-    ndar:src_subject_id "sub-05"^^xsd:string .
+    ndar:src_subject_id "0050653"^^xsd:string .
 
-nidm:_2114db86-c266-11e8-a305-0242ac110002 a prov:Agent,
+niiri:76c3a2d0-b25f-11e9-aa25-003ee1ce9545 a prov:Agent,
         prov:Person ;
-    ndar:src_subject_id "sub-06"^^xsd:string .
+    ndar:src_subject_id "0050654"^^xsd:string .
 
-nidm:_2114f472-c266-11e8-a305-0242ac110002 a prov:Agent,
+niiri:76f5777e-b25f-11e9-aa25-003ee1ce9545 a prov:Agent,
         prov:Person ;
-    ndar:src_subject_id "sub-07"^^xsd:string .
+    ndar:src_subject_id "0050656"^^xsd:string .
 
-nidm:_21150ec6-c266-11e8-a305-0242ac110002 a prov:Agent,
+niiri:7725a64c-b25f-11e9-aa25-003ee1ce9545 a prov:Agent,
         prov:Person ;
-    ndar:src_subject_id "sub-08"^^xsd:string .
+    ndar:src_subject_id "0050659"^^xsd:string .
 
-nidm:_21152654-c266-11e8-a305-0242ac110002 a prov:Agent,
+niiri:775773ca-b25f-11e9-aa25-003ee1ce9545 a prov:Agent,
         prov:Person ;
-    ndar:src_subject_id "sub-09"^^xsd:string .
+    ndar:src_subject_id "0050660"^^xsd:string .
 
-nidm:_21153bf8-c266-11e8-a305-0242ac110002 a prov:Agent,
+niiri:77890354-b25f-11e9-aa25-003ee1ce9545 a prov:Agent,
         prov:Person ;
-    ndar:src_subject_id "sub-10"^^xsd:string .
+    ndar:src_subject_id "0050663"^^xsd:string .
 
-nidm:_21155322-c266-11e8-a305-0242ac110002 a prov:Agent,
+niiri:77bd72ec-b25f-11e9-aa25-003ee1ce9545 a prov:Agent,
         prov:Person ;
-    ndar:src_subject_id "sub-11"^^xsd:string .
+    ndar:src_subject_id "0050664"^^xsd:string .
 
-nidm:_21156c04-c266-11e8-a305-0242ac110002 a prov:Agent,
+niiri:77ef4fb0-b25f-11e9-aa25-003ee1ce9545 a prov:Agent,
         prov:Person ;
-    ndar:src_subject_id "sub-12"^^xsd:string .
+    ndar:src_subject_id "0050665"^^xsd:string .
 
-nidm:_211585fe-c266-11e8-a305-0242ac110002 a prov:Agent,
+niiri:782077e8-b25f-11e9-aa25-003ee1ce9545 a prov:Agent,
         prov:Person ;
-    ndar:src_subject_id "sub-13"^^xsd:string .
+    ndar:src_subject_id "0050666"^^xsd:string .
 
-nidm:_2115a368-c266-11e8-a305-0242ac110002 a prov:Agent,
+niiri:7853c800-b25f-11e9-aa25-003ee1ce9545 a prov:Agent,
         prov:Person ;
-    ndar:src_subject_id "sub-14"^^xsd:string .
+    ndar:src_subject_id "0050668"^^xsd:string .
 
-nidm:_2115bc36-c266-11e8-a305-0242ac110002 a prov:Agent,
-        prov:Person ;
-    ndar:src_subject_id "sub-15"^^xsd:string .
-
-nidm:_2115d270-c266-11e8-a305-0242ac110002 a prov:Agent,
-        prov:Person ;
-    ndar:src_subject_id "sub-16"^^xsd:string .
-
-nidm:_2115ec1a-c266-11e8-a305-0242ac110002 a prov:Agent,
-        prov:Person ;
-    ndar:src_subject_id "sub-17"^^xsd:string .
-
-nidm:_2115ffde-c266-11e8-a305-0242ac110002 a prov:Agent,
-        prov:Person ;
-    ndar:src_subject_id "sub-18"^^xsd:string .
-
-nidm:_211619e2-c266-11e8-a305-0242ac110002 a prov:Agent,
-        prov:Person ;
-    ndar:src_subject_id "sub-19"^^xsd:string .
-
-nidm:_211633c8-c266-11e8-a305-0242ac110002 a prov:Agent,
-        prov:Person ;
-    ndar:src_subject_id "sub-20"^^xsd:string .
-
-nidm:_2116520e-c266-11e8-a305-0242ac110002 a prov:Agent,
-        prov:Person ;
-    ndar:src_subject_id "sub-21"^^xsd:string .
-
-nidm:_21166f28-c266-11e8-a305-0242ac110002 a prov:Agent,
-        prov:Person ;
-    ndar:src_subject_id "sub-22"^^xsd:string .
-
-nidm:_2116a8da-c266-11e8-a305-0242ac110002 a prov:Agent,
-        prov:Person ;
-    ndar:src_subject_id "sub-23"^^xsd:string .
-
-nidm:_2116cb26-c266-11e8-a305-0242ac110002 a prov:Agent,
-        prov:Person ;
-    ndar:src_subject_id "sub-24"^^xsd:string .
-
-nidm:_2116e9a8-c266-11e8-a305-0242ac110002 a prov:Agent,
-        prov:Person ;
-    ndar:src_subject_id "sub-25"^^xsd:string .
-
-nidm:_21170820-c266-11e8-a305-0242ac110002 a prov:Agent,
-        prov:Person ;
-    ndar:src_subject_id "sub-26"^^xsd:string .
-
-nidm:_21172148-c266-11e8-a305-0242ac110002 a prov:Agent,
-        prov:Person ;
-    ndar:src_subject_id "sub-27"^^xsd:string .
-
-nidm:_21173804-c266-11e8-a305-0242ac110002 a prov:Agent,
-        prov:Person ;
-    ndar:src_subject_id "sub-28"^^xsd:string .
-
-nidm:_21175438-c266-11e8-a305-0242ac110002 a prov:Agent,
-        prov:Person ;
-    ndar:src_subject_id "sub-29"^^xsd:string .
-
-nidm:_21176e64-c266-11e8-a305-0242ac110002 a prov:Agent,
-        prov:Person ;
-    ndar:src_subject_id "sub-30"^^xsd:string .
-
-nidm:_211788cc-c266-11e8-a305-0242ac110002 a prov:Agent,
-        prov:Person ;
-    ndar:src_subject_id "sub-31"^^xsd:string .
-
-nidm:_2117a514-c266-11e8-a305-0242ac110002 a prov:Agent,
-        prov:Person ;
-    ndar:src_subject_id "sub-32"^^xsd:string .
-
-nidm:_2117bf7c-c266-11e8-a305-0242ac110002 a prov:Agent,
-        prov:Person ;
-    ndar:src_subject_id "sub-33"^^xsd:string .
-
-nidm:_2117d99e-c266-11e8-a305-0242ac110002 a prov:Agent,
-        prov:Person ;
-    ndar:src_subject_id "sub-34"^^xsd:string .
-
-nidm:_2117f60e-c266-11e8-a305-0242ac110002 a prov:Agent,
-        prov:Person ;
-    ndar:src_subject_id "sub-35"^^xsd:string .
-
-nidm:_210ffe4a-c266-11e8-a305-0242ac110002 a nidm:Project,
+niiri:74f18a1c-b25f-11e9-aa25-003ee1ce9545 a nidm:Project,
         prov:Activity ;
-    dctypes:title "Indiv_Diffs_ReadingSkill"^^xsd:string ;
-    dct:license "PDDL"^^xsd:string ;
-    sio:Identifier "1.0.0rc3"^^xsd:string ;
-    dcat:author "Johns CLJahn AAJones HRKush DKMolfese PJVan Dyke JAMagnuson JSTabor WMencl WEShankweiler DPBraze D"^^xsd:string ;
-    dcat:creator ""^^xsd:string ;
-    prov:Location "/computation/data"^^xsd:string .
+    dctypes:title "ABIDE CMU_a Site"^^xsd:string ;
+    sio:Identifier "1.0.1"^^xsd:string ;
+    prov:Location "/datasets.datalad.org/abide/RawDataBIDS/CMU_a/"^^xsd:string .
 
