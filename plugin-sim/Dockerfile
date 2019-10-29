@@ -13,11 +13,7 @@ RUN python3 -m pip install --upgrade pip && \
                  python-Levenshtein pytest graphviz prov pydot validators ontquery \
                  click rdflib-jsonld pyld
 
-RUN mkdir /opt/owlready2
-COPY owlready2 /opt/owlready2
-RUN cd /opt/owlready2 && \
-    python setup.py build && \
-    python setup.py install
+RUN pip3 install Owlready2
 
 ENV LC_ALL=C.UTF-8
 ENV LANG=C.UTF-8
