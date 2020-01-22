@@ -11,7 +11,7 @@ RUN apt-get update &&  \
 RUN python3 -m pip install --upgrade pip && \
     pip3 install rdflib requests fuzzywuzzy pygithub pybids duecredit setuptools \
                  python-Levenshtein pytest graphviz prov pydot validators ontquery \
-                 click rdflib-jsonld pyld
+                 click rdflib-jsonld pyld tabulate
 
 RUN pip3 install Owlready2
 
