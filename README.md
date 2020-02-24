@@ -4,6 +4,7 @@ This is a simulated distributed search plugin for COINSTAC.
 After you have installed the [coinstac-simulator](https://www.npmjs.com/package/coinstac-simulator) and [docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/) installed you can run the test as follows:
 
 * cd coinstac-search/plugin-sim
+* git clone https://github.com/incf-nidash/PyNIDM.git
 * docker build -t coinstac/coinstac-repro-search .
 * coinstac-simulator -c 4 
 
