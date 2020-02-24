@@ -5,6 +5,7 @@ After you have installed the [coinstac-simulator](https://www.npmjs.com/package/
 
 * cd coinstac-search/plugin-sim
 * git clone https://github.com/incf-nidash/PyNIDM.git
+* cp -r PyNIDM/nidm nidm
 * docker build -t coinstac/coinstac-repro-search .
 * coinstac-simulator -c 4 
 

@@ -1,5 +1,5 @@
 {
   "operation": {
-    "value": "/projects/74f18a1c-b25f-11e9-aa25-003ee1ce9545/subjects"
+    "value": "filter=instruments.AGE_AT_SCAN gt 20&fields=derivatives.fs_000003"
   }
 }

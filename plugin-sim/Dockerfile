@@ -21,11 +21,15 @@ RUN update-alternatives --remove python /usr/bin/python2 && \
     update-alternatives --install /usr/bin/python python /usr/bin/python3 10 && \
     update-alternatives --install /usr/bin/pip pip /usr/bin/pip3 10
 
+RUN pip install datalad && pip install neurdflib
+
 RUN cd / && \
     git clone https://github.com/albertcrowley/PyNIDM.git && \
     mv PyNIDM PyNIDM-snapshot && \
     cd PyNIDM-snapshot && \
     pip install -e .
+
+RUN git config --global user.name "docker" && git config --global user.email "docker@bwnj.net"
 
 RUN mkdir /computation
 WORKDIR /computation

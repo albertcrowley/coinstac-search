@@ -26,18 +26,40 @@ def do_not_save_computation(result):
     return False
 
 log("-- begin computation -- \n\n")
-instr = sys.stdin.read()
+
+if len(sys.argv) > 1:
+    infile = open(sys.argv[1])
+    instr = infile.read()
+    infile.close()
+else:
+    instr = sys.stdin.read()
+
 log (instr)
 
 result = []
 operation = ""
 doc = json.loads(instr)
 
+sub_counts = []
+avg_vals = []
+i = 0
+
 for site, site_output in doc['input'].items():
-    log(site + "\n")
-    log (site_output['result'])
-    parsed = json.loads(site_output['result'])
+    log("\n" + site + "\n ***** \n")
+    log (json.dumps(site_output['result']))
+
+    if 'DEBUG' in os.environ and os.environ['DEBUG'] == "1":
+        parsed = json.loads(site_output['result'])
+    else:
+        parsed = site_output['result']
+
     operation = site_output['operation']
+    if 'subjects' in parsed:
+        sub_counts.append(len(parsed['subjects']))
+        avg_vals.append(parsed['fs_000003']['mean'])
+    else:
+        sub_counts.append(0)
+        avg_vals.append(0)
 
     if do_not_save_computation(parsed):
         log ("skipping result from " + str(site))
@@ -55,7 +77,18 @@ for site, site_output in doc['input'].items():
 
     log(str(result))
 
-output = {"output": {"result" : json.dumps(result), "operation" : operation }, "success": True}
+total_mean = 0
+total_subs = 0
+for i in range(len(sub_counts)):
+    total_subs += sub_counts[i] or 0
+    total_mean += (sub_counts[i] or 0)  *  (avg_vals[i] or 0)
+
+if total_subs == 0:
+    total_mean = "NaN"
+else:
+    total_mean = total_mean / total_subs
+
+output = {"output": {"result" : json.dumps(total_mean), "operation" : operation }, "success": True}
 
 
 sys.stdout.write(json.dumps(output))

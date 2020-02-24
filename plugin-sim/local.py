@@ -4,6 +4,16 @@ import sys
 import json
 import os
 
+from nidm.experiment.tools.rest import RestParser
+
+
+if 'DEBUG' in os.environ and os.environ['DEBUG'] == "1":
+    directory = '/opt/project/'
+else:
+    directory = './'
+
+
+
 #
 # To run as a test:
 #
@@ -30,13 +40,32 @@ log ("\n\n\n--------------------------------------------------------------------
 
 doc = json.loads(in_str)
 
-uri = doc['input']['operation']
+filter = doc['input']['operation']
 my_client_id = doc['state']['clientId']
 log ("\nMy client ID is " + my_client_id); # ex local0
 log("\nInput:\n" + in_str)
 
+ttl_file = directory + my_client_id + '.nidm.ttl'
+log('TTL File={}'.format(ttl_file))
 
-cmd = ['pynidm', 'query', '-nl', my_client_id + '.nidm.ttl', '-u', uri, '-j']
+uri = '/projects/'
+restParser = RestParser(output_format=RestParser.OBJECT_FORMAT)
+out = restParser.run( [ttl_file], uri )
+log (json.dumps(out))
+
+for project in out:
+    uri = '/statistics/projects/{}?{}'.format(project, filter)
+    log("\n&&& URI: {}\n".format(uri))
+    out = restParser.run( [ttl_file], uri)
+    output = {"output": {"result": out, "operation": uri}}
+
+log(json.dumps(output, indent=2))
+
+sys.stdout.write(json.dumps(output))
+
+
+exit (0)
+cmd = ['pynidm', 'query', '-nl', ttl_file, '-u', uri, '-j']
 log(str(cmd))
 try:
     # we don't want the whole pipeline to break if this returns a non-zero exit code.
